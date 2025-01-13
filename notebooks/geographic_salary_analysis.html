@@ -1,0 +1,6063 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_89f80942a7f7b3bc2345a805bdd9a406 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/leaflet.markercluster.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/MarkerCluster.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/MarkerCluster.Default.css"/>
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_89f80942a7f7b3bc2345a805bdd9a406" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_89f80942a7f7b3bc2345a805bdd9a406 = L.map(
+                "map_89f80942a7f7b3bc2345a805bdd9a406",
+                {
+                    center: [20.0, 0.0],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "maxBounds": null,
+  "zoom": 2,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_7eda0e2bda8388f8cf54ec15aa8048bc = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_7eda0e2bda8388f8cf54ec15aa8048bc.addTo(map_89f80942a7f7b3bc2345a805bdd9a406);
+        
+    
+            var marker_cluster_794f8a26bc646a443bf24a010e0edd9a = L.markerClusterGroup(
+                {
+}
+            );
+        
+    
+            var marker_5a18c06b5ac2bd571c923a11a50038ce = L.marker(
+                [0.0, 0.0],
+                {
+  "draggable": null,
+  "autoPan": null,
+}
+            ).addTo(marker_cluster_794f8a26bc646a443bf24a010e0edd9a);
+        
+    
+        var popup_67b8cef0c2891343d93ce92ff5295fd1 = L.popup({
+  "maxWidth": "100%",
+  "autoClose": null,
+  "closeOnClick": null,
+});
+
+        
+            
+                var html_0b51aa85308d6bd8e5b1b75a31d3d83a = $(`<div id="html_0b51aa85308d6bd8e5b1b75a31d3d83a" style="width: 100.0%; height: 100.0%;">Aland Islands: $22.50/hour</div>`)[0];
+                popup_67b8cef0c2891343d93ce92ff5295fd1.setContent(html_0b51aa85308d6bd8e5b1b75a31d3d83a);
+            
+        
+
+        marker_5a18c06b5ac2bd571c923a11a50038ce.bindPopup(popup_67b8cef0c2891343d93ce92ff5295fd1)
+        ;
+
+        
+    
+    
+            var marker_77827107c585cf61dec7bfa2897ac0fa = L.marker(
+                [0.0, 0.0],
+                {
+  "draggable": null,
+  "autoPan": null,
+}
+            ).addTo(marker_cluster_794f8a26bc646a443bf24a010e0edd9a);
+        
+    
+        var popup_49ab383b2e4f9548fb627996e9f2f461 = L.popup({
+  "maxWidth": "100%",
+  "autoClose": null,
+  "closeOnClick": null,
+});
+
+        
+            
+                var html_a9124dd332a4012a77426e5a02f6b005 = $(`<div id="html_a9124dd332a4012a77426e5a02f6b005" style="width: 100.0%; height: 100.0%;">Albania: $23.68/hour</div>`)[0];
+                popup_49ab383b2e4f9548fb627996e9f2f461.setContent(html_a9124dd332a4012a77426e5a02f6b005);
+            
+        
+
+        marker_77827107c585cf61dec7bfa2897ac0fa.bindPopup(popup_49ab383b2e4f9548fb627996e9f2f461)
+        ;
+
+        
+    
+    
+            var marker_717e0e174b21670f816a935151ed5f5b = L.marker(
+                [0.0, 0.0],
+                {
+  "draggable": null,
+  "autoPan": null,
+}
+            ).addTo(marker_cluster_794f8a26bc646a443bf24a010e0edd9a);
+        
+    
+        var popup_04b013e444da3750c495910bf1ecd29d = L.popup({
+  "maxWidth": "100%",
+  "autoClose": null,
+  "closeOnClick": null,
+});
+
+        
+            
+                var html_1c3a98fc9c1c1edf6ef103c48e18826c = $(`<div id="html_1c3a98fc9c1c1edf6ef103c48e18826c" style="width: 100.0%; height: 100.0%;">Algeria: $22.39/hour</div>`)[0];
+                popup_04b013e444da3750c495910bf1ecd29d.setContent(html_1c3a98fc9c1c1edf6ef103c48e18826c);
+            
+        
+
+        marker_717e0e174b21670f816a935151ed5f5b.bindPopup(popup_04b013e444da3750c495910bf1ecd29d)
+        ;
+
+        
+    
+    
+            var marker_19324fd607abe322847c1cb695ca92ea = L.marker(
+                [0.0, 0.0],
+                {
+  "draggable": null,
+  "autoPan": null,
+}
+            ).addTo(marker_cluster_794f8a26bc646a443bf24a010e0edd9a);
+        
+    
+        var popup_5777b4cfa0fe5502bf786f3e929e303f = L.popup({
+  "maxWidth": "100%",
+  "autoClose": null,
+  "closeOnClick": null,
+});
+
+        
+            
+                var html_06e94e37fcaeb89756ec4694c8753613 = $(`<div id="html_06e94e37fcaeb89756ec4694c8753613" style="width: 100.0%; height: 100.0%;">American Samoa: $21.86/hour</div>`)[0];
+                popup_5777b4cfa0fe5502bf786f3e929e303f.setContent(html_06e94e37fcaeb89756ec4694c8753613);
+            
+        
+
+        marker_19324fd607abe322847c1cb695ca92ea.bindPopup(popup_5777b4cfa0fe5502bf786f3e929e303f)
+        ;
+
+        
+    
+    
+            var marker_9526fda8c059ea8d6a1bbcab5c8a8106 = L.marker(
+                [0.0, 0.0],
+                {
+  "draggable": null,
+  "autoPan": null,
+}
+            ).addTo(marker_cluster_794f8a26bc646a443bf24a010e0edd9a);
+        
+    
+        var popup_a727f4cb71b1757e880bdb6df2c87444 = L.popup({
+  "maxWidth": "100%",
+  "autoClose": null,
+  "closeOnClick": null,
+});
+
+        
+            
+                var html_5ede041d5773b7e55378c453723f8ceb = $(`<div id="html_5ede041d5773b7e55378c453723f8ceb" style="width: 100.0%; height: 100.0%;">Andorra: $26.29/hour</div>`)[0];
+                popup_a727f4cb71b1757e880bdb6df2c87444.setContent(html_5ede041d5773b7e55378c453723f8ceb);
+            
+        
+
+        marker_9526fda8c059ea8d6a1bbcab5c8a8106.bindPopup(popup_a727f4cb71b1757e880bdb6df2c87444)
+        ;
+
+        
+    
+    
+            var marker_8784bcbde4fac7f26b5ec9b2a9246d1d = L.marker(
+                [0.0, 0.0],
+                {
+  "draggable": null,
+  "autoPan": null,
+}
+            ).addTo(marker_cluster_794f8a26bc646a443bf24a010e0edd9a);
+        
+    
+        var popup_e07d6019fa938025342ccfc5116f7bdc = L.popup({
+  "maxWidth": "100%",
+  "autoClose": null,
+  "closeOnClick": null,
+});
+
+        
+            
+                var html_72ed7216222b8d599a68581f6301e27c = $(`<div id="html_72ed7216222b8d599a68581f6301e27c" style="width: 100.0%; height: 100.0%;">Angola: $24.13/hour</div>`)[0];
+                popup_e07d6019fa938025342ccfc5116f7bdc.setContent(html_72ed7216222b8d599a68581f6301e27c);
+            
+        
+
+        marker_8784bcbde4fac7f26b5ec9b2a9246d1d.bindPopup(popup_e07d6019fa938025342ccfc5116f7bdc)
+        ;
+
+        
+    
+    
+            var marker_4b6d8a4ff2862e1e943367dd22a6f4f4 = L.marker(
+                [0.0, 0.0],
+                {
+  "draggable": null,
+  "autoPan": null,
+}
+            ).addTo(marker_cluster_794f8a26bc646a443bf24a010e0edd9a);
+        
+    
+        var popup_68ad02f14ca628817de66c1d7f4f4491 = L.popup({
+  "maxWidth": "100%",
+  "autoClose": null,
+  "closeOnClick": null,
+});
+
+        
+            
+                var html_e965d66726a66fbd693cebce73b2430d = $(`<div id="html_e965d66726a66fbd693cebce73b2430d" style="width: 100.0%; height: 100.0%;">Anguilla: $22.50/hour</div>`)[0];
+                popup_68ad02f14ca628817de66c1d7f4f4491.setContent(html_e965d66726a66fbd693cebce73b2430d);
+            
+        
+
+        marker_4b6d8a4ff2862e1e943367dd22a6f4f4.bindPopup(popup_68ad02f14ca628817de66c1d7f4f4491)
+        ;
+
+        
+    
+    
+            var marker_bd346f7a7f78f3737900c01e670e46a9 = L.marker(
+                [0.0, 0.0],
+                {
+  "draggable": null,
+  "autoPan": null,
+}
+            ).addTo(marker_cluster_794f8a26bc646a443bf24a010e0edd9a);
+        
+    
+        var popup_40c56e32a96665a126b8d45926833895 = L.popup({
+  "maxWidth": "100%",
+  "autoClose": null,
+  "closeOnClick": null,
+});
+
+        
+            
+                var html_2eb4558189075ab00c4a4593e7cb50d2 = $(`<div id="html_2eb4558189075ab00c4a4593e7cb50d2" style="width: 100.0%; height: 100.0%;">Antigua and Barbuda: $22.19/hour</div>`)[0];
+                popup_40c56e32a96665a126b8d45926833895.setContent(html_2eb4558189075ab00c4a4593e7cb50d2);
+            
+        
+
+        marker_bd346f7a7f78f3737900c01e670e46a9.bindPopup(popup_40c56e32a96665a126b8d45926833895)
+        ;
+
+        
+    
+    
+            var marker_904294a108f670838b9e8089a091a7ee = L.marker(
+                [0.0, 0.0],
+                {
+  "draggable": null,
+  "autoPan": null,
+}
+            ).addTo(marker_cluster_794f8a26bc646a443bf24a010e0edd9a);
+        
+    
+        var popup_c6fa65c3b9daac613e688051a4c1c246 = L.popup({
+  "maxWidth": "100%",
+  "autoClose": null,
+  "closeOnClick": null,
+});
+
+        
+            
+                var html_90702285b41afcda83fbef0f8033ef12 = $(`<div id="html_90702285b41afcda83fbef0f8033ef12" style="width: 100.0%; height: 100.0%;">Argentina: $24.61/hour</div>`)[0];
+                popup_c6fa65c3b9daac613e688051a4c1c246.setContent(html_90702285b41afcda83fbef0f8033ef12);
+            
+        
+
+        marker_904294a108f670838b9e8089a091a7ee.bindPopup(popup_c6fa65c3b9daac613e688051a4c1c246)
+        ;
+
+        
+    
+    
+            var marker_778c055dd657f3a75d849145aa21671d = L.marker(
+                [0.0, 0.0],
+                {
+  "draggable": null,
+  "autoPan": null,
+}
+            ).addTo(marker_cluster_794f8a26bc646a443bf24a010e0edd9a);
+        
+    
+        var popup_910271e0b694ab1f58467b7c6dd3a494 = L.popup({
+  "maxWidth": "100%",
+  "autoClose": null,
+  "closeOnClick": null,
+});
+
+        
+            
+                var html_c9965cf4e9940c9e6c3a6869d62b95ee = $(`<div id="html_c9965cf4e9940c9e6c3a6869d62b95ee" style="width: 100.0%; height: 100.0%;">Armenia: $23.17/hour</div>`)[0];
+                popup_910271e0b694ab1f58467b7c6dd3a494.setContent(html_c9965cf4e9940c9e6c3a6869d62b95ee);
+            
+        
+
+        marker_778c055dd657f3a75d849145aa21671d.bindPopup(popup_910271e0b694ab1f58467b7c6dd3a494)
+        ;
+
+        
+    
+    
+            var marker_d238ddcf899ed28f00f52b2ea2cc3bd6 = L.marker(
+                [0.0, 0.0],
+                {
+  "draggable": null,
+  "autoPan": null,
+}
+            ).addTo(marker_cluster_794f8a26bc646a443bf24a010e0edd9a);
+        
+    
+        var popup_9848db46549b844b80135cf2f5ad9fd0 = L.popup({
+  "maxWidth": "100%",
+  "autoClose": null,
+  "closeOnClick": null,
+});
+
+        
+            
+                var html_7ef5e045573f7840df2764aa6e561a23 = $(`<div id="html_7ef5e045573f7840df2764aa6e561a23" style="width: 100.0%; height: 100.0%;">Aruba: $17.26/hour</div>`)[0];
+                popup_9848db46549b844b80135cf2f5ad9fd0.setContent(html_7ef5e045573f7840df2764aa6e561a23);
+            
+        
+
+        marker_d238ddcf899ed28f00f52b2ea2cc3bd6.bindPopup(popup_9848db46549b844b80135cf2f5ad9fd0)
+        ;
+
+        
+    
+    
+            var marker_78e281836e6804c6ec2976e39e8b3c2d = L.marker(
+                [0.0, 0.0],
+                {
+  "draggable": null,
+  "autoPan": null,
+}
+            ).addTo(marker_cluster_794f8a26bc646a443bf24a010e0edd9a);
+        
+    
+        var popup_524504eb696bce1795a92dc4b5a50bee = L.popup({
+  "maxWidth": "100%",
+  "autoClose": null,
+  "closeOnClick": null,
+});
+
+        
+            
+                var html_395b1d671e2bbd8c6b67a5a474a50c50 = $(`<div id="html_395b1d671e2bbd8c6b67a5a474a50c50" style="width: 100.0%; height: 100.0%;">Australia: $23.35/hour</div>`)[0];
+                popup_524504eb696bce1795a92dc4b5a50bee.setContent(html_395b1d671e2bbd8c6b67a5a474a50c50);
+            
+        
+
+        marker_78e281836e6804c6ec2976e39e8b3c2d.bindPopup(popup_524504eb696bce1795a92dc4b5a50bee)
+        ;
+
+        
+    
+    
+            var marker_328422ebebc7aa956a548cc76762222f = L.marker(
+                [0.0, 0.0],
+                {
+  "draggable": null,
+  "autoPan": null,
+}
+            ).addTo(marker_cluster_794f8a26bc646a443bf24a010e0edd9a);
+        
+    
+        var popup_63f308fd8e00d2fd262f2313ea64bc30 = L.popup({
+  "maxWidth": "100%",
+  "autoClose": null,
+  "closeOnClick": null,
+});
+
+        
+            
+                var html_2546bd746857e231c087b5017ccc626f = $(`<div id="html_2546bd746857e231c087b5017ccc626f" style="width: 100.0%; height: 100.0%;">Austria: $23.87/hour</div>`)[0];
+                popup_63f308fd8e00d2fd262f2313ea64bc30.setContent(html_2546bd746857e231c087b5017ccc626f);
+            
+        
+
+        marker_328422ebebc7aa956a548cc76762222f.bindPopup(popup_63f308fd8e00d2fd262f2313ea64bc30)
+        ;
+
+        
+    
+    
+            var marker_80e48868d3068187d2513e70b4d31170 = L.marker(
+                [0.0, 0.0],
+                {
+  "draggable": null,
+  "autoPan": null,
+}
+            ).addTo(marker_cluster_794f8a26bc646a443bf24a010e0edd9a);
+        
+    
+        var popup_0d42e1e097c2533f1aeaf83fe8fa2768 = L.popup({
+  "maxWidth": "100%",
+  "autoClose": null,
+  "closeOnClick": null,
+});
+
+        
+            
+                var html_46c1270ff8e9da5e2c8cd3d43302fae6 = $(`<div id="html_46c1270ff8e9da5e2c8cd3d43302fae6" style="width: 100.0%; height: 100.0%;">Azerbaijan: $25.69/hour</div>`)[0];
+                popup_0d42e1e097c2533f1aeaf83fe8fa2768.setContent(html_46c1270ff8e9da5e2c8cd3d43302fae6);
+            
+        
+
+        marker_80e48868d3068187d2513e70b4d31170.bindPopup(popup_0d42e1e097c2533f1aeaf83fe8fa2768)
+        ;
+
+        
+    
+    
+            var marker_0c058875a131ffa747e38fc80ef5215b = L.marker(
+                [0.0, 0.0],
+                {
+  "draggable": null,
+  "autoPan": null,
+}
+            ).addTo(marker_cluster_794f8a26bc646a443bf24a010e0edd9a);
+        
+    
+        var popup_cd9f3b586db67605cac91e14ec684e24 = L.popup({
+  "maxWidth": "100%",
+  "autoClose": null,
+  "closeOnClick": null,
+});
+
+        
+            
+                var html_3613c4be45d712d2c109211571f9117e = $(`<div id="html_3613c4be45d712d2c109211571f9117e" style="width: 100.0%; height: 100.0%;">Bahamas: $19.65/hour</div>`)[0];
+                popup_cd9f3b586db67605cac91e14ec684e24.setContent(html_3613c4be45d712d2c109211571f9117e);
+            
+        
+
+        marker_0c058875a131ffa747e38fc80ef5215b.bindPopup(popup_cd9f3b586db67605cac91e14ec684e24)
+        ;
+
+        
+    
+    
+            var marker_a5c39a0c5e44bc2dea686c17b5529aaa = L.marker(
+                [0.0, 0.0],
+                {
+  "draggable": null,
+  "autoPan": null,
+}
+            ).addTo(marker_cluster_794f8a26bc646a443bf24a010e0edd9a);
+        
+    
+        var popup_8dc0b7626733aa519f337cc064aa346b = L.popup({
+  "maxWidth": "100%",
+  "autoClose": null,
+  "closeOnClick": null,
+});
+
+        
+            
+                var html_52d3feab137c40825ad553b2d105b2dc = $(`<div id="html_52d3feab137c40825ad553b2d105b2dc" style="width: 100.0%; height: 100.0%;">Bahrain: $23.65/hour</div>`)[0];
+                popup_8dc0b7626733aa519f337cc064aa346b.setContent(html_52d3feab137c40825ad553b2d105b2dc);
+            
+        
+
+        marker_a5c39a0c5e44bc2dea686c17b5529aaa.bindPopup(popup_8dc0b7626733aa519f337cc064aa346b)
+        ;
+
+        
+    
+    
+            var marker_cc1130c72f59db829ecdbcf6783486a5 = L.marker(
+                [0.0, 0.0],
+                {
+  "draggable": null,
+  "autoPan": null,
+}
+            ).addTo(marker_cluster_794f8a26bc646a443bf24a010e0edd9a);
+        
+    
+        var popup_c59c957e3d12cbfbd21d6dca84142ae9 = L.popup({
+  "maxWidth": "100%",
+  "autoClose": null,
+  "closeOnClick": null,
+});
+
+        
+            
+                var html_2a54ebd9ad66cea7611fd5ca823199db = $(`<div id="html_2a54ebd9ad66cea7611fd5ca823199db" style="width: 100.0%; height: 100.0%;">Bangladesh: $26.11/hour</div>`)[0];
+                popup_c59c957e3d12cbfbd21d6dca84142ae9.setContent(html_2a54ebd9ad66cea7611fd5ca823199db);
+            
+        
+
+        marker_cc1130c72f59db829ecdbcf6783486a5.bindPopup(popup_c59c957e3d12cbfbd21d6dca84142ae9)
+        ;
+
+        
+    
+    
+            var marker_a1d96fc70960e5875d69650c9d0125d1 = L.marker(
+                [0.0, 0.0],
+                {
+  "draggable": null,
+  "autoPan": null,
+}
+            ).addTo(marker_cluster_794f8a26bc646a443bf24a010e0edd9a);
+        
+    
+        var popup_c1a0519ebefcbb5e41e6c9d7391c62d0 = L.popup({
+  "maxWidth": "100%",
+  "autoClose": null,
+  "closeOnClick": null,
+});
+
+        
+            
+                var html_6ebe3c7de07f6b46f9510387c2b86f85 = $(`<div id="html_6ebe3c7de07f6b46f9510387c2b86f85" style="width: 100.0%; height: 100.0%;">Barbados: $25.78/hour</div>`)[0];
+                popup_c1a0519ebefcbb5e41e6c9d7391c62d0.setContent(html_6ebe3c7de07f6b46f9510387c2b86f85);
+            
+        
+
+        marker_a1d96fc70960e5875d69650c9d0125d1.bindPopup(popup_c1a0519ebefcbb5e41e6c9d7391c62d0)
+        ;
+
+        
+    
+    
+            var marker_8f4458be0a265bfdc1e7566432d0f2d4 = L.marker(
+                [0.0, 0.0],
+                {
+  "draggable": null,
+  "autoPan": null,
+}
+            ).addTo(marker_cluster_794f8a26bc646a443bf24a010e0edd9a);
+        
+    
+        var popup_1f2d9ad8d946e797d4f52652aba07ee7 = L.popup({
+  "maxWidth": "100%",
+  "autoClose": null,
+  "closeOnClick": null,
+});
+
+        
+            
+                var html_6b54e43f623f3882b2ae97bbdf6a7f96 = $(`<div id="html_6b54e43f623f3882b2ae97bbdf6a7f96" style="width: 100.0%; height: 100.0%;">Belarus: $22.50/hour</div>`)[0];
+                popup_1f2d9ad8d946e797d4f52652aba07ee7.setContent(html_6b54e43f623f3882b2ae97bbdf6a7f96);
+            
+        
+
+        marker_8f4458be0a265bfdc1e7566432d0f2d4.bindPopup(popup_1f2d9ad8d946e797d4f52652aba07ee7)
+        ;
+
+        
+    
+    
+            var marker_9ff6f72108c21fdb77c75d23aec1a538 = L.marker(
+                [0.0, 0.0],
+                {
+  "draggable": null,
+  "autoPan": null,
+}
+            ).addTo(marker_cluster_794f8a26bc646a443bf24a010e0edd9a);
+        
+    
+        var popup_18fb94da81721f8772d790e14e52d056 = L.popup({
+  "maxWidth": "100%",
+  "autoClose": null,
+  "closeOnClick": null,
+});
+
+        
+            
+                var html_c72fb41178e571c32fa26aeae89c85a8 = $(`<div id="html_c72fb41178e571c32fa26aeae89c85a8" style="width: 100.0%; height: 100.0%;">Belgium: $25.65/hour</div>`)[0];
+                popup_18fb94da81721f8772d790e14e52d056.setContent(html_c72fb41178e571c32fa26aeae89c85a8);
+            
+        
+
+        marker_9ff6f72108c21fdb77c75d23aec1a538.bindPopup(popup_18fb94da81721f8772d790e14e52d056)
+        ;
+
+        
+    
+    
+            var marker_23875aa08be4f67f56fb704d4ac801b8 = L.marker(
+                [0.0, 0.0],
+                {
+  "draggable": null,
+  "autoPan": null,
+}
+            ).addTo(marker_cluster_794f8a26bc646a443bf24a010e0edd9a);
+        
+    
+        var popup_a2afb2cd8145b8a0040e27ff706e2ae7 = L.popup({
+  "maxWidth": "100%",
+  "autoClose": null,
+  "closeOnClick": null,
+});
+
+        
+            
+                var html_e464130045af3b09dcbc80012748c00b = $(`<div id="html_e464130045af3b09dcbc80012748c00b" style="width: 100.0%; height: 100.0%;">Belize: $22.88/hour</div>`)[0];
+                popup_a2afb2cd8145b8a0040e27ff706e2ae7.setContent(html_e464130045af3b09dcbc80012748c00b);
+            
+        
+
+        marker_23875aa08be4f67f56fb704d4ac801b8.bindPopup(popup_a2afb2cd8145b8a0040e27ff706e2ae7)
+        ;
+
+        
+    
+    
+            var marker_947f03c60c60626a6554551f62e6c5cb = L.marker(
+                [0.0, 0.0],
+                {
+  "draggable": null,
+  "autoPan": null,
+}
+            ).addTo(marker_cluster_794f8a26bc646a443bf24a010e0edd9a);
+        
+    
+        var popup_37bf60be309c0b1b133eff2774c114e8 = L.popup({
+  "maxWidth": "100%",
+  "autoClose": null,
+  "closeOnClick": null,
+});
+
+        
+            
+                var html_887e93aa4cd5c406ca0782d484bf4480 = $(`<div id="html_887e93aa4cd5c406ca0782d484bf4480" style="width: 100.0%; height: 100.0%;">Benin: $21.95/hour</div>`)[0];
+                popup_37bf60be309c0b1b133eff2774c114e8.setContent(html_887e93aa4cd5c406ca0782d484bf4480);
+            
+        
+
+        marker_947f03c60c60626a6554551f62e6c5cb.bindPopup(popup_37bf60be309c0b1b133eff2774c114e8)
+        ;
+
+        
+    
+    
+            var marker_f93e358de8f11237cd3a72d02f85460d = L.marker(
+                [0.0, 0.0],
+                {
+  "draggable": null,
+  "autoPan": null,
+}
+            ).addTo(marker_cluster_794f8a26bc646a443bf24a010e0edd9a);
+        
+    
+        var popup_814cfba78b91101f3eaa1a7dec5ed58f = L.popup({
+  "maxWidth": "100%",
+  "autoClose": null,
+  "closeOnClick": null,
+});
+
+        
+            
+                var html_5efa31158fe7b1346a94a248f6bfbd98 = $(`<div id="html_5efa31158fe7b1346a94a248f6bfbd98" style="width: 100.0%; height: 100.0%;">Bermuda: $21.95/hour</div>`)[0];
+                popup_814cfba78b91101f3eaa1a7dec5ed58f.setContent(html_5efa31158fe7b1346a94a248f6bfbd98);
+            
+        
+
+        marker_f93e358de8f11237cd3a72d02f85460d.bindPopup(popup_814cfba78b91101f3eaa1a7dec5ed58f)
+        ;
+
+        
+    
+    
+            var marker_ac70358bd6b998228d3b60beecf1c75a = L.marker(
+                [0.0, 0.0],
+                {
+  "draggable": null,
+  "autoPan": null,
+}
+            ).addTo(marker_cluster_794f8a26bc646a443bf24a010e0edd9a);
+        
+    
+        var popup_5c6d4d4562ede0f94152b035dc008e7f = L.popup({
+  "maxWidth": "100%",
+  "autoClose": null,
+  "closeOnClick": null,
+});
+
+        
+            
+                var html_18285e50d2b6ace2997e2f0c2711698c = $(`<div id="html_18285e50d2b6ace2997e2f0c2711698c" style="width: 100.0%; height: 100.0%;">Bhutan: $25.00/hour</div>`)[0];
+                popup_5c6d4d4562ede0f94152b035dc008e7f.setContent(html_18285e50d2b6ace2997e2f0c2711698c);
+            
+        
+
+        marker_ac70358bd6b998228d3b60beecf1c75a.bindPopup(popup_5c6d4d4562ede0f94152b035dc008e7f)
+        ;
+
+        
+    
+    
+            var marker_62e3521ed436c847f150c6146bc8eb89 = L.marker(
+                [0.0, 0.0],
+                {
+  "draggable": null,
+  "autoPan": null,
+}
+            ).addTo(marker_cluster_794f8a26bc646a443bf24a010e0edd9a);
+        
+    
+        var popup_6cf77cfe5424366ed031b667e10d548d = L.popup({
+  "maxWidth": "100%",
+  "autoClose": null,
+  "closeOnClick": null,
+});
+
+        
+            
+                var html_77eb9857b69f62059a06bd34a10d38d7 = $(`<div id="html_77eb9857b69f62059a06bd34a10d38d7" style="width: 100.0%; height: 100.0%;">Bolivia: $19.96/hour</div>`)[0];
+                popup_6cf77cfe5424366ed031b667e10d548d.setContent(html_77eb9857b69f62059a06bd34a10d38d7);
+            
+        
+
+        marker_62e3521ed436c847f150c6146bc8eb89.bindPopup(popup_6cf77cfe5424366ed031b667e10d548d)
+        ;
+
+        
+    
+    
+            var marker_2c9d8a9b8047a928a1293024433bcbf7 = L.marker(
+                [0.0, 0.0],
+                {
+  "draggable": null,
+  "autoPan": null,
+}
+            ).addTo(marker_cluster_794f8a26bc646a443bf24a010e0edd9a);
+        
+    
+        var popup_4a98bc245dad6872dc087c3d69201b20 = L.popup({
+  "maxWidth": "100%",
+  "autoClose": null,
+  "closeOnClick": null,
+});
+
+        
+            
+                var html_d91ab0e1c89caabd7655eaac6cc32648 = $(`<div id="html_d91ab0e1c89caabd7655eaac6cc32648" style="width: 100.0%; height: 100.0%;">Bonaire, Sint Eustatius and Saba: $22.50/hour</div>`)[0];
+                popup_4a98bc245dad6872dc087c3d69201b20.setContent(html_d91ab0e1c89caabd7655eaac6cc32648);
+            
+        
+
+        marker_2c9d8a9b8047a928a1293024433bcbf7.bindPopup(popup_4a98bc245dad6872dc087c3d69201b20)
+        ;
+
+        
+    
+    
+            var marker_091c4bab4dd50a60918bdd6e77ac20d5 = L.marker(
+                [0.0, 0.0],
+                {
+  "draggable": null,
+  "autoPan": null,
+}
+            ).addTo(marker_cluster_794f8a26bc646a443bf24a010e0edd9a);
+        
+    
+        var popup_5e73d2e6aa8cd62fe3b914c15e79cdea = L.popup({
+  "maxWidth": "100%",
+  "autoClose": null,
+  "closeOnClick": null,
+});
+
+        
+            
+                var html_7a9dff92c18ec54fb996ff2a0c6c0b4c = $(`<div id="html_7a9dff92c18ec54fb996ff2a0c6c0b4c" style="width: 100.0%; height: 100.0%;">Bosnia and Herzegovina: $24.05/hour</div>`)[0];
+                popup_5e73d2e6aa8cd62fe3b914c15e79cdea.setContent(html_7a9dff92c18ec54fb996ff2a0c6c0b4c);
+            
+        
+
+        marker_091c4bab4dd50a60918bdd6e77ac20d5.bindPopup(popup_5e73d2e6aa8cd62fe3b914c15e79cdea)
+        ;
+
+        
+    
+    
+            var marker_3f22a5d70e72a672faee2be2b0c8b32d = L.marker(
+                [0.0, 0.0],
+                {
+  "draggable": null,
+  "autoPan": null,
+}
+            ).addTo(marker_cluster_794f8a26bc646a443bf24a010e0edd9a);
+        
+    
+        var popup_f1dc2647a2f4ad6abaf9b770b2365ad6 = L.popup({
+  "maxWidth": "100%",
+  "autoClose": null,
+  "closeOnClick": null,
+});
+
+        
+            
+                var html_b5a09e2d4c8df404ad4774221251eaec = $(`<div id="html_b5a09e2d4c8df404ad4774221251eaec" style="width: 100.0%; height: 100.0%;">Botswana: $24.88/hour</div>`)[0];
+                popup_f1dc2647a2f4ad6abaf9b770b2365ad6.setContent(html_b5a09e2d4c8df404ad4774221251eaec);
+            
+        
+
+        marker_3f22a5d70e72a672faee2be2b0c8b32d.bindPopup(popup_f1dc2647a2f4ad6abaf9b770b2365ad6)
+        ;
+
+        
+    
+    
+            var marker_0f9d7596e6dc88f053fee26fb2a8e332 = L.marker(
+                [0.0, 0.0],
+                {
+  "draggable": null,
+  "autoPan": null,
+}
+            ).addTo(marker_cluster_794f8a26bc646a443bf24a010e0edd9a);
+        
+    
+        var popup_55a45b0acf148df2ee40569ed0ee42eb = L.popup({
+  "maxWidth": "100%",
+  "autoClose": null,
+  "closeOnClick": null,
+});
+
+        
+            
+                var html_58ef17c025dd5b9ca5f2d1059993e335 = $(`<div id="html_58ef17c025dd5b9ca5f2d1059993e335" style="width: 100.0%; height: 100.0%;">Brazil: $23.90/hour</div>`)[0];
+                popup_55a45b0acf148df2ee40569ed0ee42eb.setContent(html_58ef17c025dd5b9ca5f2d1059993e335);
+            
+        
+
+        marker_0f9d7596e6dc88f053fee26fb2a8e332.bindPopup(popup_55a45b0acf148df2ee40569ed0ee42eb)
+        ;
+
+        
+    
+    
+            var marker_c51e707f35d20d9eba47793d9a3b1c21 = L.marker(
+                [0.0, 0.0],
+                {
+  "draggable": null,
+  "autoPan": null,
+}
+            ).addTo(marker_cluster_794f8a26bc646a443bf24a010e0edd9a);
+        
+    
+        var popup_c8336858098ce22fd65774a5553b2dc3 = L.popup({
+  "maxWidth": "100%",
+  "autoClose": null,
+  "closeOnClick": null,
+});
+
+        
+            
+                var html_0e7214b62fdf3174bb7faf5725527cba = $(`<div id="html_0e7214b62fdf3174bb7faf5725527cba" style="width: 100.0%; height: 100.0%;">British Virgin Islands: $29.15/hour</div>`)[0];
+                popup_c8336858098ce22fd65774a5553b2dc3.setContent(html_0e7214b62fdf3174bb7faf5725527cba);
+            
+        
+
+        marker_c51e707f35d20d9eba47793d9a3b1c21.bindPopup(popup_c8336858098ce22fd65774a5553b2dc3)
+        ;
+
+        
+    
+    
+            var marker_25ae0da9d3de395e543ea6276d38a742 = L.marker(
+                [0.0, 0.0],
+                {
+  "draggable": null,
+  "autoPan": null,
+}
+            ).addTo(marker_cluster_794f8a26bc646a443bf24a010e0edd9a);
+        
+    
+        var popup_d7c26e1c9212e0e5b80417fd37b253c7 = L.popup({
+  "maxWidth": "100%",
+  "autoClose": null,
+  "closeOnClick": null,
+});
+
+        
+            
+                var html_168f82f39a164228f5849cb7d90c201a = $(`<div id="html_168f82f39a164228f5849cb7d90c201a" style="width: 100.0%; height: 100.0%;">Brunei Darussalam: $15.88/hour</div>`)[0];
+                popup_d7c26e1c9212e0e5b80417fd37b253c7.setContent(html_168f82f39a164228f5849cb7d90c201a);
+            
+        
+
+        marker_25ae0da9d3de395e543ea6276d38a742.bindPopup(popup_d7c26e1c9212e0e5b80417fd37b253c7)
+        ;
+
+        
+    
+    
+            var marker_4b902206d166eba943918b17d070f1c6 = L.marker(
+                [0.0, 0.0],
+                {
+  "draggable": null,
+  "autoPan": null,
+}
+            ).addTo(marker_cluster_794f8a26bc646a443bf24a010e0edd9a);
+        
+    
+        var popup_964a10002844aef7944a0a3668737bd3 = L.popup({
+  "maxWidth": "100%",
+  "autoClose": null,
+  "closeOnClick": null,
+});
+
+        
+            
+                var html_edb0a48ff44d2b5a2745a892558b68e3 = $(`<div id="html_edb0a48ff44d2b5a2745a892558b68e3" style="width: 100.0%; height: 100.0%;">Bulgaria: $23.83/hour</div>`)[0];
+                popup_964a10002844aef7944a0a3668737bd3.setContent(html_edb0a48ff44d2b5a2745a892558b68e3);
+            
+        
+
+        marker_4b902206d166eba943918b17d070f1c6.bindPopup(popup_964a10002844aef7944a0a3668737bd3)
+        ;
+
+        
+    
+    
+            var marker_c469680e824d02189609e9ce09799654 = L.marker(
+                [0.0, 0.0],
+                {
+  "draggable": null,
+  "autoPan": null,
+}
+            ).addTo(marker_cluster_794f8a26bc646a443bf24a010e0edd9a);
+        
+    
+        var popup_d245e4729a766ec2498322521ad3f703 = L.popup({
+  "maxWidth": "100%",
+  "autoClose": null,
+  "closeOnClick": null,
+});
+
+        
+            
+                var html_77f370c9ba79091b502e1a19671ba5ab = $(`<div id="html_77f370c9ba79091b502e1a19671ba5ab" style="width: 100.0%; height: 100.0%;">Burkina Faso: $22.50/hour</div>`)[0];
+                popup_d245e4729a766ec2498322521ad3f703.setContent(html_77f370c9ba79091b502e1a19671ba5ab);
+            
+        
+
+        marker_c469680e824d02189609e9ce09799654.bindPopup(popup_d245e4729a766ec2498322521ad3f703)
+        ;
+
+        
+    
+    
+            var marker_3ef1f8144229747c32ef6ad25b1355da = L.marker(
+                [0.0, 0.0],
+                {
+  "draggable": null,
+  "autoPan": null,
+}
+            ).addTo(marker_cluster_794f8a26bc646a443bf24a010e0edd9a);
+        
+    
+        var popup_97b072841d05fb41f93f497dc93ee359 = L.popup({
+  "maxWidth": "100%",
+  "autoClose": null,
+  "closeOnClick": null,
+});
+
+        
+            
+                var html_f52b35f5c1bfc1efc4bddc0405c25609 = $(`<div id="html_f52b35f5c1bfc1efc4bddc0405c25609" style="width: 100.0%; height: 100.0%;">Burundi: $20.00/hour</div>`)[0];
+                popup_97b072841d05fb41f93f497dc93ee359.setContent(html_f52b35f5c1bfc1efc4bddc0405c25609);
+            
+        
+
+        marker_3ef1f8144229747c32ef6ad25b1355da.bindPopup(popup_97b072841d05fb41f93f497dc93ee359)
+        ;
+
+        
+    
+    
+            var marker_feaa5edd77b147683a90b7f097f47832 = L.marker(
+                [0.0, 0.0],
+                {
+  "draggable": null,
+  "autoPan": null,
+}
+            ).addTo(marker_cluster_794f8a26bc646a443bf24a010e0edd9a);
+        
+    
+        var popup_9497ad0592a6b4e8c30fdf42d30c5132 = L.popup({
+  "maxWidth": "100%",
+  "autoClose": null,
+  "closeOnClick": null,
+});
+
+        
+            
+                var html_05b4bbda30d3cc160642e4472bb93f02 = $(`<div id="html_05b4bbda30d3cc160642e4472bb93f02" style="width: 100.0%; height: 100.0%;">Cambodia: $21.84/hour</div>`)[0];
+                popup_9497ad0592a6b4e8c30fdf42d30c5132.setContent(html_05b4bbda30d3cc160642e4472bb93f02);
+            
+        
+
+        marker_feaa5edd77b147683a90b7f097f47832.bindPopup(popup_9497ad0592a6b4e8c30fdf42d30c5132)
+        ;
+
+        
+    
+    
+            var marker_0d5f9378a2d5459254e246f88bcf77dc = L.marker(
+                [0.0, 0.0],
+                {
+  "draggable": null,
+  "autoPan": null,
+}
+            ).addTo(marker_cluster_794f8a26bc646a443bf24a010e0edd9a);
+        
+    
+        var popup_288aeabe4dcc9af684064b09757445b1 = L.popup({
+  "maxWidth": "100%",
+  "autoClose": null,
+  "closeOnClick": null,
+});
+
+        
+            
+                var html_3e5057cacf34af4b90f6561b783ca643 = $(`<div id="html_3e5057cacf34af4b90f6561b783ca643" style="width: 100.0%; height: 100.0%;">Cameroon: $22.62/hour</div>`)[0];
+                popup_288aeabe4dcc9af684064b09757445b1.setContent(html_3e5057cacf34af4b90f6561b783ca643);
+            
+        
+
+        marker_0d5f9378a2d5459254e246f88bcf77dc.bindPopup(popup_288aeabe4dcc9af684064b09757445b1)
+        ;
+
+        
+    
+    
+            var marker_4f57a857d9b4b3d9dbc456b66007c366 = L.marker(
+                [0.0, 0.0],
+                {
+  "draggable": null,
+  "autoPan": null,
+}
+            ).addTo(marker_cluster_794f8a26bc646a443bf24a010e0edd9a);
+        
+    
+        var popup_c236345fa84a404b8fa0525f29ffb5ef = L.popup({
+  "maxWidth": "100%",
+  "autoClose": null,
+  "closeOnClick": null,
+});
+
+        
+            
+                var html_ece654578fce7405c1a6faf2a9ee4a82 = $(`<div id="html_ece654578fce7405c1a6faf2a9ee4a82" style="width: 100.0%; height: 100.0%;">Canada: $24.39/hour</div>`)[0];
+                popup_c236345fa84a404b8fa0525f29ffb5ef.setContent(html_ece654578fce7405c1a6faf2a9ee4a82);
+            
+        
+
+        marker_4f57a857d9b4b3d9dbc456b66007c366.bindPopup(popup_c236345fa84a404b8fa0525f29ffb5ef)
+        ;
+
+        
+    
+    
+            var marker_3572d27aaef36005b97166c375070638 = L.marker(
+                [0.0, 0.0],
+                {
+  "draggable": null,
+  "autoPan": null,
+}
+            ).addTo(marker_cluster_794f8a26bc646a443bf24a010e0edd9a);
+        
+    
+        var popup_f41234d4ee7846f7ac885de5bd21b892 = L.popup({
+  "maxWidth": "100%",
+  "autoClose": null,
+  "closeOnClick": null,
+});
+
+        
+            
+                var html_be7c62402ffc50d35d417448f58b7898 = $(`<div id="html_be7c62402ffc50d35d417448f58b7898" style="width: 100.0%; height: 100.0%;">Cayman Islands: $26.60/hour</div>`)[0];
+                popup_f41234d4ee7846f7ac885de5bd21b892.setContent(html_be7c62402ffc50d35d417448f58b7898);
+            
+        
+
+        marker_3572d27aaef36005b97166c375070638.bindPopup(popup_f41234d4ee7846f7ac885de5bd21b892)
+        ;
+
+        
+    
+    
+            var marker_5c9aec8e8f1334a8efca834a8ff88217 = L.marker(
+                [0.0, 0.0],
+                {
+  "draggable": null,
+  "autoPan": null,
+}
+            ).addTo(marker_cluster_794f8a26bc646a443bf24a010e0edd9a);
+        
+    
+        var popup_4bf3f75fb36fbaee3d1397537eeb6ed6 = L.popup({
+  "maxWidth": "100%",
+  "autoClose": null,
+  "closeOnClick": null,
+});
+
+        
+            
+                var html_5ad602452f1195ba1c5a614d03d437eb = $(`<div id="html_5ad602452f1195ba1c5a614d03d437eb" style="width: 100.0%; height: 100.0%;">Central African Republic: $5.00/hour</div>`)[0];
+                popup_4bf3f75fb36fbaee3d1397537eeb6ed6.setContent(html_5ad602452f1195ba1c5a614d03d437eb);
+            
+        
+
+        marker_5c9aec8e8f1334a8efca834a8ff88217.bindPopup(popup_4bf3f75fb36fbaee3d1397537eeb6ed6)
+        ;
+
+        
+    
+    
+            var marker_4f529b873e071d7407d1093cd06a47bf = L.marker(
+                [0.0, 0.0],
+                {
+  "draggable": null,
+  "autoPan": null,
+}
+            ).addTo(marker_cluster_794f8a26bc646a443bf24a010e0edd9a);
+        
+    
+        var popup_0aa1d74d79f7e74377e87cde533cae36 = L.popup({
+  "maxWidth": "100%",
+  "autoClose": null,
+  "closeOnClick": null,
+});
+
+        
+            
+                var html_bfc6952a9934fdefa06cb796bebd833d = $(`<div id="html_bfc6952a9934fdefa06cb796bebd833d" style="width: 100.0%; height: 100.0%;">Chad: $22.50/hour</div>`)[0];
+                popup_0aa1d74d79f7e74377e87cde533cae36.setContent(html_bfc6952a9934fdefa06cb796bebd833d);
+            
+        
+
+        marker_4f529b873e071d7407d1093cd06a47bf.bindPopup(popup_0aa1d74d79f7e74377e87cde533cae36)
+        ;
+
+        
+    
+    
+            var marker_16a278e4327ca228229a094c63987c86 = L.marker(
+                [0.0, 0.0],
+                {
+  "draggable": null,
+  "autoPan": null,
+}
+            ).addTo(marker_cluster_794f8a26bc646a443bf24a010e0edd9a);
+        
+    
+        var popup_cfed48c9bb1f91f69e5e662c76d3029d = L.popup({
+  "maxWidth": "100%",
+  "autoClose": null,
+  "closeOnClick": null,
+});
+
+        
+            
+                var html_a53728159df98b43cf3f8252f78066e1 = $(`<div id="html_a53728159df98b43cf3f8252f78066e1" style="width: 100.0%; height: 100.0%;">Chile: $24.30/hour</div>`)[0];
+                popup_cfed48c9bb1f91f69e5e662c76d3029d.setContent(html_a53728159df98b43cf3f8252f78066e1);
+            
+        
+
+        marker_16a278e4327ca228229a094c63987c86.bindPopup(popup_cfed48c9bb1f91f69e5e662c76d3029d)
+        ;
+
+        
+    
+    
+            var marker_be494f598299890df63bad6959e0e144 = L.marker(
+                [0.0, 0.0],
+                {
+  "draggable": null,
+  "autoPan": null,
+}
+            ).addTo(marker_cluster_794f8a26bc646a443bf24a010e0edd9a);
+        
+    
+        var popup_a3a84fad81cff61aad2ff39b042584e3 = L.popup({
+  "maxWidth": "100%",
+  "autoClose": null,
+  "closeOnClick": null,
+});
+
+        
+            
+                var html_8e0275eac2e3457b7d15a5836e86cd33 = $(`<div id="html_8e0275eac2e3457b7d15a5836e86cd33" style="width: 100.0%; height: 100.0%;">China: $23.98/hour</div>`)[0];
+                popup_a3a84fad81cff61aad2ff39b042584e3.setContent(html_8e0275eac2e3457b7d15a5836e86cd33);
+            
+        
+
+        marker_be494f598299890df63bad6959e0e144.bindPopup(popup_a3a84fad81cff61aad2ff39b042584e3)
+        ;
+
+        
+    
+    
+            var marker_b508cff225775369a0fc27c36e2f2f7f = L.marker(
+                [0.0, 0.0],
+                {
+  "draggable": null,
+  "autoPan": null,
+}
+            ).addTo(marker_cluster_794f8a26bc646a443bf24a010e0edd9a);
+        
+    
+        var popup_611fb9e3ff50ffde1af90b8124dbc936 = L.popup({
+  "maxWidth": "100%",
+  "autoClose": null,
+  "closeOnClick": null,
+});
+
+        
+            
+                var html_7783cd1788aa1e2117ef59d31ddcdf0e = $(`<div id="html_7783cd1788aa1e2117ef59d31ddcdf0e" style="width: 100.0%; height: 100.0%;">Cocos (Keeling) Islands: $23.75/hour</div>`)[0];
+                popup_611fb9e3ff50ffde1af90b8124dbc936.setContent(html_7783cd1788aa1e2117ef59d31ddcdf0e);
+            
+        
+
+        marker_b508cff225775369a0fc27c36e2f2f7f.bindPopup(popup_611fb9e3ff50ffde1af90b8124dbc936)
+        ;
+
+        
+    
+    
+            var marker_a3fe27f6f64d3d347631c9b22eb342cd = L.marker(
+                [0.0, 0.0],
+                {
+  "draggable": null,
+  "autoPan": null,
+}
+            ).addTo(marker_cluster_794f8a26bc646a443bf24a010e0edd9a);
+        
+    
+        var popup_743b421b2e5dd2116b35cf53111f6327 = L.popup({
+  "maxWidth": "100%",
+  "autoClose": null,
+  "closeOnClick": null,
+});
+
+        
+            
+                var html_117bf71f215fbf4fa02a2b02ed8378cd = $(`<div id="html_117bf71f215fbf4fa02a2b02ed8378cd" style="width: 100.0%; height: 100.0%;">Colombia: $26.53/hour</div>`)[0];
+                popup_743b421b2e5dd2116b35cf53111f6327.setContent(html_117bf71f215fbf4fa02a2b02ed8378cd);
+            
+        
+
+        marker_a3fe27f6f64d3d347631c9b22eb342cd.bindPopup(popup_743b421b2e5dd2116b35cf53111f6327)
+        ;
+
+        
+    
+    
+            var marker_0312ad76cc6bdd89226de3a2ab447984 = L.marker(
+                [0.0, 0.0],
+                {
+  "draggable": null,
+  "autoPan": null,
+}
+            ).addTo(marker_cluster_794f8a26bc646a443bf24a010e0edd9a);
+        
+    
+        var popup_5b0b4163ebac4edfee634301ba9a849b = L.popup({
+  "maxWidth": "100%",
+  "autoClose": null,
+  "closeOnClick": null,
+});
+
+        
+            
+                var html_f9cce5310f7a1d7342ab49340093f040 = $(`<div id="html_f9cce5310f7a1d7342ab49340093f040" style="width: 100.0%; height: 100.0%;">Comoros: $22.50/hour</div>`)[0];
+                popup_5b0b4163ebac4edfee634301ba9a849b.setContent(html_f9cce5310f7a1d7342ab49340093f040);
+            
+        
+
+        marker_0312ad76cc6bdd89226de3a2ab447984.bindPopup(popup_5b0b4163ebac4edfee634301ba9a849b)
+        ;
+
+        
+    
+    
+            var marker_41b4034719cde08e558de12904b2e482 = L.marker(
+                [0.0, 0.0],
+                {
+  "draggable": null,
+  "autoPan": null,
+}
+            ).addTo(marker_cluster_794f8a26bc646a443bf24a010e0edd9a);
+        
+    
+        var popup_4ddbcf60fb44da47c3772c444a9a103e = L.popup({
+  "maxWidth": "100%",
+  "autoClose": null,
+  "closeOnClick": null,
+});
+
+        
+            
+                var html_87981b83072886ed8d528efccaf41d34 = $(`<div id="html_87981b83072886ed8d528efccaf41d34" style="width: 100.0%; height: 100.0%;">Congo: $25.00/hour</div>`)[0];
+                popup_4ddbcf60fb44da47c3772c444a9a103e.setContent(html_87981b83072886ed8d528efccaf41d34);
+            
+        
+
+        marker_41b4034719cde08e558de12904b2e482.bindPopup(popup_4ddbcf60fb44da47c3772c444a9a103e)
+        ;
+
+        
+    
+    
+            var marker_194c918010764f353533bba1ee267d0c = L.marker(
+                [0.0, 0.0],
+                {
+  "draggable": null,
+  "autoPan": null,
+}
+            ).addTo(marker_cluster_794f8a26bc646a443bf24a010e0edd9a);
+        
+    
+        var popup_66df56d66fac59d378061e400556833f = L.popup({
+  "maxWidth": "100%",
+  "autoClose": null,
+  "closeOnClick": null,
+});
+
+        
+            
+                var html_22264b137398eb316b62362860b89d68 = $(`<div id="html_22264b137398eb316b62362860b89d68" style="width: 100.0%; height: 100.0%;">Congo, the Democratic Republic of the: $23.06/hour</div>`)[0];
+                popup_66df56d66fac59d378061e400556833f.setContent(html_22264b137398eb316b62362860b89d68);
+            
+        
+
+        marker_194c918010764f353533bba1ee267d0c.bindPopup(popup_66df56d66fac59d378061e400556833f)
+        ;
+
+        
+    
+    
+            var marker_57d7c6cfde2074f98f007b04ad184562 = L.marker(
+                [0.0, 0.0],
+                {
+  "draggable": null,
+  "autoPan": null,
+}
+            ).addTo(marker_cluster_794f8a26bc646a443bf24a010e0edd9a);
+        
+    
+        var popup_114b8e446f33d1e41d39be1bd22c091c = L.popup({
+  "maxWidth": "100%",
+  "autoClose": null,
+  "closeOnClick": null,
+});
+
+        
+            
+                var html_29f26a7634e1878156f6a0ad8c802d71 = $(`<div id="html_29f26a7634e1878156f6a0ad8c802d71" style="width: 100.0%; height: 100.0%;">Cook Islands: $22.50/hour</div>`)[0];
+                popup_114b8e446f33d1e41d39be1bd22c091c.setContent(html_29f26a7634e1878156f6a0ad8c802d71);
+            
+        
+
+        marker_57d7c6cfde2074f98f007b04ad184562.bindPopup(popup_114b8e446f33d1e41d39be1bd22c091c)
+        ;
+
+        
+    
+    
+            var marker_0ccdd3297488f8df8f5fcc7a2701d42d = L.marker(
+                [0.0, 0.0],
+                {
+  "draggable": null,
+  "autoPan": null,
+}
+            ).addTo(marker_cluster_794f8a26bc646a443bf24a010e0edd9a);
+        
+    
+        var popup_c2c7b5293352831591bb4c1244022f6d = L.popup({
+  "maxWidth": "100%",
+  "autoClose": null,
+  "closeOnClick": null,
+});
+
+        
+            
+                var html_2db7027d5e9722e5c8ba89c7c1b1b99a = $(`<div id="html_2db7027d5e9722e5c8ba89c7c1b1b99a" style="width: 100.0%; height: 100.0%;">Costa Rica: $23.31/hour</div>`)[0];
+                popup_c2c7b5293352831591bb4c1244022f6d.setContent(html_2db7027d5e9722e5c8ba89c7c1b1b99a);
+            
+        
+
+        marker_0ccdd3297488f8df8f5fcc7a2701d42d.bindPopup(popup_c2c7b5293352831591bb4c1244022f6d)
+        ;
+
+        
+    
+    
+            var marker_6a59dbb96516a0239c563cadf1fc3649 = L.marker(
+                [0.0, 0.0],
+                {
+  "draggable": null,
+  "autoPan": null,
+}
+            ).addTo(marker_cluster_794f8a26bc646a443bf24a010e0edd9a);
+        
+    
+        var popup_2506f50a0c3a952b338a28a7aae1e59e = L.popup({
+  "maxWidth": "100%",
+  "autoClose": null,
+  "closeOnClick": null,
+});
+
+        
+            
+                var html_175233732c3923525e53ca500866b944 = $(`<div id="html_175233732c3923525e53ca500866b944" style="width: 100.0%; height: 100.0%;">Cote d&#039;Ivoire: $22.66/hour</div>`)[0];
+                popup_2506f50a0c3a952b338a28a7aae1e59e.setContent(html_175233732c3923525e53ca500866b944);
+            
+        
+
+        marker_6a59dbb96516a0239c563cadf1fc3649.bindPopup(popup_2506f50a0c3a952b338a28a7aae1e59e)
+        ;
+
+        
+    
+    
+            var marker_362f28577033b25af3be2b08d084c7ef = L.marker(
+                [0.0, 0.0],
+                {
+  "draggable": null,
+  "autoPan": null,
+}
+            ).addTo(marker_cluster_794f8a26bc646a443bf24a010e0edd9a);
+        
+    
+        var popup_8d704f5cfb0cf36169a8665d02b259b4 = L.popup({
+  "maxWidth": "100%",
+  "autoClose": null,
+  "closeOnClick": null,
+});
+
+        
+            
+                var html_095606717597986943ebc1fcd5ca5290 = $(`<div id="html_095606717597986943ebc1fcd5ca5290" style="width: 100.0%; height: 100.0%;">Croatia: $21.52/hour</div>`)[0];
+                popup_8d704f5cfb0cf36169a8665d02b259b4.setContent(html_095606717597986943ebc1fcd5ca5290);
+            
+        
+
+        marker_362f28577033b25af3be2b08d084c7ef.bindPopup(popup_8d704f5cfb0cf36169a8665d02b259b4)
+        ;
+
+        
+    
+    
+            var marker_d04bd818a3770c99ac859932aa9bc55b = L.marker(
+                [0.0, 0.0],
+                {
+  "draggable": null,
+  "autoPan": null,
+}
+            ).addTo(marker_cluster_794f8a26bc646a443bf24a010e0edd9a);
+        
+    
+        var popup_f9358ac0e3ae6d5e4330a44413c64a32 = L.popup({
+  "maxWidth": "100%",
+  "autoClose": null,
+  "closeOnClick": null,
+});
+
+        
+            
+                var html_6c83b67925f5b273b298716f62d55f34 = $(`<div id="html_6c83b67925f5b273b298716f62d55f34" style="width: 100.0%; height: 100.0%;">Curacao: $25.79/hour</div>`)[0];
+                popup_f9358ac0e3ae6d5e4330a44413c64a32.setContent(html_6c83b67925f5b273b298716f62d55f34);
+            
+        
+
+        marker_d04bd818a3770c99ac859932aa9bc55b.bindPopup(popup_f9358ac0e3ae6d5e4330a44413c64a32)
+        ;
+
+        
+    
+    
+            var marker_7196d62dc91055179042468cc8df6caa = L.marker(
+                [0.0, 0.0],
+                {
+  "draggable": null,
+  "autoPan": null,
+}
+            ).addTo(marker_cluster_794f8a26bc646a443bf24a010e0edd9a);
+        
+    
+        var popup_7238b52a332681e82829b4e7ff5d53ef = L.popup({
+  "maxWidth": "100%",
+  "autoClose": null,
+  "closeOnClick": null,
+});
+
+        
+            
+                var html_31e3c07e5b2dcb0172a05a2e3277e827 = $(`<div id="html_31e3c07e5b2dcb0172a05a2e3277e827" style="width: 100.0%; height: 100.0%;">Cyprus: $24.80/hour</div>`)[0];
+                popup_7238b52a332681e82829b4e7ff5d53ef.setContent(html_31e3c07e5b2dcb0172a05a2e3277e827);
+            
+        
+
+        marker_7196d62dc91055179042468cc8df6caa.bindPopup(popup_7238b52a332681e82829b4e7ff5d53ef)
+        ;
+
+        
+    
+    
+            var marker_ab537cf0e06cbbdf48797787d15c5790 = L.marker(
+                [0.0, 0.0],
+                {
+  "draggable": null,
+  "autoPan": null,
+}
+            ).addTo(marker_cluster_794f8a26bc646a443bf24a010e0edd9a);
+        
+    
+        var popup_f1aaa384add0c0f215873622bd6d69a0 = L.popup({
+  "maxWidth": "100%",
+  "autoClose": null,
+  "closeOnClick": null,
+});
+
+        
+            
+                var html_9e7116fa65bbcc900365415d6b78a72c = $(`<div id="html_9e7116fa65bbcc900365415d6b78a72c" style="width: 100.0%; height: 100.0%;">Czech Republic: $24.78/hour</div>`)[0];
+                popup_f1aaa384add0c0f215873622bd6d69a0.setContent(html_9e7116fa65bbcc900365415d6b78a72c);
+            
+        
+
+        marker_ab537cf0e06cbbdf48797787d15c5790.bindPopup(popup_f1aaa384add0c0f215873622bd6d69a0)
+        ;
+
+        
+    
+    
+            var marker_98968ebe40c90c2321b6bdc65986056c = L.marker(
+                [0.0, 0.0],
+                {
+  "draggable": null,
+  "autoPan": null,
+}
+            ).addTo(marker_cluster_794f8a26bc646a443bf24a010e0edd9a);
+        
+    
+        var popup_9894494ab56e4202a76833c7fb2fdc5d = L.popup({
+  "maxWidth": "100%",
+  "autoClose": null,
+  "closeOnClick": null,
+});
+
+        
+            
+                var html_a0953a7c9d3905d43938081dda6aa57d = $(`<div id="html_a0953a7c9d3905d43938081dda6aa57d" style="width: 100.0%; height: 100.0%;">Denmark: $25.71/hour</div>`)[0];
+                popup_9894494ab56e4202a76833c7fb2fdc5d.setContent(html_a0953a7c9d3905d43938081dda6aa57d);
+            
+        
+
+        marker_98968ebe40c90c2321b6bdc65986056c.bindPopup(popup_9894494ab56e4202a76833c7fb2fdc5d)
+        ;
+
+        
+    
+    
+            var marker_edef02b8ff035121b5793d7874a54c5b = L.marker(
+                [0.0, 0.0],
+                {
+  "draggable": null,
+  "autoPan": null,
+}
+            ).addTo(marker_cluster_794f8a26bc646a443bf24a010e0edd9a);
+        
+    
+        var popup_9c8cdce6de817d0787577127822a373e = L.popup({
+  "maxWidth": "100%",
+  "autoClose": null,
+  "closeOnClick": null,
+});
+
+        
+            
+                var html_231b7b99e3a661f12d5e43b278718f3d = $(`<div id="html_231b7b99e3a661f12d5e43b278718f3d" style="width: 100.0%; height: 100.0%;">Djibouti: $19.38/hour</div>`)[0];
+                popup_9c8cdce6de817d0787577127822a373e.setContent(html_231b7b99e3a661f12d5e43b278718f3d);
+            
+        
+
+        marker_edef02b8ff035121b5793d7874a54c5b.bindPopup(popup_9c8cdce6de817d0787577127822a373e)
+        ;
+
+        
+    
+    
+            var marker_9ac162ddd054fa745858a567ae09b9eb = L.marker(
+                [0.0, 0.0],
+                {
+  "draggable": null,
+  "autoPan": null,
+}
+            ).addTo(marker_cluster_794f8a26bc646a443bf24a010e0edd9a);
+        
+    
+        var popup_e1b665a49331e9b0c80ce9b7ff803c28 = L.popup({
+  "maxWidth": "100%",
+  "autoClose": null,
+  "closeOnClick": null,
+});
+
+        
+            
+                var html_a82bbcb9b5e56b17811a90483791d108 = $(`<div id="html_a82bbcb9b5e56b17811a90483791d108" style="width: 100.0%; height: 100.0%;">Dominica: $23.75/hour</div>`)[0];
+                popup_e1b665a49331e9b0c80ce9b7ff803c28.setContent(html_a82bbcb9b5e56b17811a90483791d108);
+            
+        
+
+        marker_9ac162ddd054fa745858a567ae09b9eb.bindPopup(popup_e1b665a49331e9b0c80ce9b7ff803c28)
+        ;
+
+        
+    
+    
+            var marker_89234405cc1462b4844d2df8da2548da = L.marker(
+                [0.0, 0.0],
+                {
+  "draggable": null,
+  "autoPan": null,
+}
+            ).addTo(marker_cluster_794f8a26bc646a443bf24a010e0edd9a);
+        
+    
+        var popup_e291543f04f439083b14aecbfdb53d17 = L.popup({
+  "maxWidth": "100%",
+  "autoClose": null,
+  "closeOnClick": null,
+});
+
+        
+            
+                var html_98761193bd91018184c8835416029260 = $(`<div id="html_98761193bd91018184c8835416029260" style="width: 100.0%; height: 100.0%;">Dominican Republic: $21.34/hour</div>`)[0];
+                popup_e291543f04f439083b14aecbfdb53d17.setContent(html_98761193bd91018184c8835416029260);
+            
+        
+
+        marker_89234405cc1462b4844d2df8da2548da.bindPopup(popup_e291543f04f439083b14aecbfdb53d17)
+        ;
+
+        
+    
+    
+            var marker_cc710927bc74785e1381aa15327f8c25 = L.marker(
+                [0.0, 0.0],
+                {
+  "draggable": null,
+  "autoPan": null,
+}
+            ).addTo(marker_cluster_794f8a26bc646a443bf24a010e0edd9a);
+        
+    
+        var popup_e827d1c04ca6527bf0dd1245cc81cf96 = L.popup({
+  "maxWidth": "100%",
+  "autoClose": null,
+  "closeOnClick": null,
+});
+
+        
+            
+                var html_031fca120f6a6cfe6de2663816223ecc = $(`<div id="html_031fca120f6a6cfe6de2663816223ecc" style="width: 100.0%; height: 100.0%;">Ecuador: $25.31/hour</div>`)[0];
+                popup_e827d1c04ca6527bf0dd1245cc81cf96.setContent(html_031fca120f6a6cfe6de2663816223ecc);
+            
+        
+
+        marker_cc710927bc74785e1381aa15327f8c25.bindPopup(popup_e827d1c04ca6527bf0dd1245cc81cf96)
+        ;
+
+        
+    
+    
+            var marker_4210e43992b2cd5cac1d679877f80d53 = L.marker(
+                [0.0, 0.0],
+                {
+  "draggable": null,
+  "autoPan": null,
+}
+            ).addTo(marker_cluster_794f8a26bc646a443bf24a010e0edd9a);
+        
+    
+        var popup_95f767f4a94adc1a931e1342c112b9cf = L.popup({
+  "maxWidth": "100%",
+  "autoClose": null,
+  "closeOnClick": null,
+});
+
+        
+            
+                var html_88172a87cb648314c192d36270c42f7e = $(`<div id="html_88172a87cb648314c192d36270c42f7e" style="width: 100.0%; height: 100.0%;">Egypt: $24.15/hour</div>`)[0];
+                popup_95f767f4a94adc1a931e1342c112b9cf.setContent(html_88172a87cb648314c192d36270c42f7e);
+            
+        
+
+        marker_4210e43992b2cd5cac1d679877f80d53.bindPopup(popup_95f767f4a94adc1a931e1342c112b9cf)
+        ;
+
+        
+    
+    
+            var marker_6a1b78f4fd67e380b6f620c345d38641 = L.marker(
+                [0.0, 0.0],
+                {
+  "draggable": null,
+  "autoPan": null,
+}
+            ).addTo(marker_cluster_794f8a26bc646a443bf24a010e0edd9a);
+        
+    
+        var popup_9e99a597047857b61785c4af465bd51f = L.popup({
+  "maxWidth": "100%",
+  "autoClose": null,
+  "closeOnClick": null,
+});
+
+        
+            
+                var html_765fb47540a799403d39afd552c8a8ee = $(`<div id="html_765fb47540a799403d39afd552c8a8ee" style="width: 100.0%; height: 100.0%;">El Salvador: $21.44/hour</div>`)[0];
+                popup_9e99a597047857b61785c4af465bd51f.setContent(html_765fb47540a799403d39afd552c8a8ee);
+            
+        
+
+        marker_6a1b78f4fd67e380b6f620c345d38641.bindPopup(popup_9e99a597047857b61785c4af465bd51f)
+        ;
+
+        
+    
+    
+            var marker_794c3c1f549dddd9d86598981672a05f = L.marker(
+                [0.0, 0.0],
+                {
+  "draggable": null,
+  "autoPan": null,
+}
+            ).addTo(marker_cluster_794f8a26bc646a443bf24a010e0edd9a);
+        
+    
+        var popup_cbca4b7a3ee0bf8f2d360a1cd268d6c9 = L.popup({
+  "maxWidth": "100%",
+  "autoClose": null,
+  "closeOnClick": null,
+});
+
+        
+            
+                var html_c8cad0c0c2f4c12692877c812ef909d5 = $(`<div id="html_c8cad0c0c2f4c12692877c812ef909d5" style="width: 100.0%; height: 100.0%;">Eritrea: $61.25/hour</div>`)[0];
+                popup_cbca4b7a3ee0bf8f2d360a1cd268d6c9.setContent(html_c8cad0c0c2f4c12692877c812ef909d5);
+            
+        
+
+        marker_794c3c1f549dddd9d86598981672a05f.bindPopup(popup_cbca4b7a3ee0bf8f2d360a1cd268d6c9)
+        ;
+
+        
+    
+    
+            var marker_0f94248ec72b035c01abaec669ad8994 = L.marker(
+                [0.0, 0.0],
+                {
+  "draggable": null,
+  "autoPan": null,
+}
+            ).addTo(marker_cluster_794f8a26bc646a443bf24a010e0edd9a);
+        
+    
+        var popup_86c3b6c7316c4ae775ec0589ed0e7f46 = L.popup({
+  "maxWidth": "100%",
+  "autoClose": null,
+  "closeOnClick": null,
+});
+
+        
+            
+                var html_0af0715148b3ce20620fb0a8a6147c13 = $(`<div id="html_0af0715148b3ce20620fb0a8a6147c13" style="width: 100.0%; height: 100.0%;">Estonia: $23.61/hour</div>`)[0];
+                popup_86c3b6c7316c4ae775ec0589ed0e7f46.setContent(html_0af0715148b3ce20620fb0a8a6147c13);
+            
+        
+
+        marker_0f94248ec72b035c01abaec669ad8994.bindPopup(popup_86c3b6c7316c4ae775ec0589ed0e7f46)
+        ;
+
+        
+    
+    
+            var marker_5e5c7e056900c16f1b57150c1a0a2854 = L.marker(
+                [0.0, 0.0],
+                {
+  "draggable": null,
+  "autoPan": null,
+}
+            ).addTo(marker_cluster_794f8a26bc646a443bf24a010e0edd9a);
+        
+    
+        var popup_ba5924c34d3db706c0394e1133eac13b = L.popup({
+  "maxWidth": "100%",
+  "autoClose": null,
+  "closeOnClick": null,
+});
+
+        
+            
+                var html_401d7c281a0d798c55a0a872417a5f58 = $(`<div id="html_401d7c281a0d798c55a0a872417a5f58" style="width: 100.0%; height: 100.0%;">Ethiopia: $25.86/hour</div>`)[0];
+                popup_ba5924c34d3db706c0394e1133eac13b.setContent(html_401d7c281a0d798c55a0a872417a5f58);
+            
+        
+
+        marker_5e5c7e056900c16f1b57150c1a0a2854.bindPopup(popup_ba5924c34d3db706c0394e1133eac13b)
+        ;
+
+        
+    
+    
+            var marker_1b4120caaaf161bba56c8e70da3a75f2 = L.marker(
+                [0.0, 0.0],
+                {
+  "draggable": null,
+  "autoPan": null,
+}
+            ).addTo(marker_cluster_794f8a26bc646a443bf24a010e0edd9a);
+        
+    
+        var popup_9ae56e843c9344cd801f1c87d67e2aa6 = L.popup({
+  "maxWidth": "100%",
+  "autoClose": null,
+  "closeOnClick": null,
+});
+
+        
+            
+                var html_b700a297784f5ef110cdd470a5571c70 = $(`<div id="html_b700a297784f5ef110cdd470a5571c70" style="width: 100.0%; height: 100.0%;">Faroe Islands: $22.50/hour</div>`)[0];
+                popup_9ae56e843c9344cd801f1c87d67e2aa6.setContent(html_b700a297784f5ef110cdd470a5571c70);
+            
+        
+
+        marker_1b4120caaaf161bba56c8e70da3a75f2.bindPopup(popup_9ae56e843c9344cd801f1c87d67e2aa6)
+        ;
+
+        
+    
+    
+            var marker_75aa2b0883c6068d18d0585ee79ac586 = L.marker(
+                [0.0, 0.0],
+                {
+  "draggable": null,
+  "autoPan": null,
+}
+            ).addTo(marker_cluster_794f8a26bc646a443bf24a010e0edd9a);
+        
+    
+        var popup_815d01dc6b0f950929844c545b57a6d2 = L.popup({
+  "maxWidth": "100%",
+  "autoClose": null,
+  "closeOnClick": null,
+});
+
+        
+            
+                var html_ac021dec393d1a86732aba270dffe315 = $(`<div id="html_ac021dec393d1a86732aba270dffe315" style="width: 100.0%; height: 100.0%;">Fiji: $15.83/hour</div>`)[0];
+                popup_815d01dc6b0f950929844c545b57a6d2.setContent(html_ac021dec393d1a86732aba270dffe315);
+            
+        
+
+        marker_75aa2b0883c6068d18d0585ee79ac586.bindPopup(popup_815d01dc6b0f950929844c545b57a6d2)
+        ;
+
+        
+    
+    
+            var marker_4741795ada46b3a77faf88be12cbb168 = L.marker(
+                [0.0, 0.0],
+                {
+  "draggable": null,
+  "autoPan": null,
+}
+            ).addTo(marker_cluster_794f8a26bc646a443bf24a010e0edd9a);
+        
+    
+        var popup_6a46638494c7e8520e2265a8b0d34fd7 = L.popup({
+  "maxWidth": "100%",
+  "autoClose": null,
+  "closeOnClick": null,
+});
+
+        
+            
+                var html_d374d8892f110d2ebaef53953864f9f2 = $(`<div id="html_d374d8892f110d2ebaef53953864f9f2" style="width: 100.0%; height: 100.0%;">Finland: $23.22/hour</div>`)[0];
+                popup_6a46638494c7e8520e2265a8b0d34fd7.setContent(html_d374d8892f110d2ebaef53953864f9f2);
+            
+        
+
+        marker_4741795ada46b3a77faf88be12cbb168.bindPopup(popup_6a46638494c7e8520e2265a8b0d34fd7)
+        ;
+
+        
+    
+    
+            var marker_4512a992bbf2f2bd5c7d479b14cca01e = L.marker(
+                [0.0, 0.0],
+                {
+  "draggable": null,
+  "autoPan": null,
+}
+            ).addTo(marker_cluster_794f8a26bc646a443bf24a010e0edd9a);
+        
+    
+        var popup_17d4c54d565b39096164fccc82bf14e1 = L.popup({
+  "maxWidth": "100%",
+  "autoClose": null,
+  "closeOnClick": null,
+});
+
+        
+            
+                var html_9096490b4147eb1fad9353b2dc8033ea = $(`<div id="html_9096490b4147eb1fad9353b2dc8033ea" style="width: 100.0%; height: 100.0%;">France: $23.82/hour</div>`)[0];
+                popup_17d4c54d565b39096164fccc82bf14e1.setContent(html_9096490b4147eb1fad9353b2dc8033ea);
+            
+        
+
+        marker_4512a992bbf2f2bd5c7d479b14cca01e.bindPopup(popup_17d4c54d565b39096164fccc82bf14e1)
+        ;
+
+        
+    
+    
+            var marker_b12799bf9771133e38900ac3e11aa9e2 = L.marker(
+                [0.0, 0.0],
+                {
+  "draggable": null,
+  "autoPan": null,
+}
+            ).addTo(marker_cluster_794f8a26bc646a443bf24a010e0edd9a);
+        
+    
+        var popup_15e8148046e1bd5380e19b37683541d5 = L.popup({
+  "maxWidth": "100%",
+  "autoClose": null,
+  "closeOnClick": null,
+});
+
+        
+            
+                var html_f180e83f99c6ba230a4788536b50dc6f = $(`<div id="html_f180e83f99c6ba230a4788536b50dc6f" style="width: 100.0%; height: 100.0%;">French Guiana: $34.00/hour</div>`)[0];
+                popup_15e8148046e1bd5380e19b37683541d5.setContent(html_f180e83f99c6ba230a4788536b50dc6f);
+            
+        
+
+        marker_b12799bf9771133e38900ac3e11aa9e2.bindPopup(popup_15e8148046e1bd5380e19b37683541d5)
+        ;
+
+        
+    
+    
+            var marker_c219350ba512a36800447491212e39f0 = L.marker(
+                [0.0, 0.0],
+                {
+  "draggable": null,
+  "autoPan": null,
+}
+            ).addTo(marker_cluster_794f8a26bc646a443bf24a010e0edd9a);
+        
+    
+        var popup_73597bd2dac5f8f8a341f9abb373d384 = L.popup({
+  "maxWidth": "100%",
+  "autoClose": null,
+  "closeOnClick": null,
+});
+
+        
+            
+                var html_16bf423497f3e84aefed19e48cbbdd7f = $(`<div id="html_16bf423497f3e84aefed19e48cbbdd7f" style="width: 100.0%; height: 100.0%;">French Polynesia: $19.03/hour</div>`)[0];
+                popup_73597bd2dac5f8f8a341f9abb373d384.setContent(html_16bf423497f3e84aefed19e48cbbdd7f);
+            
+        
+
+        marker_c219350ba512a36800447491212e39f0.bindPopup(popup_73597bd2dac5f8f8a341f9abb373d384)
+        ;
+
+        
+    
+    
+            var marker_5f1ff3e39778945ce2686d10a85f4b92 = L.marker(
+                [0.0, 0.0],
+                {
+  "draggable": null,
+  "autoPan": null,
+}
+            ).addTo(marker_cluster_794f8a26bc646a443bf24a010e0edd9a);
+        
+    
+        var popup_1f3c99b027143281e139021099557817 = L.popup({
+  "maxWidth": "100%",
+  "autoClose": null,
+  "closeOnClick": null,
+});
+
+        
+            
+                var html_15b5ced794c82f3ed0f5da97d9e57700 = $(`<div id="html_15b5ced794c82f3ed0f5da97d9e57700" style="width: 100.0%; height: 100.0%;">Gabon: $20.62/hour</div>`)[0];
+                popup_1f3c99b027143281e139021099557817.setContent(html_15b5ced794c82f3ed0f5da97d9e57700);
+            
+        
+
+        marker_5f1ff3e39778945ce2686d10a85f4b92.bindPopup(popup_1f3c99b027143281e139021099557817)
+        ;
+
+        
+    
+    
+            var marker_2eafacb3ebffd25c5f839d7c04e481e3 = L.marker(
+                [0.0, 0.0],
+                {
+  "draggable": null,
+  "autoPan": null,
+}
+            ).addTo(marker_cluster_794f8a26bc646a443bf24a010e0edd9a);
+        
+    
+        var popup_1998b538e33a4e406adf8a0385dd8c98 = L.popup({
+  "maxWidth": "100%",
+  "autoClose": null,
+  "closeOnClick": null,
+});
+
+        
+            
+                var html_ed50d574168b9a27b05e6afec287f311 = $(`<div id="html_ed50d574168b9a27b05e6afec287f311" style="width: 100.0%; height: 100.0%;">Gambia: $22.50/hour</div>`)[0];
+                popup_1998b538e33a4e406adf8a0385dd8c98.setContent(html_ed50d574168b9a27b05e6afec287f311);
+            
+        
+
+        marker_2eafacb3ebffd25c5f839d7c04e481e3.bindPopup(popup_1998b538e33a4e406adf8a0385dd8c98)
+        ;
+
+        
+    
+    
+            var marker_fd8680573bb0cc363f88c7588065d827 = L.marker(
+                [0.0, 0.0],
+                {
+  "draggable": null,
+  "autoPan": null,
+}
+            ).addTo(marker_cluster_794f8a26bc646a443bf24a010e0edd9a);
+        
+    
+        var popup_47706fba3c8fa12f0c72733462f8c80f = L.popup({
+  "maxWidth": "100%",
+  "autoClose": null,
+  "closeOnClick": null,
+});
+
+        
+            
+                var html_d189fd5bd6926102179540c457686e20 = $(`<div id="html_d189fd5bd6926102179540c457686e20" style="width: 100.0%; height: 100.0%;">Georgia: $23.51/hour</div>`)[0];
+                popup_47706fba3c8fa12f0c72733462f8c80f.setContent(html_d189fd5bd6926102179540c457686e20);
+            
+        
+
+        marker_fd8680573bb0cc363f88c7588065d827.bindPopup(popup_47706fba3c8fa12f0c72733462f8c80f)
+        ;
+
+        
+    
+    
+            var marker_7a2e1b6ba12441ce15e79ec28ce08bfc = L.marker(
+                [0.0, 0.0],
+                {
+  "draggable": null,
+  "autoPan": null,
+}
+            ).addTo(marker_cluster_794f8a26bc646a443bf24a010e0edd9a);
+        
+    
+        var popup_832aea2bbe37e296f7485a4ea77fba25 = L.popup({
+  "maxWidth": "100%",
+  "autoClose": null,
+  "closeOnClick": null,
+});
+
+        
+            
+                var html_a900a4994509aeb331c2e763d6363fee = $(`<div id="html_a900a4994509aeb331c2e763d6363fee" style="width: 100.0%; height: 100.0%;">Germany: $24.63/hour</div>`)[0];
+                popup_832aea2bbe37e296f7485a4ea77fba25.setContent(html_a900a4994509aeb331c2e763d6363fee);
+            
+        
+
+        marker_7a2e1b6ba12441ce15e79ec28ce08bfc.bindPopup(popup_832aea2bbe37e296f7485a4ea77fba25)
+        ;
+
+        
+    
+    
+            var marker_e9caf1054ecbb1fd9ce2235b6f1dd03d = L.marker(
+                [0.0, 0.0],
+                {
+  "draggable": null,
+  "autoPan": null,
+}
+            ).addTo(marker_cluster_794f8a26bc646a443bf24a010e0edd9a);
+        
+    
+        var popup_67fee4931f89d9c04795efc84b23af85 = L.popup({
+  "maxWidth": "100%",
+  "autoClose": null,
+  "closeOnClick": null,
+});
+
+        
+            
+                var html_6f2ab03cc92f389a0729e28c3a899879 = $(`<div id="html_6f2ab03cc92f389a0729e28c3a899879" style="width: 100.0%; height: 100.0%;">Ghana: $20.14/hour</div>`)[0];
+                popup_67fee4931f89d9c04795efc84b23af85.setContent(html_6f2ab03cc92f389a0729e28c3a899879);
+            
+        
+
+        marker_e9caf1054ecbb1fd9ce2235b6f1dd03d.bindPopup(popup_67fee4931f89d9c04795efc84b23af85)
+        ;
+
+        
+    
+    
+            var marker_33034caaefc1b18877fab167d9c0335b = L.marker(
+                [0.0, 0.0],
+                {
+  "draggable": null,
+  "autoPan": null,
+}
+            ).addTo(marker_cluster_794f8a26bc646a443bf24a010e0edd9a);
+        
+    
+        var popup_a682b02d7736b1b3417fadc706758812 = L.popup({
+  "maxWidth": "100%",
+  "autoClose": null,
+  "closeOnClick": null,
+});
+
+        
+            
+                var html_a10027b4962534b77d8bec81007e644e = $(`<div id="html_a10027b4962534b77d8bec81007e644e" style="width: 100.0%; height: 100.0%;">Gibraltar: $25.83/hour</div>`)[0];
+                popup_a682b02d7736b1b3417fadc706758812.setContent(html_a10027b4962534b77d8bec81007e644e);
+            
+        
+
+        marker_33034caaefc1b18877fab167d9c0335b.bindPopup(popup_a682b02d7736b1b3417fadc706758812)
+        ;
+
+        
+    
+    
+            var marker_8ba909c06e24812925d7ddc6097e8437 = L.marker(
+                [0.0, 0.0],
+                {
+  "draggable": null,
+  "autoPan": null,
+}
+            ).addTo(marker_cluster_794f8a26bc646a443bf24a010e0edd9a);
+        
+    
+        var popup_3ab67e7ce7a843f4e842e493ac1e2fbe = L.popup({
+  "maxWidth": "100%",
+  "autoClose": null,
+  "closeOnClick": null,
+});
+
+        
+            
+                var html_0e850931ee1c0d5716bebb25cc516d7f = $(`<div id="html_0e850931ee1c0d5716bebb25cc516d7f" style="width: 100.0%; height: 100.0%;">Greece: $23.92/hour</div>`)[0];
+                popup_3ab67e7ce7a843f4e842e493ac1e2fbe.setContent(html_0e850931ee1c0d5716bebb25cc516d7f);
+            
+        
+
+        marker_8ba909c06e24812925d7ddc6097e8437.bindPopup(popup_3ab67e7ce7a843f4e842e493ac1e2fbe)
+        ;
+
+        
+    
+    
+            var marker_f2b815394e08e86e55a5a11031b2a5e1 = L.marker(
+                [0.0, 0.0],
+                {
+  "draggable": null,
+  "autoPan": null,
+}
+            ).addTo(marker_cluster_794f8a26bc646a443bf24a010e0edd9a);
+        
+    
+        var popup_0bb37cdb3d3cecaeded335edebb85b35 = L.popup({
+  "maxWidth": "100%",
+  "autoClose": null,
+  "closeOnClick": null,
+});
+
+        
+            
+                var html_a4715ec2521782745cab51b761f67999 = $(`<div id="html_a4715ec2521782745cab51b761f67999" style="width: 100.0%; height: 100.0%;">Greenland: $22.50/hour</div>`)[0];
+                popup_0bb37cdb3d3cecaeded335edebb85b35.setContent(html_a4715ec2521782745cab51b761f67999);
+            
+        
+
+        marker_f2b815394e08e86e55a5a11031b2a5e1.bindPopup(popup_0bb37cdb3d3cecaeded335edebb85b35)
+        ;
+
+        
+    
+    
+            var marker_7d7b1f3c83156faa36a40f8477babd20 = L.marker(
+                [0.0, 0.0],
+                {
+  "draggable": null,
+  "autoPan": null,
+}
+            ).addTo(marker_cluster_794f8a26bc646a443bf24a010e0edd9a);
+        
+    
+        var popup_3a296b097d291a587cc2949792c09102 = L.popup({
+  "maxWidth": "100%",
+  "autoClose": null,
+  "closeOnClick": null,
+});
+
+        
+            
+                var html_8bfa2051032aeef56cb26539b275f32b = $(`<div id="html_8bfa2051032aeef56cb26539b275f32b" style="width: 100.0%; height: 100.0%;">Grenada: $24.39/hour</div>`)[0];
+                popup_3a296b097d291a587cc2949792c09102.setContent(html_8bfa2051032aeef56cb26539b275f32b);
+            
+        
+
+        marker_7d7b1f3c83156faa36a40f8477babd20.bindPopup(popup_3a296b097d291a587cc2949792c09102)
+        ;
+
+        
+    
+    
+            var marker_39cd1026d6539df124d0e738a2552023 = L.marker(
+                [0.0, 0.0],
+                {
+  "draggable": null,
+  "autoPan": null,
+}
+            ).addTo(marker_cluster_794f8a26bc646a443bf24a010e0edd9a);
+        
+    
+        var popup_4624997a1cbeecda4ecc32333e10a1fa = L.popup({
+  "maxWidth": "100%",
+  "autoClose": null,
+  "closeOnClick": null,
+});
+
+        
+            
+                var html_017814a8e8140904b707a4fdc3a0ec9e = $(`<div id="html_017814a8e8140904b707a4fdc3a0ec9e" style="width: 100.0%; height: 100.0%;">Guadeloupe: $18.43/hour</div>`)[0];
+                popup_4624997a1cbeecda4ecc32333e10a1fa.setContent(html_017814a8e8140904b707a4fdc3a0ec9e);
+            
+        
+
+        marker_39cd1026d6539df124d0e738a2552023.bindPopup(popup_4624997a1cbeecda4ecc32333e10a1fa)
+        ;
+
+        
+    
+    
+            var marker_3b57aef29b5527cc3fc6fb909adfb422 = L.marker(
+                [0.0, 0.0],
+                {
+  "draggable": null,
+  "autoPan": null,
+}
+            ).addTo(marker_cluster_794f8a26bc646a443bf24a010e0edd9a);
+        
+    
+        var popup_aea5fe9bfcc4ff949e1bc35dcf2ab364 = L.popup({
+  "maxWidth": "100%",
+  "autoClose": null,
+  "closeOnClick": null,
+});
+
+        
+            
+                var html_ffb629adf7e5a0b1749d10f072a7f904 = $(`<div id="html_ffb629adf7e5a0b1749d10f072a7f904" style="width: 100.0%; height: 100.0%;">Guam: $22.50/hour</div>`)[0];
+                popup_aea5fe9bfcc4ff949e1bc35dcf2ab364.setContent(html_ffb629adf7e5a0b1749d10f072a7f904);
+            
+        
+
+        marker_3b57aef29b5527cc3fc6fb909adfb422.bindPopup(popup_aea5fe9bfcc4ff949e1bc35dcf2ab364)
+        ;
+
+        
+    
+    
+            var marker_16d0787602c07f70625eaf8839b1844c = L.marker(
+                [0.0, 0.0],
+                {
+  "draggable": null,
+  "autoPan": null,
+}
+            ).addTo(marker_cluster_794f8a26bc646a443bf24a010e0edd9a);
+        
+    
+        var popup_2ac77e66b3336337992b7a800f828d2b = L.popup({
+  "maxWidth": "100%",
+  "autoClose": null,
+  "closeOnClick": null,
+});
+
+        
+            
+                var html_d353e6e0f8e4c473529e196db6159945 = $(`<div id="html_d353e6e0f8e4c473529e196db6159945" style="width: 100.0%; height: 100.0%;">Guatemala: $28.00/hour</div>`)[0];
+                popup_2ac77e66b3336337992b7a800f828d2b.setContent(html_d353e6e0f8e4c473529e196db6159945);
+            
+        
+
+        marker_16d0787602c07f70625eaf8839b1844c.bindPopup(popup_2ac77e66b3336337992b7a800f828d2b)
+        ;
+
+        
+    
+    
+            var marker_bed687ef901a4581e51fbeee5d678ef3 = L.marker(
+                [0.0, 0.0],
+                {
+  "draggable": null,
+  "autoPan": null,
+}
+            ).addTo(marker_cluster_794f8a26bc646a443bf24a010e0edd9a);
+        
+    
+        var popup_8e00560f55371234d95a255b7608b1d8 = L.popup({
+  "maxWidth": "100%",
+  "autoClose": null,
+  "closeOnClick": null,
+});
+
+        
+            
+                var html_bbf38a59647771df3f9ae890097aa882 = $(`<div id="html_bbf38a59647771df3f9ae890097aa882" style="width: 100.0%; height: 100.0%;">Guernsey: $19.21/hour</div>`)[0];
+                popup_8e00560f55371234d95a255b7608b1d8.setContent(html_bbf38a59647771df3f9ae890097aa882);
+            
+        
+
+        marker_bed687ef901a4581e51fbeee5d678ef3.bindPopup(popup_8e00560f55371234d95a255b7608b1d8)
+        ;
+
+        
+    
+    
+            var marker_b087f3e297b966da2ed6810cdbd9b32e = L.marker(
+                [0.0, 0.0],
+                {
+  "draggable": null,
+  "autoPan": null,
+}
+            ).addTo(marker_cluster_794f8a26bc646a443bf24a010e0edd9a);
+        
+    
+        var popup_94530935c1111e86c0752a238c656630 = L.popup({
+  "maxWidth": "100%",
+  "autoClose": null,
+  "closeOnClick": null,
+});
+
+        
+            
+                var html_3fd8eeac20c05c2df8ca768334a22496 = $(`<div id="html_3fd8eeac20c05c2df8ca768334a22496" style="width: 100.0%; height: 100.0%;">Guinea: $24.25/hour</div>`)[0];
+                popup_94530935c1111e86c0752a238c656630.setContent(html_3fd8eeac20c05c2df8ca768334a22496);
+            
+        
+
+        marker_b087f3e297b966da2ed6810cdbd9b32e.bindPopup(popup_94530935c1111e86c0752a238c656630)
+        ;
+
+        
+    
+    
+            var marker_04f83255af153c7946bb1d7254467880 = L.marker(
+                [0.0, 0.0],
+                {
+  "draggable": null,
+  "autoPan": null,
+}
+            ).addTo(marker_cluster_794f8a26bc646a443bf24a010e0edd9a);
+        
+    
+        var popup_674475b03ff93642d77d94f50360cf59 = L.popup({
+  "maxWidth": "100%",
+  "autoClose": null,
+  "closeOnClick": null,
+});
+
+        
+            
+                var html_c8df94d62b12181626a815583913a6a8 = $(`<div id="html_c8df94d62b12181626a815583913a6a8" style="width: 100.0%; height: 100.0%;">Guyana: $23.55/hour</div>`)[0];
+                popup_674475b03ff93642d77d94f50360cf59.setContent(html_c8df94d62b12181626a815583913a6a8);
+            
+        
+
+        marker_04f83255af153c7946bb1d7254467880.bindPopup(popup_674475b03ff93642d77d94f50360cf59)
+        ;
+
+        
+    
+    
+            var marker_67e871afdbaed0829bf45b4b2b67a5ae = L.marker(
+                [0.0, 0.0],
+                {
+  "draggable": null,
+  "autoPan": null,
+}
+            ).addTo(marker_cluster_794f8a26bc646a443bf24a010e0edd9a);
+        
+    
+        var popup_3f8ee32ac140b7ee8ec3eff891a1f3d2 = L.popup({
+  "maxWidth": "100%",
+  "autoClose": null,
+  "closeOnClick": null,
+});
+
+        
+            
+                var html_92921103c830f11e266e105dab5c3641 = $(`<div id="html_92921103c830f11e266e105dab5c3641" style="width: 100.0%; height: 100.0%;">Haiti: $23.72/hour</div>`)[0];
+                popup_3f8ee32ac140b7ee8ec3eff891a1f3d2.setContent(html_92921103c830f11e266e105dab5c3641);
+            
+        
+
+        marker_67e871afdbaed0829bf45b4b2b67a5ae.bindPopup(popup_3f8ee32ac140b7ee8ec3eff891a1f3d2)
+        ;
+
+        
+    
+    
+            var marker_303d1513986767ac17f112a96b2c22be = L.marker(
+                [0.0, 0.0],
+                {
+  "draggable": null,
+  "autoPan": null,
+}
+            ).addTo(marker_cluster_794f8a26bc646a443bf24a010e0edd9a);
+        
+    
+        var popup_21485837eff850ed940ebd39432146ac = L.popup({
+  "maxWidth": "100%",
+  "autoClose": null,
+  "closeOnClick": null,
+});
+
+        
+            
+                var html_b8d6c7d5685e441109f1cf8e488b87eb = $(`<div id="html_b8d6c7d5685e441109f1cf8e488b87eb" style="width: 100.0%; height: 100.0%;">Holy See: $17.50/hour</div>`)[0];
+                popup_21485837eff850ed940ebd39432146ac.setContent(html_b8d6c7d5685e441109f1cf8e488b87eb);
+            
+        
+
+        marker_303d1513986767ac17f112a96b2c22be.bindPopup(popup_21485837eff850ed940ebd39432146ac)
+        ;
+
+        
+    
+    
+            var marker_fb0cd5e8848aef495916b83ad0544244 = L.marker(
+                [0.0, 0.0],
+                {
+  "draggable": null,
+  "autoPan": null,
+}
+            ).addTo(marker_cluster_794f8a26bc646a443bf24a010e0edd9a);
+        
+    
+        var popup_bed83221f78169f5b8b4a0827a39d405 = L.popup({
+  "maxWidth": "100%",
+  "autoClose": null,
+  "closeOnClick": null,
+});
+
+        
+            
+                var html_21e4c7bd75eabc0de809972439c22174 = $(`<div id="html_21e4c7bd75eabc0de809972439c22174" style="width: 100.0%; height: 100.0%;">Honduras: $21.97/hour</div>`)[0];
+                popup_bed83221f78169f5b8b4a0827a39d405.setContent(html_21e4c7bd75eabc0de809972439c22174);
+            
+        
+
+        marker_fb0cd5e8848aef495916b83ad0544244.bindPopup(popup_bed83221f78169f5b8b4a0827a39d405)
+        ;
+
+        
+    
+    
+            var marker_0947c2126a38478f7979330f6edaf809 = L.marker(
+                [0.0, 0.0],
+                {
+  "draggable": null,
+  "autoPan": null,
+}
+            ).addTo(marker_cluster_794f8a26bc646a443bf24a010e0edd9a);
+        
+    
+        var popup_e170a9a26c80cb09602e6c0db046e752 = L.popup({
+  "maxWidth": "100%",
+  "autoClose": null,
+  "closeOnClick": null,
+});
+
+        
+            
+                var html_1a67d5e12d443bcb42d3441109afd92b = $(`<div id="html_1a67d5e12d443bcb42d3441109afd92b" style="width: 100.0%; height: 100.0%;">Hong Kong: $23.54/hour</div>`)[0];
+                popup_e170a9a26c80cb09602e6c0db046e752.setContent(html_1a67d5e12d443bcb42d3441109afd92b);
+            
+        
+
+        marker_0947c2126a38478f7979330f6edaf809.bindPopup(popup_e170a9a26c80cb09602e6c0db046e752)
+        ;
+
+        
+    
+    
+            var marker_dc9ba77e10865e2a9e92d0a09f3bb013 = L.marker(
+                [0.0, 0.0],
+                {
+  "draggable": null,
+  "autoPan": null,
+}
+            ).addTo(marker_cluster_794f8a26bc646a443bf24a010e0edd9a);
+        
+    
+        var popup_4bd7037ffb7b2e57a57a4ce7a00b6750 = L.popup({
+  "maxWidth": "100%",
+  "autoClose": null,
+  "closeOnClick": null,
+});
+
+        
+            
+                var html_9b519ef4c9eb2a7a82507f47809df361 = $(`<div id="html_9b519ef4c9eb2a7a82507f47809df361" style="width: 100.0%; height: 100.0%;">Hungary: $25.68/hour</div>`)[0];
+                popup_4bd7037ffb7b2e57a57a4ce7a00b6750.setContent(html_9b519ef4c9eb2a7a82507f47809df361);
+            
+        
+
+        marker_dc9ba77e10865e2a9e92d0a09f3bb013.bindPopup(popup_4bd7037ffb7b2e57a57a4ce7a00b6750)
+        ;
+
+        
+    
+    
+            var marker_91991125b516a6f62f42d37a55ff3109 = L.marker(
+                [0.0, 0.0],
+                {
+  "draggable": null,
+  "autoPan": null,
+}
+            ).addTo(marker_cluster_794f8a26bc646a443bf24a010e0edd9a);
+        
+    
+        var popup_a6f8cdb9f5b5a3f815bb606d356ecc76 = L.popup({
+  "maxWidth": "100%",
+  "autoClose": null,
+  "closeOnClick": null,
+});
+
+        
+            
+                var html_3acce7b761e8568944a5411dc277c649 = $(`<div id="html_3acce7b761e8568944a5411dc277c649" style="width: 100.0%; height: 100.0%;">Iceland: $22.60/hour</div>`)[0];
+                popup_a6f8cdb9f5b5a3f815bb606d356ecc76.setContent(html_3acce7b761e8568944a5411dc277c649);
+            
+        
+
+        marker_91991125b516a6f62f42d37a55ff3109.bindPopup(popup_a6f8cdb9f5b5a3f815bb606d356ecc76)
+        ;
+
+        
+    
+    
+            var marker_676032b8434c3786c7aa2c223f94e57f = L.marker(
+                [0.0, 0.0],
+                {
+  "draggable": null,
+  "autoPan": null,
+}
+            ).addTo(marker_cluster_794f8a26bc646a443bf24a010e0edd9a);
+        
+    
+        var popup_3455a0036b8f0f3ae0c5c7186e152601 = L.popup({
+  "maxWidth": "100%",
+  "autoClose": null,
+  "closeOnClick": null,
+});
+
+        
+            
+                var html_09004e2db5643611563ee22777e0f7f1 = $(`<div id="html_09004e2db5643611563ee22777e0f7f1" style="width: 100.0%; height: 100.0%;">India: $22.84/hour</div>`)[0];
+                popup_3455a0036b8f0f3ae0c5c7186e152601.setContent(html_09004e2db5643611563ee22777e0f7f1);
+            
+        
+
+        marker_676032b8434c3786c7aa2c223f94e57f.bindPopup(popup_3455a0036b8f0f3ae0c5c7186e152601)
+        ;
+
+        
+    
+    
+            var marker_31c13d93840aae44bacf2eb4827cfa72 = L.marker(
+                [0.0, 0.0],
+                {
+  "draggable": null,
+  "autoPan": null,
+}
+            ).addTo(marker_cluster_794f8a26bc646a443bf24a010e0edd9a);
+        
+    
+        var popup_2e80945078e5bdc3bd82608f465ea634 = L.popup({
+  "maxWidth": "100%",
+  "autoClose": null,
+  "closeOnClick": null,
+});
+
+        
+            
+                var html_c40864bbf926976be5df688b6bc1f618 = $(`<div id="html_c40864bbf926976be5df688b6bc1f618" style="width: 100.0%; height: 100.0%;">Indonesia: $25.19/hour</div>`)[0];
+                popup_2e80945078e5bdc3bd82608f465ea634.setContent(html_c40864bbf926976be5df688b6bc1f618);
+            
+        
+
+        marker_31c13d93840aae44bacf2eb4827cfa72.bindPopup(popup_2e80945078e5bdc3bd82608f465ea634)
+        ;
+
+        
+    
+    
+            var marker_0514b62b1d97efb653e3158b27858808 = L.marker(
+                [0.0, 0.0],
+                {
+  "draggable": null,
+  "autoPan": null,
+}
+            ).addTo(marker_cluster_794f8a26bc646a443bf24a010e0edd9a);
+        
+    
+        var popup_fa229433b46b7a2ad87a3defd2f450a0 = L.popup({
+  "maxWidth": "100%",
+  "autoClose": null,
+  "closeOnClick": null,
+});
+
+        
+            
+                var html_13eaaf3806943566b0ae4bbebb49a6e4 = $(`<div id="html_13eaaf3806943566b0ae4bbebb49a6e4" style="width: 100.0%; height: 100.0%;">Ireland: $24.33/hour</div>`)[0];
+                popup_fa229433b46b7a2ad87a3defd2f450a0.setContent(html_13eaaf3806943566b0ae4bbebb49a6e4);
+            
+        
+
+        marker_0514b62b1d97efb653e3158b27858808.bindPopup(popup_fa229433b46b7a2ad87a3defd2f450a0)
+        ;
+
+        
+    
+    
+            var marker_87058d7e85386fb54e061a2dffdd8e88 = L.marker(
+                [0.0, 0.0],
+                {
+  "draggable": null,
+  "autoPan": null,
+}
+            ).addTo(marker_cluster_794f8a26bc646a443bf24a010e0edd9a);
+        
+    
+        var popup_e55812c3b5761eb9203514c6630bacd7 = L.popup({
+  "maxWidth": "100%",
+  "autoClose": null,
+  "closeOnClick": null,
+});
+
+        
+            
+                var html_9a264abdd816a47287b149feb3997def = $(`<div id="html_9a264abdd816a47287b149feb3997def" style="width: 100.0%; height: 100.0%;">Isle of Man: $23.92/hour</div>`)[0];
+                popup_e55812c3b5761eb9203514c6630bacd7.setContent(html_9a264abdd816a47287b149feb3997def);
+            
+        
+
+        marker_87058d7e85386fb54e061a2dffdd8e88.bindPopup(popup_e55812c3b5761eb9203514c6630bacd7)
+        ;
+
+        
+    
+    
+            var marker_c4763ae8354d2c6cb103efd1e2217f0e = L.marker(
+                [0.0, 0.0],
+                {
+  "draggable": null,
+  "autoPan": null,
+}
+            ).addTo(marker_cluster_794f8a26bc646a443bf24a010e0edd9a);
+        
+    
+        var popup_c9ece42514a2bd3da36c87f7843b35cc = L.popup({
+  "maxWidth": "100%",
+  "autoClose": null,
+  "closeOnClick": null,
+});
+
+        
+            
+                var html_991ce90c9c12e0ffee8803832a6e360e = $(`<div id="html_991ce90c9c12e0ffee8803832a6e360e" style="width: 100.0%; height: 100.0%;">Israel: $24.26/hour</div>`)[0];
+                popup_c9ece42514a2bd3da36c87f7843b35cc.setContent(html_991ce90c9c12e0ffee8803832a6e360e);
+            
+        
+
+        marker_c4763ae8354d2c6cb103efd1e2217f0e.bindPopup(popup_c9ece42514a2bd3da36c87f7843b35cc)
+        ;
+
+        
+    
+    
+            var marker_fbd289858bed6b238c1f57bfb63a808c = L.marker(
+                [0.0, 0.0],
+                {
+  "draggable": null,
+  "autoPan": null,
+}
+            ).addTo(marker_cluster_794f8a26bc646a443bf24a010e0edd9a);
+        
+    
+        var popup_9a1b1f555916f58e6914b4495052a1f5 = L.popup({
+  "maxWidth": "100%",
+  "autoClose": null,
+  "closeOnClick": null,
+});
+
+        
+            
+                var html_84b0be116c3733f214e28651dcd16fee = $(`<div id="html_84b0be116c3733f214e28651dcd16fee" style="width: 100.0%; height: 100.0%;">Italy: $23.73/hour</div>`)[0];
+                popup_9a1b1f555916f58e6914b4495052a1f5.setContent(html_84b0be116c3733f214e28651dcd16fee);
+            
+        
+
+        marker_fbd289858bed6b238c1f57bfb63a808c.bindPopup(popup_9a1b1f555916f58e6914b4495052a1f5)
+        ;
+
+        
+    
+    
+            var marker_ed5ae9858cda067e8d52e60af03a1e26 = L.marker(
+                [0.0, 0.0],
+                {
+  "draggable": null,
+  "autoPan": null,
+}
+            ).addTo(marker_cluster_794f8a26bc646a443bf24a010e0edd9a);
+        
+    
+        var popup_929258b15df5875549af4c236e070d18 = L.popup({
+  "maxWidth": "100%",
+  "autoClose": null,
+  "closeOnClick": null,
+});
+
+        
+            
+                var html_cbd0131197a5ab84b28dde38accefef4 = $(`<div id="html_cbd0131197a5ab84b28dde38accefef4" style="width: 100.0%; height: 100.0%;">Jamaica: $23.29/hour</div>`)[0];
+                popup_929258b15df5875549af4c236e070d18.setContent(html_cbd0131197a5ab84b28dde38accefef4);
+            
+        
+
+        marker_ed5ae9858cda067e8d52e60af03a1e26.bindPopup(popup_929258b15df5875549af4c236e070d18)
+        ;
+
+        
+    
+    
+            var marker_851200cf8da9616e956786dc176be9f7 = L.marker(
+                [0.0, 0.0],
+                {
+  "draggable": null,
+  "autoPan": null,
+}
+            ).addTo(marker_cluster_794f8a26bc646a443bf24a010e0edd9a);
+        
+    
+        var popup_01079478600cb648d45148db2c527ba4 = L.popup({
+  "maxWidth": "100%",
+  "autoClose": null,
+  "closeOnClick": null,
+});
+
+        
+            
+                var html_014d799d50b709702cb053239fcc16bb = $(`<div id="html_014d799d50b709702cb053239fcc16bb" style="width: 100.0%; height: 100.0%;">Japan: $22.32/hour</div>`)[0];
+                popup_01079478600cb648d45148db2c527ba4.setContent(html_014d799d50b709702cb053239fcc16bb);
+            
+        
+
+        marker_851200cf8da9616e956786dc176be9f7.bindPopup(popup_01079478600cb648d45148db2c527ba4)
+        ;
+
+        
+    
+    
+            var marker_e4fff61797e442a0da16a4227b12e6a8 = L.marker(
+                [0.0, 0.0],
+                {
+  "draggable": null,
+  "autoPan": null,
+}
+            ).addTo(marker_cluster_794f8a26bc646a443bf24a010e0edd9a);
+        
+    
+        var popup_be9eb4140e5e033b4539d4911f0be218 = L.popup({
+  "maxWidth": "100%",
+  "autoClose": null,
+  "closeOnClick": null,
+});
+
+        
+            
+                var html_1982ae055132e7a85fe12c27295626ce = $(`<div id="html_1982ae055132e7a85fe12c27295626ce" style="width: 100.0%; height: 100.0%;">Jersey: $26.54/hour</div>`)[0];
+                popup_be9eb4140e5e033b4539d4911f0be218.setContent(html_1982ae055132e7a85fe12c27295626ce);
+            
+        
+
+        marker_e4fff61797e442a0da16a4227b12e6a8.bindPopup(popup_be9eb4140e5e033b4539d4911f0be218)
+        ;
+
+        
+    
+    
+            var marker_8537164b0ed98a27109310b32fbe4785 = L.marker(
+                [0.0, 0.0],
+                {
+  "draggable": null,
+  "autoPan": null,
+}
+            ).addTo(marker_cluster_794f8a26bc646a443bf24a010e0edd9a);
+        
+    
+        var popup_c971c5b53a044c28887c5c1b5b039caf = L.popup({
+  "maxWidth": "100%",
+  "autoClose": null,
+  "closeOnClick": null,
+});
+
+        
+            
+                var html_0e4ca40c9eedafc0f49cf8dba1c7f4fe = $(`<div id="html_0e4ca40c9eedafc0f49cf8dba1c7f4fe" style="width: 100.0%; height: 100.0%;">Jordan: $24.97/hour</div>`)[0];
+                popup_c971c5b53a044c28887c5c1b5b039caf.setContent(html_0e4ca40c9eedafc0f49cf8dba1c7f4fe);
+            
+        
+
+        marker_8537164b0ed98a27109310b32fbe4785.bindPopup(popup_c971c5b53a044c28887c5c1b5b039caf)
+        ;
+
+        
+    
+    
+            var marker_8d623ac03c57e5f500de5062105589c7 = L.marker(
+                [0.0, 0.0],
+                {
+  "draggable": null,
+  "autoPan": null,
+}
+            ).addTo(marker_cluster_794f8a26bc646a443bf24a010e0edd9a);
+        
+    
+        var popup_dc1f1085921109f94676c967432a4280 = L.popup({
+  "maxWidth": "100%",
+  "autoClose": null,
+  "closeOnClick": null,
+});
+
+        
+            
+                var html_a4bea3983063785df5d6b9903d49236f = $(`<div id="html_a4bea3983063785df5d6b9903d49236f" style="width: 100.0%; height: 100.0%;">Kazakhstan: $23.57/hour</div>`)[0];
+                popup_dc1f1085921109f94676c967432a4280.setContent(html_a4bea3983063785df5d6b9903d49236f);
+            
+        
+
+        marker_8d623ac03c57e5f500de5062105589c7.bindPopup(popup_dc1f1085921109f94676c967432a4280)
+        ;
+
+        
+    
+    
+            var marker_5c05169938de6417247398d5a3b04ec5 = L.marker(
+                [0.0, 0.0],
+                {
+  "draggable": null,
+  "autoPan": null,
+}
+            ).addTo(marker_cluster_794f8a26bc646a443bf24a010e0edd9a);
+        
+    
+        var popup_36888ac0a6aacbcc0e0fcd38a126e9ce = L.popup({
+  "maxWidth": "100%",
+  "autoClose": null,
+  "closeOnClick": null,
+});
+
+        
+            
+                var html_9ed489737b2eefda43edb5a6193027a9 = $(`<div id="html_9ed489737b2eefda43edb5a6193027a9" style="width: 100.0%; height: 100.0%;">Kenya: $26.49/hour</div>`)[0];
+                popup_36888ac0a6aacbcc0e0fcd38a126e9ce.setContent(html_9ed489737b2eefda43edb5a6193027a9);
+            
+        
+
+        marker_5c05169938de6417247398d5a3b04ec5.bindPopup(popup_36888ac0a6aacbcc0e0fcd38a126e9ce)
+        ;
+
+        
+    
+    
+            var marker_bf5ac0f5bb15620bfd60488aa0bef191 = L.marker(
+                [0.0, 0.0],
+                {
+  "draggable": null,
+  "autoPan": null,
+}
+            ).addTo(marker_cluster_794f8a26bc646a443bf24a010e0edd9a);
+        
+    
+        var popup_6919815c9f125b22e12284afbdd42d3f = L.popup({
+  "maxWidth": "100%",
+  "autoClose": null,
+  "closeOnClick": null,
+});
+
+        
+            
+                var html_90b0e461efc44d5184c6a5abdd00c6ae = $(`<div id="html_90b0e461efc44d5184c6a5abdd00c6ae" style="width: 100.0%; height: 100.0%;">Kiribati: $21.25/hour</div>`)[0];
+                popup_6919815c9f125b22e12284afbdd42d3f.setContent(html_90b0e461efc44d5184c6a5abdd00c6ae);
+            
+        
+
+        marker_bf5ac0f5bb15620bfd60488aa0bef191.bindPopup(popup_6919815c9f125b22e12284afbdd42d3f)
+        ;
+
+        
+    
+    
+            var marker_9b5ab696067d764088a63dbe49aa887b = L.marker(
+                [0.0, 0.0],
+                {
+  "draggable": null,
+  "autoPan": null,
+}
+            ).addTo(marker_cluster_794f8a26bc646a443bf24a010e0edd9a);
+        
+    
+        var popup_ef68c1430feddbe7a2a054eff1458602 = L.popup({
+  "maxWidth": "100%",
+  "autoClose": null,
+  "closeOnClick": null,
+});
+
+        
+            
+                var html_a710afc98881aa73246b78204b0e41bf = $(`<div id="html_a710afc98881aa73246b78204b0e41bf" style="width: 100.0%; height: 100.0%;">Kuwait: $23.48/hour</div>`)[0];
+                popup_ef68c1430feddbe7a2a054eff1458602.setContent(html_a710afc98881aa73246b78204b0e41bf);
+            
+        
+
+        marker_9b5ab696067d764088a63dbe49aa887b.bindPopup(popup_ef68c1430feddbe7a2a054eff1458602)
+        ;
+
+        
+    
+    
+            var marker_ed26c81c7a6e370c0225282abc408d8a = L.marker(
+                [0.0, 0.0],
+                {
+  "draggable": null,
+  "autoPan": null,
+}
+            ).addTo(marker_cluster_794f8a26bc646a443bf24a010e0edd9a);
+        
+    
+        var popup_2c79bda09dfc8d3998695d8dfa868b51 = L.popup({
+  "maxWidth": "100%",
+  "autoClose": null,
+  "closeOnClick": null,
+});
+
+        
+            
+                var html_02f5330cf003c1149a18bd0d2a660e45 = $(`<div id="html_02f5330cf003c1149a18bd0d2a660e45" style="width: 100.0%; height: 100.0%;">Kyrgyzstan: $22.56/hour</div>`)[0];
+                popup_2c79bda09dfc8d3998695d8dfa868b51.setContent(html_02f5330cf003c1149a18bd0d2a660e45);
+            
+        
+
+        marker_ed26c81c7a6e370c0225282abc408d8a.bindPopup(popup_2c79bda09dfc8d3998695d8dfa868b51)
+        ;
+
+        
+    
+    
+            var marker_cb3fb90dced2bcf2bed81b14c636aa0a = L.marker(
+                [0.0, 0.0],
+                {
+  "draggable": null,
+  "autoPan": null,
+}
+            ).addTo(marker_cluster_794f8a26bc646a443bf24a010e0edd9a);
+        
+    
+        var popup_11f6098d9f58145d4893146a22cd1274 = L.popup({
+  "maxWidth": "100%",
+  "autoClose": null,
+  "closeOnClick": null,
+});
+
+        
+            
+                var html_1196e05868393251b84243ba7ea4606b = $(`<div id="html_1196e05868393251b84243ba7ea4606b" style="width: 100.0%; height: 100.0%;">Laos: $155.12/hour</div>`)[0];
+                popup_11f6098d9f58145d4893146a22cd1274.setContent(html_1196e05868393251b84243ba7ea4606b);
+            
+        
+
+        marker_cb3fb90dced2bcf2bed81b14c636aa0a.bindPopup(popup_11f6098d9f58145d4893146a22cd1274)
+        ;
+
+        
+    
+    
+            var marker_f2d934718a38544a2b3b3e0e30c1f234 = L.marker(
+                [0.0, 0.0],
+                {
+  "draggable": null,
+  "autoPan": null,
+}
+            ).addTo(marker_cluster_794f8a26bc646a443bf24a010e0edd9a);
+        
+    
+        var popup_2f8784b609b70f022ed5fdfba8ce79ef = L.popup({
+  "maxWidth": "100%",
+  "autoClose": null,
+  "closeOnClick": null,
+});
+
+        
+            
+                var html_106da22f9f28299be1fb5e6e13c50c4e = $(`<div id="html_106da22f9f28299be1fb5e6e13c50c4e" style="width: 100.0%; height: 100.0%;">Latvia: $26.39/hour</div>`)[0];
+                popup_2f8784b609b70f022ed5fdfba8ce79ef.setContent(html_106da22f9f28299be1fb5e6e13c50c4e);
+            
+        
+
+        marker_f2d934718a38544a2b3b3e0e30c1f234.bindPopup(popup_2f8784b609b70f022ed5fdfba8ce79ef)
+        ;
+
+        
+    
+    
+            var marker_07821105fc2bd5ad7aa7f02725f6fdb9 = L.marker(
+                [0.0, 0.0],
+                {
+  "draggable": null,
+  "autoPan": null,
+}
+            ).addTo(marker_cluster_794f8a26bc646a443bf24a010e0edd9a);
+        
+    
+        var popup_c827722d78f0875d69f2bb11eb972f28 = L.popup({
+  "maxWidth": "100%",
+  "autoClose": null,
+  "closeOnClick": null,
+});
+
+        
+            
+                var html_7ad7d2ab023ed736c217a4d9943a8cde = $(`<div id="html_7ad7d2ab023ed736c217a4d9943a8cde" style="width: 100.0%; height: 100.0%;">Lebanon: $22.62/hour</div>`)[0];
+                popup_c827722d78f0875d69f2bb11eb972f28.setContent(html_7ad7d2ab023ed736c217a4d9943a8cde);
+            
+        
+
+        marker_07821105fc2bd5ad7aa7f02725f6fdb9.bindPopup(popup_c827722d78f0875d69f2bb11eb972f28)
+        ;
+
+        
+    
+    
+            var marker_4adaa31de434e03fdcd84b11f3814f72 = L.marker(
+                [0.0, 0.0],
+                {
+  "draggable": null,
+  "autoPan": null,
+}
+            ).addTo(marker_cluster_794f8a26bc646a443bf24a010e0edd9a);
+        
+    
+        var popup_badc21d9b876576b8960ad49b004ef0b = L.popup({
+  "maxWidth": "100%",
+  "autoClose": null,
+  "closeOnClick": null,
+});
+
+        
+            
+                var html_811b7cf0db8b122fef4731c0994610af = $(`<div id="html_811b7cf0db8b122fef4731c0994610af" style="width: 100.0%; height: 100.0%;">Liechtenstein: $35.00/hour</div>`)[0];
+                popup_badc21d9b876576b8960ad49b004ef0b.setContent(html_811b7cf0db8b122fef4731c0994610af);
+            
+        
+
+        marker_4adaa31de434e03fdcd84b11f3814f72.bindPopup(popup_badc21d9b876576b8960ad49b004ef0b)
+        ;
+
+        
+    
+    
+            var marker_0eb36ce8f71f13ac07144f725d56bd9a = L.marker(
+                [0.0, 0.0],
+                {
+  "draggable": null,
+  "autoPan": null,
+}
+            ).addTo(marker_cluster_794f8a26bc646a443bf24a010e0edd9a);
+        
+    
+        var popup_5e0e6ddd6e7eccfe867e6d371b591a0b = L.popup({
+  "maxWidth": "100%",
+  "autoClose": null,
+  "closeOnClick": null,
+});
+
+        
+            
+                var html_77bc3c7f36bc9079533f9605f80a4cf0 = $(`<div id="html_77bc3c7f36bc9079533f9605f80a4cf0" style="width: 100.0%; height: 100.0%;">Lithuania: $24.70/hour</div>`)[0];
+                popup_5e0e6ddd6e7eccfe867e6d371b591a0b.setContent(html_77bc3c7f36bc9079533f9605f80a4cf0);
+            
+        
+
+        marker_0eb36ce8f71f13ac07144f725d56bd9a.bindPopup(popup_5e0e6ddd6e7eccfe867e6d371b591a0b)
+        ;
+
+        
+    
+    
+            var marker_b078954a1859476513c81ead7df6e7ff = L.marker(
+                [0.0, 0.0],
+                {
+  "draggable": null,
+  "autoPan": null,
+}
+            ).addTo(marker_cluster_794f8a26bc646a443bf24a010e0edd9a);
+        
+    
+        var popup_66feb52a1a195612a6c70c4bc7fefe8d = L.popup({
+  "maxWidth": "100%",
+  "autoClose": null,
+  "closeOnClick": null,
+});
+
+        
+            
+                var html_988da4fabfe5836206086088d0f4bf1e = $(`<div id="html_988da4fabfe5836206086088d0f4bf1e" style="width: 100.0%; height: 100.0%;">Luxembourg: $24.49/hour</div>`)[0];
+                popup_66feb52a1a195612a6c70c4bc7fefe8d.setContent(html_988da4fabfe5836206086088d0f4bf1e);
+            
+        
+
+        marker_b078954a1859476513c81ead7df6e7ff.bindPopup(popup_66feb52a1a195612a6c70c4bc7fefe8d)
+        ;
+
+        
+    
+    
+            var marker_00fcb14b5b5507a42a3cdb8de832fd0e = L.marker(
+                [0.0, 0.0],
+                {
+  "draggable": null,
+  "autoPan": null,
+}
+            ).addTo(marker_cluster_794f8a26bc646a443bf24a010e0edd9a);
+        
+    
+        var popup_9a1be1c90644290cb596963fe1070570 = L.popup({
+  "maxWidth": "100%",
+  "autoClose": null,
+  "closeOnClick": null,
+});
+
+        
+            
+                var html_93c8b4e5f684a080d36647da486d2968 = $(`<div id="html_93c8b4e5f684a080d36647da486d2968" style="width: 100.0%; height: 100.0%;">Macao: $19.06/hour</div>`)[0];
+                popup_9a1be1c90644290cb596963fe1070570.setContent(html_93c8b4e5f684a080d36647da486d2968);
+            
+        
+
+        marker_00fcb14b5b5507a42a3cdb8de832fd0e.bindPopup(popup_9a1be1c90644290cb596963fe1070570)
+        ;
+
+        
+    
+    
+            var marker_cfbc8dafc4065855f237ad7ea3eff22a = L.marker(
+                [0.0, 0.0],
+                {
+  "draggable": null,
+  "autoPan": null,
+}
+            ).addTo(marker_cluster_794f8a26bc646a443bf24a010e0edd9a);
+        
+    
+        var popup_0254fb9330d8c8929fe38dd55bc6f0fb = L.popup({
+  "maxWidth": "100%",
+  "autoClose": null,
+  "closeOnClick": null,
+});
+
+        
+            
+                var html_1cdcef979d418d4f6bcc592710689ada = $(`<div id="html_1cdcef979d418d4f6bcc592710689ada" style="width: 100.0%; height: 100.0%;">Macedonia: $23.50/hour</div>`)[0];
+                popup_0254fb9330d8c8929fe38dd55bc6f0fb.setContent(html_1cdcef979d418d4f6bcc592710689ada);
+            
+        
+
+        marker_cfbc8dafc4065855f237ad7ea3eff22a.bindPopup(popup_0254fb9330d8c8929fe38dd55bc6f0fb)
+        ;
+
+        
+    
+    
+            var marker_d46eaed3b4453560367dfff2fffa4cf5 = L.marker(
+                [0.0, 0.0],
+                {
+  "draggable": null,
+  "autoPan": null,
+}
+            ).addTo(marker_cluster_794f8a26bc646a443bf24a010e0edd9a);
+        
+    
+        var popup_29f95ce209e79db3562177730aba7ec4 = L.popup({
+  "maxWidth": "100%",
+  "autoClose": null,
+  "closeOnClick": null,
+});
+
+        
+            
+                var html_67d9e009898a1a6b0a95064e670a5e99 = $(`<div id="html_67d9e009898a1a6b0a95064e670a5e99" style="width: 100.0%; height: 100.0%;">Madagascar: $24.47/hour</div>`)[0];
+                popup_29f95ce209e79db3562177730aba7ec4.setContent(html_67d9e009898a1a6b0a95064e670a5e99);
+            
+        
+
+        marker_d46eaed3b4453560367dfff2fffa4cf5.bindPopup(popup_29f95ce209e79db3562177730aba7ec4)
+        ;
+
+        
+    
+    
+            var marker_75851b3aa277e2e9ac2f5805caa3b981 = L.marker(
+                [0.0, 0.0],
+                {
+  "draggable": null,
+  "autoPan": null,
+}
+            ).addTo(marker_cluster_794f8a26bc646a443bf24a010e0edd9a);
+        
+    
+        var popup_0a70be04ba13e9d3148800a6c8d9f0a7 = L.popup({
+  "maxWidth": "100%",
+  "autoClose": null,
+  "closeOnClick": null,
+});
+
+        
+            
+                var html_9d014b9459e1eff34d891754bfc77a7d = $(`<div id="html_9d014b9459e1eff34d891754bfc77a7d" style="width: 100.0%; height: 100.0%;">Malawi: $42.38/hour</div>`)[0];
+                popup_0a70be04ba13e9d3148800a6c8d9f0a7.setContent(html_9d014b9459e1eff34d891754bfc77a7d);
+            
+        
+
+        marker_75851b3aa277e2e9ac2f5805caa3b981.bindPopup(popup_0a70be04ba13e9d3148800a6c8d9f0a7)
+        ;
+
+        
+    
+    
+            var marker_6a5e61a5448acbcc8ac50bf4581970a5 = L.marker(
+                [0.0, 0.0],
+                {
+  "draggable": null,
+  "autoPan": null,
+}
+            ).addTo(marker_cluster_794f8a26bc646a443bf24a010e0edd9a);
+        
+    
+        var popup_822e3be4b7e74fa2fa4fb674d5b0b0e2 = L.popup({
+  "maxWidth": "100%",
+  "autoClose": null,
+  "closeOnClick": null,
+});
+
+        
+            
+                var html_304ec9aeb80e43067256dc3fd8b577ce = $(`<div id="html_304ec9aeb80e43067256dc3fd8b577ce" style="width: 100.0%; height: 100.0%;">Malaysia: $31.69/hour</div>`)[0];
+                popup_822e3be4b7e74fa2fa4fb674d5b0b0e2.setContent(html_304ec9aeb80e43067256dc3fd8b577ce);
+            
+        
+
+        marker_6a5e61a5448acbcc8ac50bf4581970a5.bindPopup(popup_822e3be4b7e74fa2fa4fb674d5b0b0e2)
+        ;
+
+        
+    
+    
+            var marker_a7b9ad69161569b5322fdd51e03991b1 = L.marker(
+                [0.0, 0.0],
+                {
+  "draggable": null,
+  "autoPan": null,
+}
+            ).addTo(marker_cluster_794f8a26bc646a443bf24a010e0edd9a);
+        
+    
+        var popup_5cf5de55da22c1e7908941cd642648eb = L.popup({
+  "maxWidth": "100%",
+  "autoClose": null,
+  "closeOnClick": null,
+});
+
+        
+            
+                var html_19dfcd37e680d8d61f5cfbef09a84e6b = $(`<div id="html_19dfcd37e680d8d61f5cfbef09a84e6b" style="width: 100.0%; height: 100.0%;">Maldives: $22.08/hour</div>`)[0];
+                popup_5cf5de55da22c1e7908941cd642648eb.setContent(html_19dfcd37e680d8d61f5cfbef09a84e6b);
+            
+        
+
+        marker_a7b9ad69161569b5322fdd51e03991b1.bindPopup(popup_5cf5de55da22c1e7908941cd642648eb)
+        ;
+
+        
+    
+    
+            var marker_fa4087e6cdb7a1644fc259020884cc44 = L.marker(
+                [0.0, 0.0],
+                {
+  "draggable": null,
+  "autoPan": null,
+}
+            ).addTo(marker_cluster_794f8a26bc646a443bf24a010e0edd9a);
+        
+    
+        var popup_9398244515b408b934e8aa61148e97ab = L.popup({
+  "maxWidth": "100%",
+  "autoClose": null,
+  "closeOnClick": null,
+});
+
+        
+            
+                var html_61921c89beee0f96897055c6c959abf4 = $(`<div id="html_61921c89beee0f96897055c6c959abf4" style="width: 100.0%; height: 100.0%;">Mali: $24.00/hour</div>`)[0];
+                popup_9398244515b408b934e8aa61148e97ab.setContent(html_61921c89beee0f96897055c6c959abf4);
+            
+        
+
+        marker_fa4087e6cdb7a1644fc259020884cc44.bindPopup(popup_9398244515b408b934e8aa61148e97ab)
+        ;
+
+        
+    
+    
+            var marker_deb7f1b415b4d0a1686b849d567988da = L.marker(
+                [0.0, 0.0],
+                {
+  "draggable": null,
+  "autoPan": null,
+}
+            ).addTo(marker_cluster_794f8a26bc646a443bf24a010e0edd9a);
+        
+    
+        var popup_fb14af6989e1ee2392ce0bc2c692522d = L.popup({
+  "maxWidth": "100%",
+  "autoClose": null,
+  "closeOnClick": null,
+});
+
+        
+            
+                var html_0911d57f3ff2416044b4bf985c801ad7 = $(`<div id="html_0911d57f3ff2416044b4bf985c801ad7" style="width: 100.0%; height: 100.0%;">Malta: $22.64/hour</div>`)[0];
+                popup_fb14af6989e1ee2392ce0bc2c692522d.setContent(html_0911d57f3ff2416044b4bf985c801ad7);
+            
+        
+
+        marker_deb7f1b415b4d0a1686b849d567988da.bindPopup(popup_fb14af6989e1ee2392ce0bc2c692522d)
+        ;
+
+        
+    
+    
+            var marker_9ebb7c1786722d825db77cdb864e373b = L.marker(
+                [0.0, 0.0],
+                {
+  "draggable": null,
+  "autoPan": null,
+}
+            ).addTo(marker_cluster_794f8a26bc646a443bf24a010e0edd9a);
+        
+    
+        var popup_6dbff9587ec35442bda253a362c22192 = L.popup({
+  "maxWidth": "100%",
+  "autoClose": null,
+  "closeOnClick": null,
+});
+
+        
+            
+                var html_56a927f07ee59adb07f5f9c8b328a5d2 = $(`<div id="html_56a927f07ee59adb07f5f9c8b328a5d2" style="width: 100.0%; height: 100.0%;">Martinique: $22.50/hour</div>`)[0];
+                popup_6dbff9587ec35442bda253a362c22192.setContent(html_56a927f07ee59adb07f5f9c8b328a5d2);
+            
+        
+
+        marker_9ebb7c1786722d825db77cdb864e373b.bindPopup(popup_6dbff9587ec35442bda253a362c22192)
+        ;
+
+        
+    
+    
+            var marker_b8e7ed4f54d0d17bf94f552dd15714ba = L.marker(
+                [0.0, 0.0],
+                {
+  "draggable": null,
+  "autoPan": null,
+}
+            ).addTo(marker_cluster_794f8a26bc646a443bf24a010e0edd9a);
+        
+    
+        var popup_6988e02fd5bb2fd190e3ea2b774c0d7c = L.popup({
+  "maxWidth": "100%",
+  "autoClose": null,
+  "closeOnClick": null,
+});
+
+        
+            
+                var html_5345cbdbf88795c7c1ce17ee98324355 = $(`<div id="html_5345cbdbf88795c7c1ce17ee98324355" style="width: 100.0%; height: 100.0%;">Mauritania: $22.15/hour</div>`)[0];
+                popup_6988e02fd5bb2fd190e3ea2b774c0d7c.setContent(html_5345cbdbf88795c7c1ce17ee98324355);
+            
+        
+
+        marker_b8e7ed4f54d0d17bf94f552dd15714ba.bindPopup(popup_6988e02fd5bb2fd190e3ea2b774c0d7c)
+        ;
+
+        
+    
+    
+            var marker_eacc9134b940441e70338987336dc913 = L.marker(
+                [0.0, 0.0],
+                {
+  "draggable": null,
+  "autoPan": null,
+}
+            ).addTo(marker_cluster_794f8a26bc646a443bf24a010e0edd9a);
+        
+    
+        var popup_db66a7072a91accd70bd4417f789796a = L.popup({
+  "maxWidth": "100%",
+  "autoClose": null,
+  "closeOnClick": null,
+});
+
+        
+            
+                var html_688ff2afd352aa761f2f6182718ebf34 = $(`<div id="html_688ff2afd352aa761f2f6182718ebf34" style="width: 100.0%; height: 100.0%;">Mauritius: $22.65/hour</div>`)[0];
+                popup_db66a7072a91accd70bd4417f789796a.setContent(html_688ff2afd352aa761f2f6182718ebf34);
+            
+        
+
+        marker_eacc9134b940441e70338987336dc913.bindPopup(popup_db66a7072a91accd70bd4417f789796a)
+        ;
+
+        
+    
+    
+            var marker_4828b0b3558b08934221b69364ebc5c4 = L.marker(
+                [0.0, 0.0],
+                {
+  "draggable": null,
+  "autoPan": null,
+}
+            ).addTo(marker_cluster_794f8a26bc646a443bf24a010e0edd9a);
+        
+    
+        var popup_2b97d4597f689f5f5442ba6591b46ddf = L.popup({
+  "maxWidth": "100%",
+  "autoClose": null,
+  "closeOnClick": null,
+});
+
+        
+            
+                var html_5f06768375bea69077d50e2dab43e3de = $(`<div id="html_5f06768375bea69077d50e2dab43e3de" style="width: 100.0%; height: 100.0%;">Mexico: $23.49/hour</div>`)[0];
+                popup_2b97d4597f689f5f5442ba6591b46ddf.setContent(html_5f06768375bea69077d50e2dab43e3de);
+            
+        
+
+        marker_4828b0b3558b08934221b69364ebc5c4.bindPopup(popup_2b97d4597f689f5f5442ba6591b46ddf)
+        ;
+
+        
+    
+    
+            var marker_55f3386f95f6bdbaaf2f66799f445ef1 = L.marker(
+                [0.0, 0.0],
+                {
+  "draggable": null,
+  "autoPan": null,
+}
+            ).addTo(marker_cluster_794f8a26bc646a443bf24a010e0edd9a);
+        
+    
+        var popup_64fdc95d69ea3816b7800e32eab68770 = L.popup({
+  "maxWidth": "100%",
+  "autoClose": null,
+  "closeOnClick": null,
+});
+
+        
+            
+                var html_ac46a4a82e4e262da29d014b6cb16c38 = $(`<div id="html_ac46a4a82e4e262da29d014b6cb16c38" style="width: 100.0%; height: 100.0%;">Micronesia, Federated States of: $26.25/hour</div>`)[0];
+                popup_64fdc95d69ea3816b7800e32eab68770.setContent(html_ac46a4a82e4e262da29d014b6cb16c38);
+            
+        
+
+        marker_55f3386f95f6bdbaaf2f66799f445ef1.bindPopup(popup_64fdc95d69ea3816b7800e32eab68770)
+        ;
+
+        
+    
+    
+            var marker_d0dec39d71bb40c8da46b97a75decdd6 = L.marker(
+                [0.0, 0.0],
+                {
+  "draggable": null,
+  "autoPan": null,
+}
+            ).addTo(marker_cluster_794f8a26bc646a443bf24a010e0edd9a);
+        
+    
+        var popup_ef734ddb83002b9a6f64aeb5026f2bba = L.popup({
+  "maxWidth": "100%",
+  "autoClose": null,
+  "closeOnClick": null,
+});
+
+        
+            
+                var html_56be70e49dc3edd74fed4f68f07a4369 = $(`<div id="html_56be70e49dc3edd74fed4f68f07a4369" style="width: 100.0%; height: 100.0%;">Moldova: $23.50/hour</div>`)[0];
+                popup_ef734ddb83002b9a6f64aeb5026f2bba.setContent(html_56be70e49dc3edd74fed4f68f07a4369);
+            
+        
+
+        marker_d0dec39d71bb40c8da46b97a75decdd6.bindPopup(popup_ef734ddb83002b9a6f64aeb5026f2bba)
+        ;
+
+        
+    
+    
+            var marker_af150a9ac8c531f3857974efe1a69d54 = L.marker(
+                [0.0, 0.0],
+                {
+  "draggable": null,
+  "autoPan": null,
+}
+            ).addTo(marker_cluster_794f8a26bc646a443bf24a010e0edd9a);
+        
+    
+        var popup_1de76a6659584e43d0e498b9adc2e2c1 = L.popup({
+  "maxWidth": "100%",
+  "autoClose": null,
+  "closeOnClick": null,
+});
+
+        
+            
+                var html_60800e7aaab5550c6e01b7441affbd62 = $(`<div id="html_60800e7aaab5550c6e01b7441affbd62" style="width: 100.0%; height: 100.0%;">Monaco: $23.76/hour</div>`)[0];
+                popup_1de76a6659584e43d0e498b9adc2e2c1.setContent(html_60800e7aaab5550c6e01b7441affbd62);
+            
+        
+
+        marker_af150a9ac8c531f3857974efe1a69d54.bindPopup(popup_1de76a6659584e43d0e498b9adc2e2c1)
+        ;
+
+        
+    
+    
+            var marker_dda90d11979c1a0d60e94a46a46d2d92 = L.marker(
+                [0.0, 0.0],
+                {
+  "draggable": null,
+  "autoPan": null,
+}
+            ).addTo(marker_cluster_794f8a26bc646a443bf24a010e0edd9a);
+        
+    
+        var popup_4158b8678808a7e3214bad0a5f1ade06 = L.popup({
+  "maxWidth": "100%",
+  "autoClose": null,
+  "closeOnClick": null,
+});
+
+        
+            
+                var html_45c7d03536c21887772fd79a9351c1c7 = $(`<div id="html_45c7d03536c21887772fd79a9351c1c7" style="width: 100.0%; height: 100.0%;">Mongolia: $24.42/hour</div>`)[0];
+                popup_4158b8678808a7e3214bad0a5f1ade06.setContent(html_45c7d03536c21887772fd79a9351c1c7);
+            
+        
+
+        marker_dda90d11979c1a0d60e94a46a46d2d92.bindPopup(popup_4158b8678808a7e3214bad0a5f1ade06)
+        ;
+
+        
+    
+    
+            var marker_d0fef10d14768db043821bafda5cbd72 = L.marker(
+                [0.0, 0.0],
+                {
+  "draggable": null,
+  "autoPan": null,
+}
+            ).addTo(marker_cluster_794f8a26bc646a443bf24a010e0edd9a);
+        
+    
+        var popup_c159220597c19ee078fcc2e6f1336053 = L.popup({
+  "maxWidth": "100%",
+  "autoClose": null,
+  "closeOnClick": null,
+});
+
+        
+            
+                var html_8ebd27a6175150c6ded43fa894dd7717 = $(`<div id="html_8ebd27a6175150c6ded43fa894dd7717" style="width: 100.0%; height: 100.0%;">Montenegro: $23.37/hour</div>`)[0];
+                popup_c159220597c19ee078fcc2e6f1336053.setContent(html_8ebd27a6175150c6ded43fa894dd7717);
+            
+        
+
+        marker_d0fef10d14768db043821bafda5cbd72.bindPopup(popup_c159220597c19ee078fcc2e6f1336053)
+        ;
+
+        
+    
+    
+            var marker_5e92261df9c7364c94e77950ad503ce4 = L.marker(
+                [0.0, 0.0],
+                {
+  "draggable": null,
+  "autoPan": null,
+}
+            ).addTo(marker_cluster_794f8a26bc646a443bf24a010e0edd9a);
+        
+    
+        var popup_c9611451c8b8214943f8f1dbb34f5737 = L.popup({
+  "maxWidth": "100%",
+  "autoClose": null,
+  "closeOnClick": null,
+});
+
+        
+            
+                var html_ae848d76908dd0caaf68292504f6a7a5 = $(`<div id="html_ae848d76908dd0caaf68292504f6a7a5" style="width: 100.0%; height: 100.0%;">Morocco: $23.66/hour</div>`)[0];
+                popup_c9611451c8b8214943f8f1dbb34f5737.setContent(html_ae848d76908dd0caaf68292504f6a7a5);
+            
+        
+
+        marker_5e92261df9c7364c94e77950ad503ce4.bindPopup(popup_c9611451c8b8214943f8f1dbb34f5737)
+        ;
+
+        
+    
+    
+            var marker_7f375071146fec419afa27397173b265 = L.marker(
+                [0.0, 0.0],
+                {
+  "draggable": null,
+  "autoPan": null,
+}
+            ).addTo(marker_cluster_794f8a26bc646a443bf24a010e0edd9a);
+        
+    
+        var popup_cfb111ff430694d73244658b47d4d41b = L.popup({
+  "maxWidth": "100%",
+  "autoClose": null,
+  "closeOnClick": null,
+});
+
+        
+            
+                var html_68fed72d68027fb85ffaef797f4edd1f = $(`<div id="html_68fed72d68027fb85ffaef797f4edd1f" style="width: 100.0%; height: 100.0%;">Mozambique: $22.04/hour</div>`)[0];
+                popup_cfb111ff430694d73244658b47d4d41b.setContent(html_68fed72d68027fb85ffaef797f4edd1f);
+            
+        
+
+        marker_7f375071146fec419afa27397173b265.bindPopup(popup_cfb111ff430694d73244658b47d4d41b)
+        ;
+
+        
+    
+    
+            var marker_c0a3050d421cb71b754df1a6923391b0 = L.marker(
+                [0.0, 0.0],
+                {
+  "draggable": null,
+  "autoPan": null,
+}
+            ).addTo(marker_cluster_794f8a26bc646a443bf24a010e0edd9a);
+        
+    
+        var popup_51378b271991cceb7f076623c79f3b07 = L.popup({
+  "maxWidth": "100%",
+  "autoClose": null,
+  "closeOnClick": null,
+});
+
+        
+            
+                var html_b87c3c9195c1bb78891df7feded89bcf = $(`<div id="html_b87c3c9195c1bb78891df7feded89bcf" style="width: 100.0%; height: 100.0%;">Myanmar: $28.05/hour</div>`)[0];
+                popup_51378b271991cceb7f076623c79f3b07.setContent(html_b87c3c9195c1bb78891df7feded89bcf);
+            
+        
+
+        marker_c0a3050d421cb71b754df1a6923391b0.bindPopup(popup_51378b271991cceb7f076623c79f3b07)
+        ;
+
+        
+    
+    
+            var marker_67645466b16e1ef73ea6d4bb5b85a69d = L.marker(
+                [0.0, 0.0],
+                {
+  "draggable": null,
+  "autoPan": null,
+}
+            ).addTo(marker_cluster_794f8a26bc646a443bf24a010e0edd9a);
+        
+    
+        var popup_cb36169017459321a1ba52ae2a814751 = L.popup({
+  "maxWidth": "100%",
+  "autoClose": null,
+  "closeOnClick": null,
+});
+
+        
+            
+                var html_458d7bc389ad9e4a79f7557761daa6ec = $(`<div id="html_458d7bc389ad9e4a79f7557761daa6ec" style="width: 100.0%; height: 100.0%;">Namibia: $20.19/hour</div>`)[0];
+                popup_cb36169017459321a1ba52ae2a814751.setContent(html_458d7bc389ad9e4a79f7557761daa6ec);
+            
+        
+
+        marker_67645466b16e1ef73ea6d4bb5b85a69d.bindPopup(popup_cb36169017459321a1ba52ae2a814751)
+        ;
+
+        
+    
+    
+            var marker_e2d894e46e1d1afe624941773800d63b = L.marker(
+                [0.0, 0.0],
+                {
+  "draggable": null,
+  "autoPan": null,
+}
+            ).addTo(marker_cluster_794f8a26bc646a443bf24a010e0edd9a);
+        
+    
+        var popup_9073a90ea02c2488172b1a2e305fb860 = L.popup({
+  "maxWidth": "100%",
+  "autoClose": null,
+  "closeOnClick": null,
+});
+
+        
+            
+                var html_16496e955c02ee1e3f9b41421eabbe02 = $(`<div id="html_16496e955c02ee1e3f9b41421eabbe02" style="width: 100.0%; height: 100.0%;">Nepal: $24.21/hour</div>`)[0];
+                popup_9073a90ea02c2488172b1a2e305fb860.setContent(html_16496e955c02ee1e3f9b41421eabbe02);
+            
+        
+
+        marker_e2d894e46e1d1afe624941773800d63b.bindPopup(popup_9073a90ea02c2488172b1a2e305fb860)
+        ;
+
+        
+    
+    
+            var marker_e054c7a6efbd1f41392811ecd02ea91e = L.marker(
+                [0.0, 0.0],
+                {
+  "draggable": null,
+  "autoPan": null,
+}
+            ).addTo(marker_cluster_794f8a26bc646a443bf24a010e0edd9a);
+        
+    
+        var popup_4c86756376addf17eeb9c86142bdeeb1 = L.popup({
+  "maxWidth": "100%",
+  "autoClose": null,
+  "closeOnClick": null,
+});
+
+        
+            
+                var html_1e7c492a60eeaf33f5aaeddc5808f05c = $(`<div id="html_1e7c492a60eeaf33f5aaeddc5808f05c" style="width: 100.0%; height: 100.0%;">Netherlands: $22.94/hour</div>`)[0];
+                popup_4c86756376addf17eeb9c86142bdeeb1.setContent(html_1e7c492a60eeaf33f5aaeddc5808f05c);
+            
+        
+
+        marker_e054c7a6efbd1f41392811ecd02ea91e.bindPopup(popup_4c86756376addf17eeb9c86142bdeeb1)
+        ;
+
+        
+    
+    
+            var marker_fa02adb5ad4636ebcfd632af7b157b1e = L.marker(
+                [0.0, 0.0],
+                {
+  "draggable": null,
+  "autoPan": null,
+}
+            ).addTo(marker_cluster_794f8a26bc646a443bf24a010e0edd9a);
+        
+    
+        var popup_3c894a836b6a3c939cfd17dcff1dd43b = L.popup({
+  "maxWidth": "100%",
+  "autoClose": null,
+  "closeOnClick": null,
+});
+
+        
+            
+                var html_f0654baed78ccd0af6a27aaf6e6a0ce0 = $(`<div id="html_f0654baed78ccd0af6a27aaf6e6a0ce0" style="width: 100.0%; height: 100.0%;">Netherlands Antilles: $35.42/hour</div>`)[0];
+                popup_3c894a836b6a3c939cfd17dcff1dd43b.setContent(html_f0654baed78ccd0af6a27aaf6e6a0ce0);
+            
+        
+
+        marker_fa02adb5ad4636ebcfd632af7b157b1e.bindPopup(popup_3c894a836b6a3c939cfd17dcff1dd43b)
+        ;
+
+        
+    
+    
+            var marker_42ea8e8559f7fed6722a0b4d6742a671 = L.marker(
+                [0.0, 0.0],
+                {
+  "draggable": null,
+  "autoPan": null,
+}
+            ).addTo(marker_cluster_794f8a26bc646a443bf24a010e0edd9a);
+        
+    
+        var popup_e424f7cd8dcd8981443f94db631b3a23 = L.popup({
+  "maxWidth": "100%",
+  "autoClose": null,
+  "closeOnClick": null,
+});
+
+        
+            
+                var html_3e6ec490f1ebb2f35da0d2518fe3528f = $(`<div id="html_3e6ec490f1ebb2f35da0d2518fe3528f" style="width: 100.0%; height: 100.0%;">New Caledonia: $22.50/hour</div>`)[0];
+                popup_e424f7cd8dcd8981443f94db631b3a23.setContent(html_3e6ec490f1ebb2f35da0d2518fe3528f);
+            
+        
+
+        marker_42ea8e8559f7fed6722a0b4d6742a671.bindPopup(popup_e424f7cd8dcd8981443f94db631b3a23)
+        ;
+
+        
+    
+    
+            var marker_7edaed3e689e03b6b3d24c1a210d1c96 = L.marker(
+                [0.0, 0.0],
+                {
+  "draggable": null,
+  "autoPan": null,
+}
+            ).addTo(marker_cluster_794f8a26bc646a443bf24a010e0edd9a);
+        
+    
+        var popup_4e224249096927c3f63179f300aabda3 = L.popup({
+  "maxWidth": "100%",
+  "autoClose": null,
+  "closeOnClick": null,
+});
+
+        
+            
+                var html_dcc640d3984a0260ff09bbc8f7d2e14b = $(`<div id="html_dcc640d3984a0260ff09bbc8f7d2e14b" style="width: 100.0%; height: 100.0%;">New Zealand: $23.29/hour</div>`)[0];
+                popup_4e224249096927c3f63179f300aabda3.setContent(html_dcc640d3984a0260ff09bbc8f7d2e14b);
+            
+        
+
+        marker_7edaed3e689e03b6b3d24c1a210d1c96.bindPopup(popup_4e224249096927c3f63179f300aabda3)
+        ;
+
+        
+    
+    
+            var marker_20d4fa421627cab70ee50ed9ae0d41f9 = L.marker(
+                [0.0, 0.0],
+                {
+  "draggable": null,
+  "autoPan": null,
+}
+            ).addTo(marker_cluster_794f8a26bc646a443bf24a010e0edd9a);
+        
+    
+        var popup_07e75c10b1ca0d963558892187c66a6f = L.popup({
+  "maxWidth": "100%",
+  "autoClose": null,
+  "closeOnClick": null,
+});
+
+        
+            
+                var html_b5aa8f0f3da76306159cc650e5299b5d = $(`<div id="html_b5aa8f0f3da76306159cc650e5299b5d" style="width: 100.0%; height: 100.0%;">Nicaragua: $21.42/hour</div>`)[0];
+                popup_07e75c10b1ca0d963558892187c66a6f.setContent(html_b5aa8f0f3da76306159cc650e5299b5d);
+            
+        
+
+        marker_20d4fa421627cab70ee50ed9ae0d41f9.bindPopup(popup_07e75c10b1ca0d963558892187c66a6f)
+        ;
+
+        
+    
+    
+            var marker_43186b2aa242cf8c9d4e5e2cbcd7cab0 = L.marker(
+                [0.0, 0.0],
+                {
+  "draggable": null,
+  "autoPan": null,
+}
+            ).addTo(marker_cluster_794f8a26bc646a443bf24a010e0edd9a);
+        
+    
+        var popup_021ea7f00a8d1494f74858a2a8082070 = L.popup({
+  "maxWidth": "100%",
+  "autoClose": null,
+  "closeOnClick": null,
+});
+
+        
+            
+                var html_9cb1d755adc53de9b7acdb4d67705abe = $(`<div id="html_9cb1d755adc53de9b7acdb4d67705abe" style="width: 100.0%; height: 100.0%;">Niger: $16.50/hour</div>`)[0];
+                popup_021ea7f00a8d1494f74858a2a8082070.setContent(html_9cb1d755adc53de9b7acdb4d67705abe);
+            
+        
+
+        marker_43186b2aa242cf8c9d4e5e2cbcd7cab0.bindPopup(popup_021ea7f00a8d1494f74858a2a8082070)
+        ;
+
+        
+    
+    
+            var marker_1dc976f310a21660d08b372848761057 = L.marker(
+                [0.0, 0.0],
+                {
+  "draggable": null,
+  "autoPan": null,
+}
+            ).addTo(marker_cluster_794f8a26bc646a443bf24a010e0edd9a);
+        
+    
+        var popup_f2475fc184c0918a246bb8e083eae4c0 = L.popup({
+  "maxWidth": "100%",
+  "autoClose": null,
+  "closeOnClick": null,
+});
+
+        
+            
+                var html_46f4333f80aaf92712657bcfb75e8d3f = $(`<div id="html_46f4333f80aaf92712657bcfb75e8d3f" style="width: 100.0%; height: 100.0%;">Nigeria: $23.67/hour</div>`)[0];
+                popup_f2475fc184c0918a246bb8e083eae4c0.setContent(html_46f4333f80aaf92712657bcfb75e8d3f);
+            
+        
+
+        marker_1dc976f310a21660d08b372848761057.bindPopup(popup_f2475fc184c0918a246bb8e083eae4c0)
+        ;
+
+        
+    
+    
+            var marker_51f2ce9a8bedf48d338e25b4d1aea76c = L.marker(
+                [0.0, 0.0],
+                {
+  "draggable": null,
+  "autoPan": null,
+}
+            ).addTo(marker_cluster_794f8a26bc646a443bf24a010e0edd9a);
+        
+    
+        var popup_2ffbff299bbe2264950f45de7f263c9e = L.popup({
+  "maxWidth": "100%",
+  "autoClose": null,
+  "closeOnClick": null,
+});
+
+        
+            
+                var html_664ae45fe20bdc09247c615ffdc9d100 = $(`<div id="html_664ae45fe20bdc09247c615ffdc9d100" style="width: 100.0%; height: 100.0%;">Niue: $22.50/hour</div>`)[0];
+                popup_2ffbff299bbe2264950f45de7f263c9e.setContent(html_664ae45fe20bdc09247c615ffdc9d100);
+            
+        
+
+        marker_51f2ce9a8bedf48d338e25b4d1aea76c.bindPopup(popup_2ffbff299bbe2264950f45de7f263c9e)
+        ;
+
+        
+    
+    
+            var marker_3d2e8e109b618ba4de9df14e06764819 = L.marker(
+                [0.0, 0.0],
+                {
+  "draggable": null,
+  "autoPan": null,
+}
+            ).addTo(marker_cluster_794f8a26bc646a443bf24a010e0edd9a);
+        
+    
+        var popup_616571f4bb3dfda79bba0ba889b1bbfa = L.popup({
+  "maxWidth": "100%",
+  "autoClose": null,
+  "closeOnClick": null,
+});
+
+        
+            
+                var html_33354afbf5d8580dd863f739ba6f8241 = $(`<div id="html_33354afbf5d8580dd863f739ba6f8241" style="width: 100.0%; height: 100.0%;">Northern Mariana Islands: $19.50/hour</div>`)[0];
+                popup_616571f4bb3dfda79bba0ba889b1bbfa.setContent(html_33354afbf5d8580dd863f739ba6f8241);
+            
+        
+
+        marker_3d2e8e109b618ba4de9df14e06764819.bindPopup(popup_616571f4bb3dfda79bba0ba889b1bbfa)
+        ;
+
+        
+    
+    
+            var marker_3bb57c3165d02dfa6b21b1cff0f80e4a = L.marker(
+                [0.0, 0.0],
+                {
+  "draggable": null,
+  "autoPan": null,
+}
+            ).addTo(marker_cluster_794f8a26bc646a443bf24a010e0edd9a);
+        
+    
+        var popup_1236721c86b85209494590bb4464b135 = L.popup({
+  "maxWidth": "100%",
+  "autoClose": null,
+  "closeOnClick": null,
+});
+
+        
+            
+                var html_4a9f7a4527d9ead894a9fedc650f380b = $(`<div id="html_4a9f7a4527d9ead894a9fedc650f380b" style="width: 100.0%; height: 100.0%;">Norway: $24.69/hour</div>`)[0];
+                popup_1236721c86b85209494590bb4464b135.setContent(html_4a9f7a4527d9ead894a9fedc650f380b);
+            
+        
+
+        marker_3bb57c3165d02dfa6b21b1cff0f80e4a.bindPopup(popup_1236721c86b85209494590bb4464b135)
+        ;
+
+        
+    
+    
+            var marker_78d3cc19066ef70828e255b6086b4dde = L.marker(
+                [0.0, 0.0],
+                {
+  "draggable": null,
+  "autoPan": null,
+}
+            ).addTo(marker_cluster_794f8a26bc646a443bf24a010e0edd9a);
+        
+    
+        var popup_36b9c6398642fb8417b4fb804b4079fc = L.popup({
+  "maxWidth": "100%",
+  "autoClose": null,
+  "closeOnClick": null,
+});
+
+        
+            
+                var html_c4263b04822020c1466799d4983dca46 = $(`<div id="html_c4263b04822020c1466799d4983dca46" style="width: 100.0%; height: 100.0%;">Oman: $24.40/hour</div>`)[0];
+                popup_36b9c6398642fb8417b4fb804b4079fc.setContent(html_c4263b04822020c1466799d4983dca46);
+            
+        
+
+        marker_78d3cc19066ef70828e255b6086b4dde.bindPopup(popup_36b9c6398642fb8417b4fb804b4079fc)
+        ;
+
+        
+    
+    
+            var marker_43e105f8173d13f96b7a5790945de527 = L.marker(
+                [0.0, 0.0],
+                {
+  "draggable": null,
+  "autoPan": null,
+}
+            ).addTo(marker_cluster_794f8a26bc646a443bf24a010e0edd9a);
+        
+    
+        var popup_3034cb60a61d5ef41c1cecb8131d88e7 = L.popup({
+  "maxWidth": "100%",
+  "autoClose": null,
+  "closeOnClick": null,
+});
+
+        
+            
+                var html_4f97566d06921b13cff8b9281aad55d4 = $(`<div id="html_4f97566d06921b13cff8b9281aad55d4" style="width: 100.0%; height: 100.0%;">Pakistan: $23.14/hour</div>`)[0];
+                popup_3034cb60a61d5ef41c1cecb8131d88e7.setContent(html_4f97566d06921b13cff8b9281aad55d4);
+            
+        
+
+        marker_43e105f8173d13f96b7a5790945de527.bindPopup(popup_3034cb60a61d5ef41c1cecb8131d88e7)
+        ;
+
+        
+    
+    
+            var marker_c52f48a73cb64876f314d4a38a5f5bd6 = L.marker(
+                [0.0, 0.0],
+                {
+  "draggable": null,
+  "autoPan": null,
+}
+            ).addTo(marker_cluster_794f8a26bc646a443bf24a010e0edd9a);
+        
+    
+        var popup_e24833b8a1aef37aa787fa3247fa909a = L.popup({
+  "maxWidth": "100%",
+  "autoClose": null,
+  "closeOnClick": null,
+});
+
+        
+            
+                var html_31628aea9947cccde03ccf4f669cc279 = $(`<div id="html_31628aea9947cccde03ccf4f669cc279" style="width: 100.0%; height: 100.0%;">Palau: $22.50/hour</div>`)[0];
+                popup_e24833b8a1aef37aa787fa3247fa909a.setContent(html_31628aea9947cccde03ccf4f669cc279);
+            
+        
+
+        marker_c52f48a73cb64876f314d4a38a5f5bd6.bindPopup(popup_e24833b8a1aef37aa787fa3247fa909a)
+        ;
+
+        
+    
+    
+            var marker_5990bcce01f27103617a0872b8e1f3a2 = L.marker(
+                [0.0, 0.0],
+                {
+  "draggable": null,
+  "autoPan": null,
+}
+            ).addTo(marker_cluster_794f8a26bc646a443bf24a010e0edd9a);
+        
+    
+        var popup_f60b212031ef7b785809c986989bb634 = L.popup({
+  "maxWidth": "100%",
+  "autoClose": null,
+  "closeOnClick": null,
+});
+
+        
+            
+                var html_cb14fdbd23e3944903cae372404c432b = $(`<div id="html_cb14fdbd23e3944903cae372404c432b" style="width: 100.0%; height: 100.0%;">Palestinian Territories: $23.53/hour</div>`)[0];
+                popup_f60b212031ef7b785809c986989bb634.setContent(html_cb14fdbd23e3944903cae372404c432b);
+            
+        
+
+        marker_5990bcce01f27103617a0872b8e1f3a2.bindPopup(popup_f60b212031ef7b785809c986989bb634)
+        ;
+
+        
+    
+    
+            var marker_25d99e34ede1e979a5bf31282bcffd6c = L.marker(
+                [0.0, 0.0],
+                {
+  "draggable": null,
+  "autoPan": null,
+}
+            ).addTo(marker_cluster_794f8a26bc646a443bf24a010e0edd9a);
+        
+    
+        var popup_294c8119ad00a24803f841dc4917621c = L.popup({
+  "maxWidth": "100%",
+  "autoClose": null,
+  "closeOnClick": null,
+});
+
+        
+            
+                var html_da09263c2cd4ee3ad3a5c9a73a613632 = $(`<div id="html_da09263c2cd4ee3ad3a5c9a73a613632" style="width: 100.0%; height: 100.0%;">Panama: $23.04/hour</div>`)[0];
+                popup_294c8119ad00a24803f841dc4917621c.setContent(html_da09263c2cd4ee3ad3a5c9a73a613632);
+            
+        
+
+        marker_25d99e34ede1e979a5bf31282bcffd6c.bindPopup(popup_294c8119ad00a24803f841dc4917621c)
+        ;
+
+        
+    
+    
+            var marker_098b1db5ac7d14009ddf16af5854e53e = L.marker(
+                [0.0, 0.0],
+                {
+  "draggable": null,
+  "autoPan": null,
+}
+            ).addTo(marker_cluster_794f8a26bc646a443bf24a010e0edd9a);
+        
+    
+        var popup_67672a6931fc5d4c67746d329abc8821 = L.popup({
+  "maxWidth": "100%",
+  "autoClose": null,
+  "closeOnClick": null,
+});
+
+        
+            
+                var html_cafff6d06488e70c9a6d6bb50a4b487e = $(`<div id="html_cafff6d06488e70c9a6d6bb50a4b487e" style="width: 100.0%; height: 100.0%;">Papua New Guinea: $21.86/hour</div>`)[0];
+                popup_67672a6931fc5d4c67746d329abc8821.setContent(html_cafff6d06488e70c9a6d6bb50a4b487e);
+            
+        
+
+        marker_098b1db5ac7d14009ddf16af5854e53e.bindPopup(popup_67672a6931fc5d4c67746d329abc8821)
+        ;
+
+        
+    
+    
+            var marker_71d317cf4eae28f58a4dd224c851c6da = L.marker(
+                [0.0, 0.0],
+                {
+  "draggable": null,
+  "autoPan": null,
+}
+            ).addTo(marker_cluster_794f8a26bc646a443bf24a010e0edd9a);
+        
+    
+        var popup_106f9929175539530a78d1a5aea85b7c = L.popup({
+  "maxWidth": "100%",
+  "autoClose": null,
+  "closeOnClick": null,
+});
+
+        
+            
+                var html_f4e7cd82d0bcfaa08b0a284565926c8e = $(`<div id="html_f4e7cd82d0bcfaa08b0a284565926c8e" style="width: 100.0%; height: 100.0%;">Paraguay: $23.14/hour</div>`)[0];
+                popup_106f9929175539530a78d1a5aea85b7c.setContent(html_f4e7cd82d0bcfaa08b0a284565926c8e);
+            
+        
+
+        marker_71d317cf4eae28f58a4dd224c851c6da.bindPopup(popup_106f9929175539530a78d1a5aea85b7c)
+        ;
+
+        
+    
+    
+            var marker_004a26ef0c42d5781e93f5cc65c3f888 = L.marker(
+                [0.0, 0.0],
+                {
+  "draggable": null,
+  "autoPan": null,
+}
+            ).addTo(marker_cluster_794f8a26bc646a443bf24a010e0edd9a);
+        
+    
+        var popup_60cc44f0f44edd245fcd181db10146f8 = L.popup({
+  "maxWidth": "100%",
+  "autoClose": null,
+  "closeOnClick": null,
+});
+
+        
+            
+                var html_77ce19ee4a0309eeee785c5550bcdc45 = $(`<div id="html_77ce19ee4a0309eeee785c5550bcdc45" style="width: 100.0%; height: 100.0%;">Peru: $22.31/hour</div>`)[0];
+                popup_60cc44f0f44edd245fcd181db10146f8.setContent(html_77ce19ee4a0309eeee785c5550bcdc45);
+            
+        
+
+        marker_004a26ef0c42d5781e93f5cc65c3f888.bindPopup(popup_60cc44f0f44edd245fcd181db10146f8)
+        ;
+
+        
+    
+    
+            var marker_0b8829b2f5fe67f96070a5de1dfc5db3 = L.marker(
+                [0.0, 0.0],
+                {
+  "draggable": null,
+  "autoPan": null,
+}
+            ).addTo(marker_cluster_794f8a26bc646a443bf24a010e0edd9a);
+        
+    
+        var popup_a5628c0e26c15eddf4dd1843aab57e50 = L.popup({
+  "maxWidth": "100%",
+  "autoClose": null,
+  "closeOnClick": null,
+});
+
+        
+            
+                var html_2da93646f990b2884aa03246157b193d = $(`<div id="html_2da93646f990b2884aa03246157b193d" style="width: 100.0%; height: 100.0%;">Philippines: $25.15/hour</div>`)[0];
+                popup_a5628c0e26c15eddf4dd1843aab57e50.setContent(html_2da93646f990b2884aa03246157b193d);
+            
+        
+
+        marker_0b8829b2f5fe67f96070a5de1dfc5db3.bindPopup(popup_a5628c0e26c15eddf4dd1843aab57e50)
+        ;
+
+        
+    
+    
+            var marker_0cc07b17afb0ab5627676377ccc930f3 = L.marker(
+                [0.0, 0.0],
+                {
+  "draggable": null,
+  "autoPan": null,
+}
+            ).addTo(marker_cluster_794f8a26bc646a443bf24a010e0edd9a);
+        
+    
+        var popup_e5e2a19495edc8318c69bb479a195a41 = L.popup({
+  "maxWidth": "100%",
+  "autoClose": null,
+  "closeOnClick": null,
+});
+
+        
+            
+                var html_5a57027b6715b3dee64692628089f599 = $(`<div id="html_5a57027b6715b3dee64692628089f599" style="width: 100.0%; height: 100.0%;">Poland: $24.28/hour</div>`)[0];
+                popup_e5e2a19495edc8318c69bb479a195a41.setContent(html_5a57027b6715b3dee64692628089f599);
+            
+        
+
+        marker_0cc07b17afb0ab5627676377ccc930f3.bindPopup(popup_e5e2a19495edc8318c69bb479a195a41)
+        ;
+
+        
+    
+    
+            var marker_c09012510a7d83ebadb68dd7ff3467d6 = L.marker(
+                [0.0, 0.0],
+                {
+  "draggable": null,
+  "autoPan": null,
+}
+            ).addTo(marker_cluster_794f8a26bc646a443bf24a010e0edd9a);
+        
+    
+        var popup_1dc0880ffed36c7c4a06434d92b5ff10 = L.popup({
+  "maxWidth": "100%",
+  "autoClose": null,
+  "closeOnClick": null,
+});
+
+        
+            
+                var html_5132adb1bb21c71461b96ba5b586ef77 = $(`<div id="html_5132adb1bb21c71461b96ba5b586ef77" style="width: 100.0%; height: 100.0%;">Portugal: $23.18/hour</div>`)[0];
+                popup_1dc0880ffed36c7c4a06434d92b5ff10.setContent(html_5132adb1bb21c71461b96ba5b586ef77);
+            
+        
+
+        marker_c09012510a7d83ebadb68dd7ff3467d6.bindPopup(popup_1dc0880ffed36c7c4a06434d92b5ff10)
+        ;
+
+        
+    
+    
+            var marker_126a02e3555ff5450684fe94e21252c0 = L.marker(
+                [0.0, 0.0],
+                {
+  "draggable": null,
+  "autoPan": null,
+}
+            ).addTo(marker_cluster_794f8a26bc646a443bf24a010e0edd9a);
+        
+    
+        var popup_fdd9dbb1acba2f3ef79271709ed9a25c = L.popup({
+  "maxWidth": "100%",
+  "autoClose": null,
+  "closeOnClick": null,
+});
+
+        
+            
+                var html_188079514ae36cbf6ef540763c28b1c8 = $(`<div id="html_188079514ae36cbf6ef540763c28b1c8" style="width: 100.0%; height: 100.0%;">Puerto Rico: $24.59/hour</div>`)[0];
+                popup_fdd9dbb1acba2f3ef79271709ed9a25c.setContent(html_188079514ae36cbf6ef540763c28b1c8);
+            
+        
+
+        marker_126a02e3555ff5450684fe94e21252c0.bindPopup(popup_fdd9dbb1acba2f3ef79271709ed9a25c)
+        ;
+
+        
+    
+    
+            var marker_ec51f6f50b4bfa09eb65634bc9ccf87d = L.marker(
+                [0.0, 0.0],
+                {
+  "draggable": null,
+  "autoPan": null,
+}
+            ).addTo(marker_cluster_794f8a26bc646a443bf24a010e0edd9a);
+        
+    
+        var popup_6175af25de82cfcd61bd96825b43c248 = L.popup({
+  "maxWidth": "100%",
+  "autoClose": null,
+  "closeOnClick": null,
+});
+
+        
+            
+                var html_4ee7c4c45d593c815ca6c2ce93e4f079 = $(`<div id="html_4ee7c4c45d593c815ca6c2ce93e4f079" style="width: 100.0%; height: 100.0%;">Qatar: $22.89/hour</div>`)[0];
+                popup_6175af25de82cfcd61bd96825b43c248.setContent(html_4ee7c4c45d593c815ca6c2ce93e4f079);
+            
+        
+
+        marker_ec51f6f50b4bfa09eb65634bc9ccf87d.bindPopup(popup_6175af25de82cfcd61bd96825b43c248)
+        ;
+
+        
+    
+    
+            var marker_e4f91f705e058474cc880f3fd14daf19 = L.marker(
+                [0.0, 0.0],
+                {
+  "draggable": null,
+  "autoPan": null,
+}
+            ).addTo(marker_cluster_794f8a26bc646a443bf24a010e0edd9a);
+        
+    
+        var popup_2143f8e2bfeb3a1298da7c188b261d8f = L.popup({
+  "maxWidth": "100%",
+  "autoClose": null,
+  "closeOnClick": null,
+});
+
+        
+            
+                var html_ffeec40a89e73f4d447b3db2789517e0 = $(`<div id="html_ffeec40a89e73f4d447b3db2789517e0" style="width: 100.0%; height: 100.0%;">Reunion: $21.44/hour</div>`)[0];
+                popup_2143f8e2bfeb3a1298da7c188b261d8f.setContent(html_ffeec40a89e73f4d447b3db2789517e0);
+            
+        
+
+        marker_e4f91f705e058474cc880f3fd14daf19.bindPopup(popup_2143f8e2bfeb3a1298da7c188b261d8f)
+        ;
+
+        
+    
+    
+            var marker_2c5ce9ea79a4ce9671a9aff5a21364bf = L.marker(
+                [0.0, 0.0],
+                {
+  "draggable": null,
+  "autoPan": null,
+}
+            ).addTo(marker_cluster_794f8a26bc646a443bf24a010e0edd9a);
+        
+    
+        var popup_93dd29d0b91f97c74e4460d6e4f5dc18 = L.popup({
+  "maxWidth": "100%",
+  "autoClose": null,
+  "closeOnClick": null,
+});
+
+        
+            
+                var html_e7ce37d43f1930918ed328995b2b6427 = $(`<div id="html_e7ce37d43f1930918ed328995b2b6427" style="width: 100.0%; height: 100.0%;">Romania: $23.34/hour</div>`)[0];
+                popup_93dd29d0b91f97c74e4460d6e4f5dc18.setContent(html_e7ce37d43f1930918ed328995b2b6427);
+            
+        
+
+        marker_2c5ce9ea79a4ce9671a9aff5a21364bf.bindPopup(popup_93dd29d0b91f97c74e4460d6e4f5dc18)
+        ;
+
+        
+    
+    
+            var marker_fe442d316142916ce44a9caac5e9188d = L.marker(
+                [0.0, 0.0],
+                {
+  "draggable": null,
+  "autoPan": null,
+}
+            ).addTo(marker_cluster_794f8a26bc646a443bf24a010e0edd9a);
+        
+    
+        var popup_5ea66c73172fe0ffedb8e52d781c54e0 = L.popup({
+  "maxWidth": "100%",
+  "autoClose": null,
+  "closeOnClick": null,
+});
+
+        
+            
+                var html_a9f47815976876a8533fcca6cdcac063 = $(`<div id="html_a9f47815976876a8533fcca6cdcac063" style="width: 100.0%; height: 100.0%;">Russia: $22.19/hour</div>`)[0];
+                popup_5ea66c73172fe0ffedb8e52d781c54e0.setContent(html_a9f47815976876a8533fcca6cdcac063);
+            
+        
+
+        marker_fe442d316142916ce44a9caac5e9188d.bindPopup(popup_5ea66c73172fe0ffedb8e52d781c54e0)
+        ;
+
+        
+    
+    
+            var marker_2d45c74ddbde646b05275bb0e3293b69 = L.marker(
+                [0.0, 0.0],
+                {
+  "draggable": null,
+  "autoPan": null,
+}
+            ).addTo(marker_cluster_794f8a26bc646a443bf24a010e0edd9a);
+        
+    
+        var popup_13431ad1d5b8d3bf771bb27d657716d5 = L.popup({
+  "maxWidth": "100%",
+  "autoClose": null,
+  "closeOnClick": null,
+});
+
+        
+            
+                var html_b42fe2b54b1a9ff4ea5998b11b675e74 = $(`<div id="html_b42fe2b54b1a9ff4ea5998b11b675e74" style="width: 100.0%; height: 100.0%;">Rwanda: $23.76/hour</div>`)[0];
+                popup_13431ad1d5b8d3bf771bb27d657716d5.setContent(html_b42fe2b54b1a9ff4ea5998b11b675e74);
+            
+        
+
+        marker_2d45c74ddbde646b05275bb0e3293b69.bindPopup(popup_13431ad1d5b8d3bf771bb27d657716d5)
+        ;
+
+        
+    
+    
+            var marker_c27d974be5af105fea59b9345fa42ca3 = L.marker(
+                [0.0, 0.0],
+                {
+  "draggable": null,
+  "autoPan": null,
+}
+            ).addTo(marker_cluster_794f8a26bc646a443bf24a010e0edd9a);
+        
+    
+        var popup_53b5180139a1f29cac980817be3c2fe1 = L.popup({
+  "maxWidth": "100%",
+  "autoClose": null,
+  "closeOnClick": null,
+});
+
+        
+            
+                var html_554ceb1760b712caa2ec7f5eb77fc136 = $(`<div id="html_554ceb1760b712caa2ec7f5eb77fc136" style="width: 100.0%; height: 100.0%;">Saint Helena: $22.50/hour</div>`)[0];
+                popup_53b5180139a1f29cac980817be3c2fe1.setContent(html_554ceb1760b712caa2ec7f5eb77fc136);
+            
+        
+
+        marker_c27d974be5af105fea59b9345fa42ca3.bindPopup(popup_53b5180139a1f29cac980817be3c2fe1)
+        ;
+
+        
+    
+    
+            var marker_3b456e97e1350f6d7ee121536533526e = L.marker(
+                [0.0, 0.0],
+                {
+  "draggable": null,
+  "autoPan": null,
+}
+            ).addTo(marker_cluster_794f8a26bc646a443bf24a010e0edd9a);
+        
+    
+        var popup_c8185e9b0380e92f1496f8e9190a7c77 = L.popup({
+  "maxWidth": "100%",
+  "autoClose": null,
+  "closeOnClick": null,
+});
+
+        
+            
+                var html_6a557f0f9432f1a44d7375fccd904cae = $(`<div id="html_6a557f0f9432f1a44d7375fccd904cae" style="width: 100.0%; height: 100.0%;">Saint Kitts and Nevis: $21.38/hour</div>`)[0];
+                popup_c8185e9b0380e92f1496f8e9190a7c77.setContent(html_6a557f0f9432f1a44d7375fccd904cae);
+            
+        
+
+        marker_3b456e97e1350f6d7ee121536533526e.bindPopup(popup_c8185e9b0380e92f1496f8e9190a7c77)
+        ;
+
+        
+    
+    
+            var marker_e3743b7408ba48466bc665753d339d91 = L.marker(
+                [0.0, 0.0],
+                {
+  "draggable": null,
+  "autoPan": null,
+}
+            ).addTo(marker_cluster_794f8a26bc646a443bf24a010e0edd9a);
+        
+    
+        var popup_615103201d697c304520667d36794972 = L.popup({
+  "maxWidth": "100%",
+  "autoClose": null,
+  "closeOnClick": null,
+});
+
+        
+            
+                var html_3620b9d8997b4004fd10c04ab5192598 = $(`<div id="html_3620b9d8997b4004fd10c04ab5192598" style="width: 100.0%; height: 100.0%;">Saint Lucia: $19.68/hour</div>`)[0];
+                popup_615103201d697c304520667d36794972.setContent(html_3620b9d8997b4004fd10c04ab5192598);
+            
+        
+
+        marker_e3743b7408ba48466bc665753d339d91.bindPopup(popup_615103201d697c304520667d36794972)
+        ;
+
+        
+    
+    
+            var marker_388669dd8561e9440ff6496a9310aca5 = L.marker(
+                [0.0, 0.0],
+                {
+  "draggable": null,
+  "autoPan": null,
+}
+            ).addTo(marker_cluster_794f8a26bc646a443bf24a010e0edd9a);
+        
+    
+        var popup_17efbb5cc2e2823dd39b9fcfb91039c5 = L.popup({
+  "maxWidth": "100%",
+  "autoClose": null,
+  "closeOnClick": null,
+});
+
+        
+            
+                var html_4f371c902269f22f653895e5bc3e903f = $(`<div id="html_4f371c902269f22f653895e5bc3e903f" style="width: 100.0%; height: 100.0%;">Saint Vincent and the Grenadines: $21.89/hour</div>`)[0];
+                popup_17efbb5cc2e2823dd39b9fcfb91039c5.setContent(html_4f371c902269f22f653895e5bc3e903f);
+            
+        
+
+        marker_388669dd8561e9440ff6496a9310aca5.bindPopup(popup_17efbb5cc2e2823dd39b9fcfb91039c5)
+        ;
+
+        
+    
+    
+            var marker_b6c0414fbd6dfbc53f6df232e05ddc85 = L.marker(
+                [0.0, 0.0],
+                {
+  "draggable": null,
+  "autoPan": null,
+}
+            ).addTo(marker_cluster_794f8a26bc646a443bf24a010e0edd9a);
+        
+    
+        var popup_6094f8a0df3cb643bb8ba86d006c7928 = L.popup({
+  "maxWidth": "100%",
+  "autoClose": null,
+  "closeOnClick": null,
+});
+
+        
+            
+                var html_5a54c3d79f2c95835f8d3b17eeee42d2 = $(`<div id="html_5a54c3d79f2c95835f8d3b17eeee42d2" style="width: 100.0%; height: 100.0%;">Samoa: $22.50/hour</div>`)[0];
+                popup_6094f8a0df3cb643bb8ba86d006c7928.setContent(html_5a54c3d79f2c95835f8d3b17eeee42d2);
+            
+        
+
+        marker_b6c0414fbd6dfbc53f6df232e05ddc85.bindPopup(popup_6094f8a0df3cb643bb8ba86d006c7928)
+        ;
+
+        
+    
+    
+            var marker_915e7a7f60b4abc7cd73fad1ce2462fa = L.marker(
+                [0.0, 0.0],
+                {
+  "draggable": null,
+  "autoPan": null,
+}
+            ).addTo(marker_cluster_794f8a26bc646a443bf24a010e0edd9a);
+        
+    
+        var popup_3111cf654c940bc222ea5a470beb7b0c = L.popup({
+  "maxWidth": "100%",
+  "autoClose": null,
+  "closeOnClick": null,
+});
+
+        
+            
+                var html_eb595ec8af0253d9409a57d4b5fc794b = $(`<div id="html_eb595ec8af0253d9409a57d4b5fc794b" style="width: 100.0%; height: 100.0%;">San Marino: $22.56/hour</div>`)[0];
+                popup_3111cf654c940bc222ea5a470beb7b0c.setContent(html_eb595ec8af0253d9409a57d4b5fc794b);
+            
+        
+
+        marker_915e7a7f60b4abc7cd73fad1ce2462fa.bindPopup(popup_3111cf654c940bc222ea5a470beb7b0c)
+        ;
+
+        
+    
+    
+            var marker_b24746045c93dc986bc9638cbc67427e = L.marker(
+                [0.0, 0.0],
+                {
+  "draggable": null,
+  "autoPan": null,
+}
+            ).addTo(marker_cluster_794f8a26bc646a443bf24a010e0edd9a);
+        
+    
+        var popup_7f4c4195ff90f25a7cd8eeff2b888f42 = L.popup({
+  "maxWidth": "100%",
+  "autoClose": null,
+  "closeOnClick": null,
+});
+
+        
+            
+                var html_df22f54c27a531a7b622bed644b3415e = $(`<div id="html_df22f54c27a531a7b622bed644b3415e" style="width: 100.0%; height: 100.0%;">Saudi Arabia: $24.25/hour</div>`)[0];
+                popup_7f4c4195ff90f25a7cd8eeff2b888f42.setContent(html_df22f54c27a531a7b622bed644b3415e);
+            
+        
+
+        marker_b24746045c93dc986bc9638cbc67427e.bindPopup(popup_7f4c4195ff90f25a7cd8eeff2b888f42)
+        ;
+
+        
+    
+    
+            var marker_75aaa19d1f44f0fd56ebc8cfa001b0eb = L.marker(
+                [0.0, 0.0],
+                {
+  "draggable": null,
+  "autoPan": null,
+}
+            ).addTo(marker_cluster_794f8a26bc646a443bf24a010e0edd9a);
+        
+    
+        var popup_9051c60fe992eaa2ca79f4a8c09381b6 = L.popup({
+  "maxWidth": "100%",
+  "autoClose": null,
+  "closeOnClick": null,
+});
+
+        
+            
+                var html_33bee74ed7cc0d470b9aa8dad7a936f3 = $(`<div id="html_33bee74ed7cc0d470b9aa8dad7a936f3" style="width: 100.0%; height: 100.0%;">Senegal: $25.78/hour</div>`)[0];
+                popup_9051c60fe992eaa2ca79f4a8c09381b6.setContent(html_33bee74ed7cc0d470b9aa8dad7a936f3);
+            
+        
+
+        marker_75aaa19d1f44f0fd56ebc8cfa001b0eb.bindPopup(popup_9051c60fe992eaa2ca79f4a8c09381b6)
+        ;
+
+        
+    
+    
+            var marker_8d0b8b8eff60aacddf16d073f857e44b = L.marker(
+                [0.0, 0.0],
+                {
+  "draggable": null,
+  "autoPan": null,
+}
+            ).addTo(marker_cluster_794f8a26bc646a443bf24a010e0edd9a);
+        
+    
+        var popup_dfcd5e1159f78f3621891f7a5a882ad2 = L.popup({
+  "maxWidth": "100%",
+  "autoClose": null,
+  "closeOnClick": null,
+});
+
+        
+            
+                var html_2322e2b376f03e370f5a55f301727639 = $(`<div id="html_2322e2b376f03e370f5a55f301727639" style="width: 100.0%; height: 100.0%;">Serbia: $22.67/hour</div>`)[0];
+                popup_dfcd5e1159f78f3621891f7a5a882ad2.setContent(html_2322e2b376f03e370f5a55f301727639);
+            
+        
+
+        marker_8d0b8b8eff60aacddf16d073f857e44b.bindPopup(popup_dfcd5e1159f78f3621891f7a5a882ad2)
+        ;
+
+        
+    
+    
+            var marker_a827849a121f677f54f894f5e58df9a6 = L.marker(
+                [0.0, 0.0],
+                {
+  "draggable": null,
+  "autoPan": null,
+}
+            ).addTo(marker_cluster_794f8a26bc646a443bf24a010e0edd9a);
+        
+    
+        var popup_a5abb44528f70cdf8a2bcba88e8ef4ed = L.popup({
+  "maxWidth": "100%",
+  "autoClose": null,
+  "closeOnClick": null,
+});
+
+        
+            
+                var html_2391fdfb1b213570e72270a1c7b65746 = $(`<div id="html_2391fdfb1b213570e72270a1c7b65746" style="width: 100.0%; height: 100.0%;">Seychelles: $21.34/hour</div>`)[0];
+                popup_a5abb44528f70cdf8a2bcba88e8ef4ed.setContent(html_2391fdfb1b213570e72270a1c7b65746);
+            
+        
+
+        marker_a827849a121f677f54f894f5e58df9a6.bindPopup(popup_a5abb44528f70cdf8a2bcba88e8ef4ed)
+        ;
+
+        
+    
+    
+            var marker_4ceba70b359ff3a40caa53d607efefe0 = L.marker(
+                [0.0, 0.0],
+                {
+  "draggable": null,
+  "autoPan": null,
+}
+            ).addTo(marker_cluster_794f8a26bc646a443bf24a010e0edd9a);
+        
+    
+        var popup_9cf035a098954f34470207205e705059 = L.popup({
+  "maxWidth": "100%",
+  "autoClose": null,
+  "closeOnClick": null,
+});
+
+        
+            
+                var html_7e33f010b22f2a729cb94bf3f4415a61 = $(`<div id="html_7e33f010b22f2a729cb94bf3f4415a61" style="width: 100.0%; height: 100.0%;">Sierra Leone: $22.50/hour</div>`)[0];
+                popup_9cf035a098954f34470207205e705059.setContent(html_7e33f010b22f2a729cb94bf3f4415a61);
+            
+        
+
+        marker_4ceba70b359ff3a40caa53d607efefe0.bindPopup(popup_9cf035a098954f34470207205e705059)
+        ;
+
+        
+    
+    
+            var marker_e1771a6a01aeebc780c0a3a48dbcfc1c = L.marker(
+                [0.0, 0.0],
+                {
+  "draggable": null,
+  "autoPan": null,
+}
+            ).addTo(marker_cluster_794f8a26bc646a443bf24a010e0edd9a);
+        
+    
+        var popup_045589f97b32f68aee141b2873bd3a85 = L.popup({
+  "maxWidth": "100%",
+  "autoClose": null,
+  "closeOnClick": null,
+});
+
+        
+            
+                var html_ffad2492fc4aec94be78065c73b13044 = $(`<div id="html_ffad2492fc4aec94be78065c73b13044" style="width: 100.0%; height: 100.0%;">Singapore: $23.45/hour</div>`)[0];
+                popup_045589f97b32f68aee141b2873bd3a85.setContent(html_ffad2492fc4aec94be78065c73b13044);
+            
+        
+
+        marker_e1771a6a01aeebc780c0a3a48dbcfc1c.bindPopup(popup_045589f97b32f68aee141b2873bd3a85)
+        ;
+
+        
+    
+    
+            var marker_964b348e36ed3a6768532bf812ae9e72 = L.marker(
+                [0.0, 0.0],
+                {
+  "draggable": null,
+  "autoPan": null,
+}
+            ).addTo(marker_cluster_794f8a26bc646a443bf24a010e0edd9a);
+        
+    
+        var popup_360cc1b767a42ce27cbc2a9a78bc718b = L.popup({
+  "maxWidth": "100%",
+  "autoClose": null,
+  "closeOnClick": null,
+});
+
+        
+            
+                var html_8150d83a2634f8e76700c4237bcfa024 = $(`<div id="html_8150d83a2634f8e76700c4237bcfa024" style="width: 100.0%; height: 100.0%;">Sint Maarten (Dutch part): $20.17/hour</div>`)[0];
+                popup_360cc1b767a42ce27cbc2a9a78bc718b.setContent(html_8150d83a2634f8e76700c4237bcfa024);
+            
+        
+
+        marker_964b348e36ed3a6768532bf812ae9e72.bindPopup(popup_360cc1b767a42ce27cbc2a9a78bc718b)
+        ;
+
+        
+    
+    
+            var marker_9b6d1b6e915679c129fafd0c90feb54c = L.marker(
+                [0.0, 0.0],
+                {
+  "draggable": null,
+  "autoPan": null,
+}
+            ).addTo(marker_cluster_794f8a26bc646a443bf24a010e0edd9a);
+        
+    
+        var popup_e39ad0f0a59d4939c99ce503fda603bf = L.popup({
+  "maxWidth": "100%",
+  "autoClose": null,
+  "closeOnClick": null,
+});
+
+        
+            
+                var html_15330494b8c2f135fcfc0045aee99356 = $(`<div id="html_15330494b8c2f135fcfc0045aee99356" style="width: 100.0%; height: 100.0%;">Slovakia: $23.16/hour</div>`)[0];
+                popup_e39ad0f0a59d4939c99ce503fda603bf.setContent(html_15330494b8c2f135fcfc0045aee99356);
+            
+        
+
+        marker_9b6d1b6e915679c129fafd0c90feb54c.bindPopup(popup_e39ad0f0a59d4939c99ce503fda603bf)
+        ;
+
+        
+    
+    
+            var marker_b0ade435719527c3f18cb8bbb3f7f740 = L.marker(
+                [0.0, 0.0],
+                {
+  "draggable": null,
+  "autoPan": null,
+}
+            ).addTo(marker_cluster_794f8a26bc646a443bf24a010e0edd9a);
+        
+    
+        var popup_333df60d73976d4949f1eff7e2d29196 = L.popup({
+  "maxWidth": "100%",
+  "autoClose": null,
+  "closeOnClick": null,
+});
+
+        
+            
+                var html_bf9cbf56ed70f23f66f511edc7f17aa8 = $(`<div id="html_bf9cbf56ed70f23f66f511edc7f17aa8" style="width: 100.0%; height: 100.0%;">Slovenia: $22.23/hour</div>`)[0];
+                popup_333df60d73976d4949f1eff7e2d29196.setContent(html_bf9cbf56ed70f23f66f511edc7f17aa8);
+            
+        
+
+        marker_b0ade435719527c3f18cb8bbb3f7f740.bindPopup(popup_333df60d73976d4949f1eff7e2d29196)
+        ;
+
+        
+    
+    
+            var marker_f1c98dea8d0f606965e1ab174d9f7193 = L.marker(
+                [0.0, 0.0],
+                {
+  "draggable": null,
+  "autoPan": null,
+}
+            ).addTo(marker_cluster_794f8a26bc646a443bf24a010e0edd9a);
+        
+    
+        var popup_fdf507d26f40c27dd0176458e3f2eef5 = L.popup({
+  "maxWidth": "100%",
+  "autoClose": null,
+  "closeOnClick": null,
+});
+
+        
+            
+                var html_1923cb45524c2cf2fb4c2ff409e560cb = $(`<div id="html_1923cb45524c2cf2fb4c2ff409e560cb" style="width: 100.0%; height: 100.0%;">Somalia: $21.96/hour</div>`)[0];
+                popup_fdf507d26f40c27dd0176458e3f2eef5.setContent(html_1923cb45524c2cf2fb4c2ff409e560cb);
+            
+        
+
+        marker_f1c98dea8d0f606965e1ab174d9f7193.bindPopup(popup_fdf507d26f40c27dd0176458e3f2eef5)
+        ;
+
+        
+    
+    
+            var marker_b0a27074ac80136b5ba0fbeb10c866d7 = L.marker(
+                [0.0, 0.0],
+                {
+  "draggable": null,
+  "autoPan": null,
+}
+            ).addTo(marker_cluster_794f8a26bc646a443bf24a010e0edd9a);
+        
+    
+        var popup_09bb642866a4e0dbbaa1c3ade7d0c6c6 = L.popup({
+  "maxWidth": "100%",
+  "autoClose": null,
+  "closeOnClick": null,
+});
+
+        
+            
+                var html_e6a768e3e86972d310e7db170b191a8c = $(`<div id="html_e6a768e3e86972d310e7db170b191a8c" style="width: 100.0%; height: 100.0%;">South Africa: $24.12/hour</div>`)[0];
+                popup_09bb642866a4e0dbbaa1c3ade7d0c6c6.setContent(html_e6a768e3e86972d310e7db170b191a8c);
+            
+        
+
+        marker_b0a27074ac80136b5ba0fbeb10c866d7.bindPopup(popup_09bb642866a4e0dbbaa1c3ade7d0c6c6)
+        ;
+
+        
+    
+    
+            var marker_6388c9ccc292efe64123d9add390a8cc = L.marker(
+                [0.0, 0.0],
+                {
+  "draggable": null,
+  "autoPan": null,
+}
+            ).addTo(marker_cluster_794f8a26bc646a443bf24a010e0edd9a);
+        
+    
+        var popup_cd11a30f0b30021739b71c0af095e442 = L.popup({
+  "maxWidth": "100%",
+  "autoClose": null,
+  "closeOnClick": null,
+});
+
+        
+            
+                var html_ff77a11156339be22e78ca1e7e565488 = $(`<div id="html_ff77a11156339be22e78ca1e7e565488" style="width: 100.0%; height: 100.0%;">South Korea: $19.16/hour</div>`)[0];
+                popup_cd11a30f0b30021739b71c0af095e442.setContent(html_ff77a11156339be22e78ca1e7e565488);
+            
+        
+
+        marker_6388c9ccc292efe64123d9add390a8cc.bindPopup(popup_cd11a30f0b30021739b71c0af095e442)
+        ;
+
+        
+    
+    
+            var marker_872558ba77063faf87f37566ab81031b = L.marker(
+                [0.0, 0.0],
+                {
+  "draggable": null,
+  "autoPan": null,
+}
+            ).addTo(marker_cluster_794f8a26bc646a443bf24a010e0edd9a);
+        
+    
+        var popup_e9760fbfe9d475cc1d1ff65ad209b26b = L.popup({
+  "maxWidth": "100%",
+  "autoClose": null,
+  "closeOnClick": null,
+});
+
+        
+            
+                var html_63226673e2b74da6245f8dc6b9bd16d3 = $(`<div id="html_63226673e2b74da6245f8dc6b9bd16d3" style="width: 100.0%; height: 100.0%;">Spain: $23.66/hour</div>`)[0];
+                popup_e9760fbfe9d475cc1d1ff65ad209b26b.setContent(html_63226673e2b74da6245f8dc6b9bd16d3);
+            
+        
+
+        marker_872558ba77063faf87f37566ab81031b.bindPopup(popup_e9760fbfe9d475cc1d1ff65ad209b26b)
+        ;
+
+        
+    
+    
+            var marker_882ae8dd1738d559234e2b76814c60d2 = L.marker(
+                [0.0, 0.0],
+                {
+  "draggable": null,
+  "autoPan": null,
+}
+            ).addTo(marker_cluster_794f8a26bc646a443bf24a010e0edd9a);
+        
+    
+        var popup_5d1e5ced5a8b6ac5b89173c81eee9dc5 = L.popup({
+  "maxWidth": "100%",
+  "autoClose": null,
+  "closeOnClick": null,
+});
+
+        
+            
+                var html_7fca53225f630d6c0a492e3aa896d4af = $(`<div id="html_7fca53225f630d6c0a492e3aa896d4af" style="width: 100.0%; height: 100.0%;">Sri Lanka: $21.88/hour</div>`)[0];
+                popup_5d1e5ced5a8b6ac5b89173c81eee9dc5.setContent(html_7fca53225f630d6c0a492e3aa896d4af);
+            
+        
+
+        marker_882ae8dd1738d559234e2b76814c60d2.bindPopup(popup_5d1e5ced5a8b6ac5b89173c81eee9dc5)
+        ;
+
+        
+    
+    
+            var marker_d445a07c991e81e1a719b55305939b77 = L.marker(
+                [0.0, 0.0],
+                {
+  "draggable": null,
+  "autoPan": null,
+}
+            ).addTo(marker_cluster_794f8a26bc646a443bf24a010e0edd9a);
+        
+    
+        var popup_b1b9ed1695aebe2344f14429dfa200f5 = L.popup({
+  "maxWidth": "100%",
+  "autoClose": null,
+  "closeOnClick": null,
+});
+
+        
+            
+                var html_a2d9607700d1137ffe36e4a610573005 = $(`<div id="html_a2d9607700d1137ffe36e4a610573005" style="width: 100.0%; height: 100.0%;">Suriname: $22.50/hour</div>`)[0];
+                popup_b1b9ed1695aebe2344f14429dfa200f5.setContent(html_a2d9607700d1137ffe36e4a610573005);
+            
+        
+
+        marker_d445a07c991e81e1a719b55305939b77.bindPopup(popup_b1b9ed1695aebe2344f14429dfa200f5)
+        ;
+
+        
+    
+    
+            var marker_8d1a7ec98b052f756fd8e7370034f097 = L.marker(
+                [0.0, 0.0],
+                {
+  "draggable": null,
+  "autoPan": null,
+}
+            ).addTo(marker_cluster_794f8a26bc646a443bf24a010e0edd9a);
+        
+    
+        var popup_7ad2aa30917cebcfae5835171d1fd24b = L.popup({
+  "maxWidth": "100%",
+  "autoClose": null,
+  "closeOnClick": null,
+});
+
+        
+            
+                var html_9bb402b5d3a4ebca397508600b35d6b9 = $(`<div id="html_9bb402b5d3a4ebca397508600b35d6b9" style="width: 100.0%; height: 100.0%;">Swaziland: $22.00/hour</div>`)[0];
+                popup_7ad2aa30917cebcfae5835171d1fd24b.setContent(html_9bb402b5d3a4ebca397508600b35d6b9);
+            
+        
+
+        marker_8d1a7ec98b052f756fd8e7370034f097.bindPopup(popup_7ad2aa30917cebcfae5835171d1fd24b)
+        ;
+
+        
+    
+    
+            var marker_0413bf9445f46a527b2ffcacb6b05872 = L.marker(
+                [0.0, 0.0],
+                {
+  "draggable": null,
+  "autoPan": null,
+}
+            ).addTo(marker_cluster_794f8a26bc646a443bf24a010e0edd9a);
+        
+    
+        var popup_803f2fd865b94fce00310d3658fc90c3 = L.popup({
+  "maxWidth": "100%",
+  "autoClose": null,
+  "closeOnClick": null,
+});
+
+        
+            
+                var html_80bc44666e03ec44f2f45d6f50667ed8 = $(`<div id="html_80bc44666e03ec44f2f45d6f50667ed8" style="width: 100.0%; height: 100.0%;">Sweden: $24.82/hour</div>`)[0];
+                popup_803f2fd865b94fce00310d3658fc90c3.setContent(html_80bc44666e03ec44f2f45d6f50667ed8);
+            
+        
+
+        marker_0413bf9445f46a527b2ffcacb6b05872.bindPopup(popup_803f2fd865b94fce00310d3658fc90c3)
+        ;
+
+        
+    
+    
+            var marker_8de4632fe9b8ac0a5cad511a67bbcd3f = L.marker(
+                [0.0, 0.0],
+                {
+  "draggable": null,
+  "autoPan": null,
+}
+            ).addTo(marker_cluster_794f8a26bc646a443bf24a010e0edd9a);
+        
+    
+        var popup_f5d27fa270f940bb374930a6e8e274bb = L.popup({
+  "maxWidth": "100%",
+  "autoClose": null,
+  "closeOnClick": null,
+});
+
+        
+            
+                var html_7c51b381c1a8099350291d7dc5f8d45e = $(`<div id="html_7c51b381c1a8099350291d7dc5f8d45e" style="width: 100.0%; height: 100.0%;">Switzerland: $24.49/hour</div>`)[0];
+                popup_f5d27fa270f940bb374930a6e8e274bb.setContent(html_7c51b381c1a8099350291d7dc5f8d45e);
+            
+        
+
+        marker_8de4632fe9b8ac0a5cad511a67bbcd3f.bindPopup(popup_f5d27fa270f940bb374930a6e8e274bb)
+        ;
+
+        
+    
+    
+            var marker_1759ba7cd04d62835bf7e3522a0891be = L.marker(
+                [0.0, 0.0],
+                {
+  "draggable": null,
+  "autoPan": null,
+}
+            ).addTo(marker_cluster_794f8a26bc646a443bf24a010e0edd9a);
+        
+    
+        var popup_a38bdf448330fa47ba6823350cf1f91a = L.popup({
+  "maxWidth": "100%",
+  "autoClose": null,
+  "closeOnClick": null,
+});
+
+        
+            
+                var html_a3181691dd1d9d04c33c9c121f6f26b1 = $(`<div id="html_a3181691dd1d9d04c33c9c121f6f26b1" style="width: 100.0%; height: 100.0%;">Taiwan: $20.31/hour</div>`)[0];
+                popup_a38bdf448330fa47ba6823350cf1f91a.setContent(html_a3181691dd1d9d04c33c9c121f6f26b1);
+            
+        
+
+        marker_1759ba7cd04d62835bf7e3522a0891be.bindPopup(popup_a38bdf448330fa47ba6823350cf1f91a)
+        ;
+
+        
+    
+    
+            var marker_cc5d900682e3bfdae19339604e525e45 = L.marker(
+                [0.0, 0.0],
+                {
+  "draggable": null,
+  "autoPan": null,
+}
+            ).addTo(marker_cluster_794f8a26bc646a443bf24a010e0edd9a);
+        
+    
+        var popup_fad938053a1adc8e0c39bfc987f34ca9 = L.popup({
+  "maxWidth": "100%",
+  "autoClose": null,
+  "closeOnClick": null,
+});
+
+        
+            
+                var html_59d279dc18475d3466c75ac7bdabe821 = $(`<div id="html_59d279dc18475d3466c75ac7bdabe821" style="width: 100.0%; height: 100.0%;">Tajikistan: $22.50/hour</div>`)[0];
+                popup_fad938053a1adc8e0c39bfc987f34ca9.setContent(html_59d279dc18475d3466c75ac7bdabe821);
+            
+        
+
+        marker_cc5d900682e3bfdae19339604e525e45.bindPopup(popup_fad938053a1adc8e0c39bfc987f34ca9)
+        ;
+
+        
+    
+    
+            var marker_deb0183cbed70c7420ab53b05b067d73 = L.marker(
+                [0.0, 0.0],
+                {
+  "draggable": null,
+  "autoPan": null,
+}
+            ).addTo(marker_cluster_794f8a26bc646a443bf24a010e0edd9a);
+        
+    
+        var popup_cfc51e5b3d849127ff48864a8ef51f7d = L.popup({
+  "maxWidth": "100%",
+  "autoClose": null,
+  "closeOnClick": null,
+});
+
+        
+            
+                var html_a291e801ab00426ce6fe484bf4ae89af = $(`<div id="html_a291e801ab00426ce6fe484bf4ae89af" style="width: 100.0%; height: 100.0%;">Tanzania: $23.84/hour</div>`)[0];
+                popup_cfc51e5b3d849127ff48864a8ef51f7d.setContent(html_a291e801ab00426ce6fe484bf4ae89af);
+            
+        
+
+        marker_deb0183cbed70c7420ab53b05b067d73.bindPopup(popup_cfc51e5b3d849127ff48864a8ef51f7d)
+        ;
+
+        
+    
+    
+            var marker_95b4b43ac2d031b030ab77385d6a4b11 = L.marker(
+                [0.0, 0.0],
+                {
+  "draggable": null,
+  "autoPan": null,
+}
+            ).addTo(marker_cluster_794f8a26bc646a443bf24a010e0edd9a);
+        
+    
+        var popup_a069ddb5996aaae98ace845035ad1051 = L.popup({
+  "maxWidth": "100%",
+  "autoClose": null,
+  "closeOnClick": null,
+});
+
+        
+            
+                var html_4eb8e75d26f580e25a0a2144fef50909 = $(`<div id="html_4eb8e75d26f580e25a0a2144fef50909" style="width: 100.0%; height: 100.0%;">Thailand: $30.35/hour</div>`)[0];
+                popup_a069ddb5996aaae98ace845035ad1051.setContent(html_4eb8e75d26f580e25a0a2144fef50909);
+            
+        
+
+        marker_95b4b43ac2d031b030ab77385d6a4b11.bindPopup(popup_a069ddb5996aaae98ace845035ad1051)
+        ;
+
+        
+    
+    
+            var marker_7e2ad9263b04ee862611f9424579cb75 = L.marker(
+                [0.0, 0.0],
+                {
+  "draggable": null,
+  "autoPan": null,
+}
+            ).addTo(marker_cluster_794f8a26bc646a443bf24a010e0edd9a);
+        
+    
+        var popup_18eeec62e33994c5927cc24188f3ea32 = L.popup({
+  "maxWidth": "100%",
+  "autoClose": null,
+  "closeOnClick": null,
+});
+
+        
+            
+                var html_d8210e24bdb2cc21cf227f03cc0141d7 = $(`<div id="html_d8210e24bdb2cc21cf227f03cc0141d7" style="width: 100.0%; height: 100.0%;">Timor-Leste: $25.00/hour</div>`)[0];
+                popup_18eeec62e33994c5927cc24188f3ea32.setContent(html_d8210e24bdb2cc21cf227f03cc0141d7);
+            
+        
+
+        marker_7e2ad9263b04ee862611f9424579cb75.bindPopup(popup_18eeec62e33994c5927cc24188f3ea32)
+        ;
+
+        
+    
+    
+            var marker_c1b9c99a1db6753ec30de483abf5623f = L.marker(
+                [0.0, 0.0],
+                {
+  "draggable": null,
+  "autoPan": null,
+}
+            ).addTo(marker_cluster_794f8a26bc646a443bf24a010e0edd9a);
+        
+    
+        var popup_3dec1b22812e8612825c4c16fb5ee7c4 = L.popup({
+  "maxWidth": "100%",
+  "autoClose": null,
+  "closeOnClick": null,
+});
+
+        
+            
+                var html_c65c157cb58eb2c4adf66b1dd197e356 = $(`<div id="html_c65c157cb58eb2c4adf66b1dd197e356" style="width: 100.0%; height: 100.0%;">Togo: $22.17/hour</div>`)[0];
+                popup_3dec1b22812e8612825c4c16fb5ee7c4.setContent(html_c65c157cb58eb2c4adf66b1dd197e356);
+            
+        
+
+        marker_c1b9c99a1db6753ec30de483abf5623f.bindPopup(popup_3dec1b22812e8612825c4c16fb5ee7c4)
+        ;
+
+        
+    
+    
+            var marker_3f54e98eb14e50f82f42f5561a110b9e = L.marker(
+                [0.0, 0.0],
+                {
+  "draggable": null,
+  "autoPan": null,
+}
+            ).addTo(marker_cluster_794f8a26bc646a443bf24a010e0edd9a);
+        
+    
+        var popup_4cd30d47921d19c781a14ed31144510d = L.popup({
+  "maxWidth": "100%",
+  "autoClose": null,
+  "closeOnClick": null,
+});
+
+        
+            
+                var html_a10c7f6de73614a9baccecf41dccd8a2 = $(`<div id="html_a10c7f6de73614a9baccecf41dccd8a2" style="width: 100.0%; height: 100.0%;">Trinidad and Tobago: $22.39/hour</div>`)[0];
+                popup_4cd30d47921d19c781a14ed31144510d.setContent(html_a10c7f6de73614a9baccecf41dccd8a2);
+            
+        
+
+        marker_3f54e98eb14e50f82f42f5561a110b9e.bindPopup(popup_4cd30d47921d19c781a14ed31144510d)
+        ;
+
+        
+    
+    
+            var marker_0722c33cad55d851728b04047e20f53e = L.marker(
+                [0.0, 0.0],
+                {
+  "draggable": null,
+  "autoPan": null,
+}
+            ).addTo(marker_cluster_794f8a26bc646a443bf24a010e0edd9a);
+        
+    
+        var popup_a26d4b927edd8bc2d41d5a2d6a76b282 = L.popup({
+  "maxWidth": "100%",
+  "autoClose": null,
+  "closeOnClick": null,
+});
+
+        
+            
+                var html_baa2dc123a5b6c1575fd974c917645b7 = $(`<div id="html_baa2dc123a5b6c1575fd974c917645b7" style="width: 100.0%; height: 100.0%;">Tunisia: $23.36/hour</div>`)[0];
+                popup_a26d4b927edd8bc2d41d5a2d6a76b282.setContent(html_baa2dc123a5b6c1575fd974c917645b7);
+            
+        
+
+        marker_0722c33cad55d851728b04047e20f53e.bindPopup(popup_a26d4b927edd8bc2d41d5a2d6a76b282)
+        ;
+
+        
+    
+    
+            var marker_a96c188a74a8dccf5d739bcf3abfffe0 = L.marker(
+                [0.0, 0.0],
+                {
+  "draggable": null,
+  "autoPan": null,
+}
+            ).addTo(marker_cluster_794f8a26bc646a443bf24a010e0edd9a);
+        
+    
+        var popup_a4a26319a2e53d3dd288b5060f7de501 = L.popup({
+  "maxWidth": "100%",
+  "autoClose": null,
+  "closeOnClick": null,
+});
+
+        
+            
+                var html_c1c256592e53728b9959a6756df321a9 = $(`<div id="html_c1c256592e53728b9959a6756df321a9" style="width: 100.0%; height: 100.0%;">Turkey: $23.97/hour</div>`)[0];
+                popup_a4a26319a2e53d3dd288b5060f7de501.setContent(html_c1c256592e53728b9959a6756df321a9);
+            
+        
+
+        marker_a96c188a74a8dccf5d739bcf3abfffe0.bindPopup(popup_a4a26319a2e53d3dd288b5060f7de501)
+        ;
+
+        
+    
+    
+            var marker_31f51b6e54b51cd5c98247ef99ab6c6a = L.marker(
+                [0.0, 0.0],
+                {
+  "draggable": null,
+  "autoPan": null,
+}
+            ).addTo(marker_cluster_794f8a26bc646a443bf24a010e0edd9a);
+        
+    
+        var popup_877c5e73d1b1f820434648b18782f113 = L.popup({
+  "maxWidth": "100%",
+  "autoClose": null,
+  "closeOnClick": null,
+});
+
+        
+            
+                var html_530804efef96d7dd8b7cf7467078a9ba = $(`<div id="html_530804efef96d7dd8b7cf7467078a9ba" style="width: 100.0%; height: 100.0%;">Turkmenistan: $22.50/hour</div>`)[0];
+                popup_877c5e73d1b1f820434648b18782f113.setContent(html_530804efef96d7dd8b7cf7467078a9ba);
+            
+        
+
+        marker_31f51b6e54b51cd5c98247ef99ab6c6a.bindPopup(popup_877c5e73d1b1f820434648b18782f113)
+        ;
+
+        
+    
+    
+            var marker_4b29de14f82b164f4801d3b7403a26d4 = L.marker(
+                [0.0, 0.0],
+                {
+  "draggable": null,
+  "autoPan": null,
+}
+            ).addTo(marker_cluster_794f8a26bc646a443bf24a010e0edd9a);
+        
+    
+        var popup_7ab5265d1960e7a1e6fc599f4e2048ed = L.popup({
+  "maxWidth": "100%",
+  "autoClose": null,
+  "closeOnClick": null,
+});
+
+        
+            
+                var html_c30158fe62a8a87c3b58f414ef05458d = $(`<div id="html_c30158fe62a8a87c3b58f414ef05458d" style="width: 100.0%; height: 100.0%;">Turks and Caicos Islands: $46.62/hour</div>`)[0];
+                popup_7ab5265d1960e7a1e6fc599f4e2048ed.setContent(html_c30158fe62a8a87c3b58f414ef05458d);
+            
+        
+
+        marker_4b29de14f82b164f4801d3b7403a26d4.bindPopup(popup_7ab5265d1960e7a1e6fc599f4e2048ed)
+        ;
+
+        
+    
+    
+            var marker_7aa6c040b02a0a56559afd2318bf40b2 = L.marker(
+                [0.0, 0.0],
+                {
+  "draggable": null,
+  "autoPan": null,
+}
+            ).addTo(marker_cluster_794f8a26bc646a443bf24a010e0edd9a);
+        
+    
+        var popup_8c16b609dd29ad1c8ebf171de5e92cdd = L.popup({
+  "maxWidth": "100%",
+  "autoClose": null,
+  "closeOnClick": null,
+});
+
+        
+            
+                var html_a030d22657d1d6c94efdf7101553c46b = $(`<div id="html_a030d22657d1d6c94efdf7101553c46b" style="width: 100.0%; height: 100.0%;">Tuvalu: $22.50/hour</div>`)[0];
+                popup_8c16b609dd29ad1c8ebf171de5e92cdd.setContent(html_a030d22657d1d6c94efdf7101553c46b);
+            
+        
+
+        marker_7aa6c040b02a0a56559afd2318bf40b2.bindPopup(popup_8c16b609dd29ad1c8ebf171de5e92cdd)
+        ;
+
+        
+    
+    
+            var marker_4fcbf3e21577a859a290711a7af2bee8 = L.marker(
+                [0.0, 0.0],
+                {
+  "draggable": null,
+  "autoPan": null,
+}
+            ).addTo(marker_cluster_794f8a26bc646a443bf24a010e0edd9a);
+        
+    
+        var popup_7a23947122c8629bda8de63ccef6a609 = L.popup({
+  "maxWidth": "100%",
+  "autoClose": null,
+  "closeOnClick": null,
+});
+
+        
+            
+                var html_1d3214f805a87628a1a497df4a3a1f6f = $(`<div id="html_1d3214f805a87628a1a497df4a3a1f6f" style="width: 100.0%; height: 100.0%;">Uganda: $23.25/hour</div>`)[0];
+                popup_7a23947122c8629bda8de63ccef6a609.setContent(html_1d3214f805a87628a1a497df4a3a1f6f);
+            
+        
+
+        marker_4fcbf3e21577a859a290711a7af2bee8.bindPopup(popup_7a23947122c8629bda8de63ccef6a609)
+        ;
+
+        
+    
+    
+            var marker_a5a1bec6ea013304abac46d77e2a3fd0 = L.marker(
+                [0.0, 0.0],
+                {
+  "draggable": null,
+  "autoPan": null,
+}
+            ).addTo(marker_cluster_794f8a26bc646a443bf24a010e0edd9a);
+        
+    
+        var popup_51c4322ec5f75a82461b5c88d0962acf = L.popup({
+  "maxWidth": "100%",
+  "autoClose": null,
+  "closeOnClick": null,
+});
+
+        
+            
+                var html_7454269be27d8827c401e97cda5a8d8c = $(`<div id="html_7454269be27d8827c401e97cda5a8d8c" style="width: 100.0%; height: 100.0%;">Ukraine: $24.66/hour</div>`)[0];
+                popup_51c4322ec5f75a82461b5c88d0962acf.setContent(html_7454269be27d8827c401e97cda5a8d8c);
+            
+        
+
+        marker_a5a1bec6ea013304abac46d77e2a3fd0.bindPopup(popup_51c4322ec5f75a82461b5c88d0962acf)
+        ;
+
+        
+    
+    
+            var marker_7cdbd8e54cf1632b5a2e887fa5328b9a = L.marker(
+                [0.0, 0.0],
+                {
+  "draggable": null,
+  "autoPan": null,
+}
+            ).addTo(marker_cluster_794f8a26bc646a443bf24a010e0edd9a);
+        
+    
+        var popup_a720ac52a3426e09044bdb5a53df2a56 = L.popup({
+  "maxWidth": "100%",
+  "autoClose": null,
+  "closeOnClick": null,
+});
+
+        
+            
+                var html_4035f224c08a4c43dff34572b6e25ea5 = $(`<div id="html_4035f224c08a4c43dff34572b6e25ea5" style="width: 100.0%; height: 100.0%;">United Arab Emirates: $23.81/hour</div>`)[0];
+                popup_a720ac52a3426e09044bdb5a53df2a56.setContent(html_4035f224c08a4c43dff34572b6e25ea5);
+            
+        
+
+        marker_7cdbd8e54cf1632b5a2e887fa5328b9a.bindPopup(popup_a720ac52a3426e09044bdb5a53df2a56)
+        ;
+
+        
+    
+    
+            var marker_35c72494da98d05fa029f33d461261c5 = L.marker(
+                [0.0, 0.0],
+                {
+  "draggable": null,
+  "autoPan": null,
+}
+            ).addTo(marker_cluster_794f8a26bc646a443bf24a010e0edd9a);
+        
+    
+        var popup_21b3049dc3ddc60c8c7fc45415f5c1af = L.popup({
+  "maxWidth": "100%",
+  "autoClose": null,
+  "closeOnClick": null,
+});
+
+        
+            
+                var html_6d21656f17d1089bac1c4052c6bced39 = $(`<div id="html_6d21656f17d1089bac1c4052c6bced39" style="width: 100.0%; height: 100.0%;">United Kingdom: $25.43/hour</div>`)[0];
+                popup_21b3049dc3ddc60c8c7fc45415f5c1af.setContent(html_6d21656f17d1089bac1c4052c6bced39);
+            
+        
+
+        marker_35c72494da98d05fa029f33d461261c5.bindPopup(popup_21b3049dc3ddc60c8c7fc45415f5c1af)
+        ;
+
+        
+    
+    
+            var marker_0d806520bd0564fa9186bfa11c12f320 = L.marker(
+                [0.0, 0.0],
+                {
+  "draggable": null,
+  "autoPan": null,
+}
+            ).addTo(marker_cluster_794f8a26bc646a443bf24a010e0edd9a);
+        
+    
+        var popup_7d4fe5839f38c678b6f932ba4ab7059d = L.popup({
+  "maxWidth": "100%",
+  "autoClose": null,
+  "closeOnClick": null,
+});
+
+        
+            
+                var html_b29a6e531aa473cfd736ecd82ac3aa4b = $(`<div id="html_b29a6e531aa473cfd736ecd82ac3aa4b" style="width: 100.0%; height: 100.0%;">United States: $27.22/hour</div>`)[0];
+                popup_7d4fe5839f38c678b6f932ba4ab7059d.setContent(html_b29a6e531aa473cfd736ecd82ac3aa4b);
+            
+        
+
+        marker_0d806520bd0564fa9186bfa11c12f320.bindPopup(popup_7d4fe5839f38c678b6f932ba4ab7059d)
+        ;
+
+        
+    
+    
+            var marker_f91956517a0343bb4363c2cdde0a283d = L.marker(
+                [0.0, 0.0],
+                {
+  "draggable": null,
+  "autoPan": null,
+}
+            ).addTo(marker_cluster_794f8a26bc646a443bf24a010e0edd9a);
+        
+    
+        var popup_626687d16b24ca0317f00bf1796da380 = L.popup({
+  "maxWidth": "100%",
+  "autoClose": null,
+  "closeOnClick": null,
+});
+
+        
+            
+                var html_9c2945d1257f4ca37e361f7293e00fc4 = $(`<div id="html_9c2945d1257f4ca37e361f7293e00fc4" style="width: 100.0%; height: 100.0%;">United States Minor Outlying Islands: $18.75/hour</div>`)[0];
+                popup_626687d16b24ca0317f00bf1796da380.setContent(html_9c2945d1257f4ca37e361f7293e00fc4);
+            
+        
+
+        marker_f91956517a0343bb4363c2cdde0a283d.bindPopup(popup_626687d16b24ca0317f00bf1796da380)
+        ;
+
+        
+    
+    
+            var marker_e8f11ff8d4bd9f499e78fbc233f474c9 = L.marker(
+                [0.0, 0.0],
+                {
+  "draggable": null,
+  "autoPan": null,
+}
+            ).addTo(marker_cluster_794f8a26bc646a443bf24a010e0edd9a);
+        
+    
+        var popup_99b02f21bc5a32afdf22c61d875db6d1 = L.popup({
+  "maxWidth": "100%",
+  "autoClose": null,
+  "closeOnClick": null,
+});
+
+        
+            
+                var html_84ea212cc81f21901227bbdcbb7d1fa1 = $(`<div id="html_84ea212cc81f21901227bbdcbb7d1fa1" style="width: 100.0%; height: 100.0%;">United States Virgin Islands: $27.21/hour</div>`)[0];
+                popup_99b02f21bc5a32afdf22c61d875db6d1.setContent(html_84ea212cc81f21901227bbdcbb7d1fa1);
+            
+        
+
+        marker_e8f11ff8d4bd9f499e78fbc233f474c9.bindPopup(popup_99b02f21bc5a32afdf22c61d875db6d1)
+        ;
+
+        
+    
+    
+            var marker_f688dd9b13e19243c478d4f052c12be9 = L.marker(
+                [0.0, 0.0],
+                {
+  "draggable": null,
+  "autoPan": null,
+}
+            ).addTo(marker_cluster_794f8a26bc646a443bf24a010e0edd9a);
+        
+    
+        var popup_5f0c677fb9831a36debf1af28a20dd1b = L.popup({
+  "maxWidth": "100%",
+  "autoClose": null,
+  "closeOnClick": null,
+});
+
+        
+            
+                var html_7e72787e3199bfb68a5de78ce2a310b9 = $(`<div id="html_7e72787e3199bfb68a5de78ce2a310b9" style="width: 100.0%; height: 100.0%;">Unknown: $25.57/hour</div>`)[0];
+                popup_5f0c677fb9831a36debf1af28a20dd1b.setContent(html_7e72787e3199bfb68a5de78ce2a310b9);
+            
+        
+
+        marker_f688dd9b13e19243c478d4f052c12be9.bindPopup(popup_5f0c677fb9831a36debf1af28a20dd1b)
+        ;
+
+        
+    
+    
+            var marker_f266cdd390eca54618d24f8ec15b7d04 = L.marker(
+                [0.0, 0.0],
+                {
+  "draggable": null,
+  "autoPan": null,
+}
+            ).addTo(marker_cluster_794f8a26bc646a443bf24a010e0edd9a);
+        
+    
+        var popup_3d46c6764081a3783e11d95949f49d8e = L.popup({
+  "maxWidth": "100%",
+  "autoClose": null,
+  "closeOnClick": null,
+});
+
+        
+            
+                var html_16403cbb1236a1ae0a52accdf5656d84 = $(`<div id="html_16403cbb1236a1ae0a52accdf5656d84" style="width: 100.0%; height: 100.0%;">Uruguay: $24.27/hour</div>`)[0];
+                popup_3d46c6764081a3783e11d95949f49d8e.setContent(html_16403cbb1236a1ae0a52accdf5656d84);
+            
+        
+
+        marker_f266cdd390eca54618d24f8ec15b7d04.bindPopup(popup_3d46c6764081a3783e11d95949f49d8e)
+        ;
+
+        
+    
+    
+            var marker_bb9754c8e1b053228127112a78f6043e = L.marker(
+                [0.0, 0.0],
+                {
+  "draggable": null,
+  "autoPan": null,
+}
+            ).addTo(marker_cluster_794f8a26bc646a443bf24a010e0edd9a);
+        
+    
+        var popup_fba8ef95c2c903885bd22f6c56cbc987 = L.popup({
+  "maxWidth": "100%",
+  "autoClose": null,
+  "closeOnClick": null,
+});
+
+        
+            
+                var html_821fb8b214906634346cc6d76519220f = $(`<div id="html_821fb8b214906634346cc6d76519220f" style="width: 100.0%; height: 100.0%;">Uzbekistan: $22.07/hour</div>`)[0];
+                popup_fba8ef95c2c903885bd22f6c56cbc987.setContent(html_821fb8b214906634346cc6d76519220f);
+            
+        
+
+        marker_bb9754c8e1b053228127112a78f6043e.bindPopup(popup_fba8ef95c2c903885bd22f6c56cbc987)
+        ;
+
+        
+    
+    
+            var marker_0cdbd4df371c2d7fbfbfc6e9afb1da06 = L.marker(
+                [0.0, 0.0],
+                {
+  "draggable": null,
+  "autoPan": null,
+}
+            ).addTo(marker_cluster_794f8a26bc646a443bf24a010e0edd9a);
+        
+    
+        var popup_c6dd9521d2e15febf310ffdb6719c711 = L.popup({
+  "maxWidth": "100%",
+  "autoClose": null,
+  "closeOnClick": null,
+});
+
+        
+            
+                var html_247144e2bbf3545f4afdbf8ca9f099eb = $(`<div id="html_247144e2bbf3545f4afdbf8ca9f099eb" style="width: 100.0%; height: 100.0%;">Vanuatu: $6.50/hour</div>`)[0];
+                popup_c6dd9521d2e15febf310ffdb6719c711.setContent(html_247144e2bbf3545f4afdbf8ca9f099eb);
+            
+        
+
+        marker_0cdbd4df371c2d7fbfbfc6e9afb1da06.bindPopup(popup_c6dd9521d2e15febf310ffdb6719c711)
+        ;
+
+        
+    
+    
+            var marker_7cf7922bf532ec66046cbcda0bf09b7c = L.marker(
+                [0.0, 0.0],
+                {
+  "draggable": null,
+  "autoPan": null,
+}
+            ).addTo(marker_cluster_794f8a26bc646a443bf24a010e0edd9a);
+        
+    
+        var popup_73cbc8b4c718e1d8fda417d5c3afb29a = L.popup({
+  "maxWidth": "100%",
+  "autoClose": null,
+  "closeOnClick": null,
+});
+
+        
+            
+                var html_e331903316a50290905ee62908f6513c = $(`<div id="html_e331903316a50290905ee62908f6513c" style="width: 100.0%; height: 100.0%;">Venezuela: $21.03/hour</div>`)[0];
+                popup_73cbc8b4c718e1d8fda417d5c3afb29a.setContent(html_e331903316a50290905ee62908f6513c);
+            
+        
+
+        marker_7cf7922bf532ec66046cbcda0bf09b7c.bindPopup(popup_73cbc8b4c718e1d8fda417d5c3afb29a)
+        ;
+
+        
+    
+    
+            var marker_e5686dd0edf536e294fee0d68bd58e60 = L.marker(
+                [0.0, 0.0],
+                {
+  "draggable": null,
+  "autoPan": null,
+}
+            ).addTo(marker_cluster_794f8a26bc646a443bf24a010e0edd9a);
+        
+    
+        var popup_81e7991e2fe63a392b4e30551139186d = L.popup({
+  "maxWidth": "100%",
+  "autoClose": null,
+  "closeOnClick": null,
+});
+
+        
+            
+                var html_71de6cbf81d4b15b0e3d6c045a34781e = $(`<div id="html_71de6cbf81d4b15b0e3d6c045a34781e" style="width: 100.0%; height: 100.0%;">Vietnam: $25.94/hour</div>`)[0];
+                popup_81e7991e2fe63a392b4e30551139186d.setContent(html_71de6cbf81d4b15b0e3d6c045a34781e);
+            
+        
+
+        marker_e5686dd0edf536e294fee0d68bd58e60.bindPopup(popup_81e7991e2fe63a392b4e30551139186d)
+        ;
+
+        
+    
+    
+            var marker_9ef5baff7d70c80e3f7a2da6ef044376 = L.marker(
+                [0.0, 0.0],
+                {
+  "draggable": null,
+  "autoPan": null,
+}
+            ).addTo(marker_cluster_794f8a26bc646a443bf24a010e0edd9a);
+        
+    
+        var popup_eda19d03702689443ddf3ac78099556c = L.popup({
+  "maxWidth": "100%",
+  "autoClose": null,
+  "closeOnClick": null,
+});
+
+        
+            
+                var html_78e96775c7f995325a5e66056dda5673 = $(`<div id="html_78e96775c7f995325a5e66056dda5673" style="width: 100.0%; height: 100.0%;">Yemen: $22.50/hour</div>`)[0];
+                popup_eda19d03702689443ddf3ac78099556c.setContent(html_78e96775c7f995325a5e66056dda5673);
+            
+        
+
+        marker_9ef5baff7d70c80e3f7a2da6ef044376.bindPopup(popup_eda19d03702689443ddf3ac78099556c)
+        ;
+
+        
+    
+    
+            var marker_aaf327abebf4f5228ad8956245ad9b33 = L.marker(
+                [0.0, 0.0],
+                {
+  "draggable": null,
+  "autoPan": null,
+}
+            ).addTo(marker_cluster_794f8a26bc646a443bf24a010e0edd9a);
+        
+    
+        var popup_33e230ec86816e0b008d04ec069a168f = L.popup({
+  "maxWidth": "100%",
+  "autoClose": null,
+  "closeOnClick": null,
+});
+
+        
+            
+                var html_82002f2e3097cccb3fd2fbefce7186a6 = $(`<div id="html_82002f2e3097cccb3fd2fbefce7186a6" style="width: 100.0%; height: 100.0%;">Zambia: $28.04/hour</div>`)[0];
+                popup_33e230ec86816e0b008d04ec069a168f.setContent(html_82002f2e3097cccb3fd2fbefce7186a6);
+            
+        
+
+        marker_aaf327abebf4f5228ad8956245ad9b33.bindPopup(popup_33e230ec86816e0b008d04ec069a168f)
+        ;
+
+        
+    
+    
+            var marker_edc79308a721586eea8b993f0223dab1 = L.marker(
+                [0.0, 0.0],
+                {
+  "draggable": null,
+  "autoPan": null,
+}
+            ).addTo(marker_cluster_794f8a26bc646a443bf24a010e0edd9a);
+        
+    
+        var popup_57d0862b44540c86fb652b845616efe4 = L.popup({
+  "maxWidth": "100%",
+  "autoClose": null,
+  "closeOnClick": null,
+});
+
+        
+            
+                var html_b27e440d307a08cacecc0acbe6bdb23b = $(`<div id="html_b27e440d307a08cacecc0acbe6bdb23b" style="width: 100.0%; height: 100.0%;">Zimbabwe: $22.91/hour</div>`)[0];
+                popup_57d0862b44540c86fb652b845616efe4.setContent(html_b27e440d307a08cacecc0acbe6bdb23b);
+            
+        
+
+        marker_edc79308a721586eea8b993f0223dab1.bindPopup(popup_57d0862b44540c86fb652b845616efe4)
+        ;
+
+        
+    
+    
+            marker_cluster_794f8a26bc646a443bf24a010e0edd9a.addTo(map_89f80942a7f7b3bc2345a805bdd9a406);
+        
+</script>
+</html>
