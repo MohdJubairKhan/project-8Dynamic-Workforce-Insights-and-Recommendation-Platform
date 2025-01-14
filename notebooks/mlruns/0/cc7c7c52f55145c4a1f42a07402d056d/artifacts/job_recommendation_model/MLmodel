@@ -1,0 +1,26 @@
+artifact_path: job_recommendation_model
+flavors:
+  python_function:
+    cloudpickle_version: 2.2.1
+    code: null
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.pyfunc.model
+    python_model: python_model.pkl
+    python_version: 3.12.4
+    streamable: false
+mlflow_version: 2.19.0
+model_size_bytes: 80739345
+model_uuid: 5500da037211452a9d5a06f37b6ebcfa
+run_id: cc7c7c52f55145c4a1f42a07402d056d
+saved_input_example_info:
+  artifact_path: input_example.json
+  pandas_orient: split
+  serving_input_path: serving_input_example.json
+  type: dataframe
+signature:
+  inputs: '[{"type": "string", "name": "Cleaned Job Title", "required": true}]'
+  outputs: '[{"type": "double", "required": true}]'
+  params: null
+utc_time_created: '2025-01-14 11:12:28.918643'

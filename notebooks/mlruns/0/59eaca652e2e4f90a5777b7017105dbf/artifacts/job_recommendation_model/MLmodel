@@ -1,0 +1,22 @@
+artifact_path: job_recommendation_model
+flavors:
+  python_function:
+    cloudpickle_version: 2.2.1
+    code: null
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.pyfunc.model
+    python_model: python_model.pkl
+    python_version: 3.12.4
+    streamable: false
+mlflow_version: 2.19.0
+model_size_bytes: 72290620
+model_uuid: f54d57ce1b1748978de926083767e7de
+run_id: 59eaca652e2e4f90a5777b7017105dbf
+saved_input_example_info:
+  artifact_path: input_example.json
+  pandas_orient: split
+  serving_input_path: serving_input_example.json
+  type: dataframe
+utc_time_created: '2025-01-14 08:13:05.048840'
