@@ -1,4 +1,4 @@
-# Future Workforce Trends Prediction
+# Dynamic Workforce Insights and Recommendation Platform 
 
 ## Table of Contents
 1. Introduction
